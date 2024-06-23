@@ -1,0 +1,12 @@
+{
+    "parent": "block/cube",
+    "textures": {
+    	"north": "machineryrp:block/incinerator_active",
+    	"east": "machineryrp:block/machine_input",
+    	"south": "machineryrp:block/machine_plate",
+    	"west": "machineryrp:block/machine_output",
+    	"up": "machineryrp:block/machine_energy",
+    	"down": "machineryrp:block/machine_plate",
+    	"particle": "machineryrp:block/machine_plate"
+    }
+}

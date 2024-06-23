@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern":
+    [
+        "xex",
+        "eme",
+        "xex"
+    ],
+    "key":
+    {
+        "x": {
+            "item": "bigreactors:cyanite_ingot"
+        },
+        "e": {
+            "item": "immersiveengineering:plate_aluminum"
+        },
+        "m": {
+            "item": "immersiveengineering:component_iron"
+        }
+    },
+    "result":
+    {
+        "item": "bigreactors:basic_turbinerotorbearing",
+        "count": 1
+    }
+}

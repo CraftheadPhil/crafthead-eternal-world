@@ -1,0 +1,751 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "nuclear"
+	group: "11C94E9811BA20DD"
+	hide_quest_until_deps_visible: true
+	icon: "engineersdecor:sign_radioactive"
+	id: "31195208A93277B0"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["13ACEB48F967752A"]
+			description: [
+				"Generate RF based on the temperature difference of opposing blocks."
+				""
+				"An array of these can generate a decent amount of passive energy."
+			]
+			icon: "immersiveengineering:thermoelectric_generator"
+			id: "06C3849829A9A889"
+			rewards: [
+				{
+					id: "31EBB53151723540"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "42309908D6D40656"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "73ECD17FBB00584A"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7AD59C0B07346222"
+					table_id: 5521946873318990640L
+					type: "choice"
+				}
+			]
+			subtitle: "Early nuclear"
+			tasks: [
+				{
+					id: "3F9C11DDBCF19868"
+					item: "immersiveengineering:thermoelectric_generator"
+					type: "item"
+				}
+				{
+					id: "7E62D1F26DF6259E"
+					item: "immersiveengineering:storage_uranium"
+					type: "item"
+				}
+				{
+					id: "2774FEB36EF38A7B"
+					item: "minecraft:blue_ice"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"06C3849829A9A889"
+				"09B54E601EFE3E28"
+			]
+			id: "3B329CA8D0D6559C"
+			rewards: [
+				{
+					id: "1EBF18AC06D1EFB6"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "79F9E6F674937058"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "175C9B9D8B0CF383"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "247A93FD50F7B7A8"
+					table_id: 5521946873318990640L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "051D4256609EB980"
+				item: "bigreactors:basic_reactorcontroller"
+				type: "item"
+			}]
+			title: "First Reactor"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3B329CA8D0D6559C"]
+			id: "7D51779FACBD8F10"
+			rewards: [
+				{
+					id: "1F200034BD3770E7"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "25D5C8F03C2EC13B"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1302A798DE4A985A"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5DC910905916C448"
+					table_id: 5521946873318990640L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "0BAD66838C064FB8"
+				item: "bigreactors:reinforced_reactorcontroller"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3B329CA8D0D6559C"]
+			id: "4777C90CE853E92E"
+			rewards: [
+				{
+					id: "55A61AF51812EAA4"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "629CBBE89698DEFE"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5B1D2E7C4ABE242B"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "18DE92F3EF6C200B"
+					table_id: 5521946873318990640L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "0ECF5E3E61F99BA1"
+				item: "bigreactors:fluidizercontroller"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3B329CA8D0D6559C"]
+			id: "5EEB2B8D38F8CB9A"
+			rewards: [
+				{
+					id: "34BADE12A09E87E8"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0CB9DFB515329B56"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3AF524AE080CFC97"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "609EAE66D1614846"
+					table_id: 5521946873318990640L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "52D22FBB86AB2550"
+				item: "bigreactors:reprocessorcontroller"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3B329CA8D0D6559C"]
+			id: "4998CCBAD14E511B"
+			rewards: [
+				{
+					id: "48CC2FDE7DCB8257"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "36AA5AE5D7B33E6E"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2D9A9A1804F304E7"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5C7BF2714DE4EF55"
+					table_id: 5521946873318990640L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "7DD33501A213CDDF"
+				item: "bigreactors:basic_turbinecontroller"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4998CCBAD14E511B"]
+			id: "1B2952AF55BA6700"
+			rewards: [
+				{
+					id: "2504EFAF862068D4"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "59434595B8CD0E12"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1288340F939B8CC5"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "15AF2FC847464647"
+					table_id: 5521946873318990640L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "1F66A9210A565CF9"
+				item: "bigreactors:reinforced_turbinecontroller"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7D51779FACBD8F10"]
+			id: "2ECB039BE0F231EE"
+			rewards: [
+				{
+					id: "3E8F3FE66BCDB62B"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6FA4D2A207D2F744"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1F735B610FFA5E7A"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0F04DDA0E010F1AC"
+					table_id: 5521946873318990640L
+					type: "choice"
+				}
+				{
+					id: "36C331DA3939E031"
+					item: "computercraft:computer_advanced"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4AC675717DD9BA65"
+				item: "bigreactors:reinforced_reactorcomputerport"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1B2952AF55BA6700"]
+			id: "2359038459818245"
+			rewards: [
+				{
+					id: "6866EA0A2A2037CC"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "63C5C03AACFB32AC"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0069558E0180541F"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "676B7889C3529B92"
+					table_id: 5521946873318990640L
+					type: "choice"
+				}
+				{
+					id: "65A00948FCF0478D"
+					item: "computercraft:computer_advanced"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "77352E308437A594"
+				item: "bigreactors:reinforced_turbinecomputerport"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5EEB2B8D38F8CB9A"]
+			id: "111274A9A5830388"
+			rewards: [
+				{
+					id: "2C77D21D71FCC638"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "55A5926E974F4D98"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6B43DD5791321E8A"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "61D81643133D205C"
+					table_id: 5521946873318990640L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "4B37879E7B4919BE"
+				item: "bigreactors:blutonium_ingot"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["111274A9A5830388"]
+			id: "5B84DEB0EF1F1C75"
+			rewards: [
+				{
+					id: "0AC6766E8507D738"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2CF7C89ADCA332B7"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0DD13D0E29EE6C72"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1C0F1280B47EE272"
+					table_id: 5521946873318990640L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "1048038061CCE2FA"
+				item: "bigreactors:ludicrite_ingot"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5B84DEB0EF1F1C75"]
+			id: "3AADF76CCE155844"
+			rewards: [
+				{
+					id: "45DEA09D9CB2DCB8"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6FB82EC6A7EFDB7B"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "600EE9CB0270BFF8"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7E79055E993C744D"
+					table_id: 5521946873318990640L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "6E5F0C81B872BC10"
+				item: "bigreactors:ridiculite_ingot"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3AADF76CCE155844"]
+			id: "3AE03684C29BB8FA"
+			rewards: [
+				{
+					id: "1885CF8E7D91C665"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2ECA46EE0CBC9822"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6E87E53211216729"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "776B04D95F29C53A"
+					table_id: 5521946873318990640L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "24DE83089FFC0DF8"
+					table_id: 1366000479578652553L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "24AD57B15FE40ECF"
+				item: "bigreactors:inanite_ingot"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["5EEB2B8D38F8CB9A"]
+			id: "309CD0F3E5D19F5A"
+			rewards: [
+				{
+					id: "1E70482CBF131145"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2B4AAA61C1575344"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6CB479D8BA6B4FB6"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4FF9A14C28031B37"
+					table_id: 5521946873318990640L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "38917EA3DED35614"
+					table_id: 1366000479578652553L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "00E1D1CAF22DDD01"
+				item: "bigreactors:insanite_ingot"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4777C90CE853E92E"]
+			id: "2C018F32154DEDFF"
+			rewards: [
+				{
+					id: "70EC8F1E9EABB1B8"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "227C507AEE6CCCE1"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "38E3ECD0D3300FBD"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0E9A31D20203C962"
+					table_id: 5521946873318990640L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				amount: 1000L
+				fluid: "bigreactors:tangerium"
+				id: "2E81AAD5017F29C2"
+				type: "fluid"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4777C90CE853E92E"]
+			id: "7642DA80D42242B0"
+			rewards: [
+				{
+					id: "6564EE4C9AA54699"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "731F1580BDEE1B33"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2260E6055F1ABF39"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2B2A2A1D2104460A"
+					table_id: 5521946873318990640L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				amount: 1000L
+				fluid: "bigreactors:cryomisi"
+				id: "40CE61EADE743535"
+				type: "fluid"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4777C90CE853E92E"]
+			id: "3C60B4136E6A05D8"
+			rewards: [
+				{
+					id: "6397FCEF3AF182B2"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "472FD9ECBD591633"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6FB17C53E1BC4CC8"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "62EF644BF5B2A578"
+					table_id: 5521946873318990640L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				amount: 1000L
+				fluid: "bigreactors:verderium"
+				id: "15A161BAAB00B234"
+				type: "fluid"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3C60B4136E6A05D8"]
+			description: ["Create rossinite by burning verderium in the reactor."]
+			id: "77DDC779B05FE584"
+			rewards: [
+				{
+					id: "34C2AC68BBDDC268"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1BCF7AA758CEA4C7"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "45DC6BF4DCB2528D"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "62BA205B5C952038"
+					table_id: 5521946873318990640L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				amount: 1000L
+				fluid: "bigreactors:rossinite"
+				id: "6E4A11BADFC904D8"
+				type: "fluid"
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"7642DA80D42242B0"
+				"2C018F32154DEDFF"
+			]
+			id: "581BAA80492576D1"
+			rewards: [
+				{
+					id: "61601A13DBF87584"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3A2469858F2AF74F"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4DF758073221B1D4"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "717C44C6DE99E482"
+					table_id: 5521946873318990640L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "59023F2D19555DC7"
+				item: "bigreactors:redfrigium_bucket"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.5d
+		}
+	]
+	title: "Nuclear"
+}

@@ -1,0 +1,176 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "dimensional_doors"
+	group: "4B7DD88F6D5AC7CC"
+	icon: "dimdungeons:block_portal_keyhole"
+	id: "028AC89661455722"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			id: "28826A658BDDDB19"
+			rewards: [
+				{
+					id: "27CB5A2A18C54B87"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "789F19E744E4618D"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0A7FE8FFAEA9048B"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "3FBCC58EBF64B6DE"
+				item: "dimdungeons:item_portal_key"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["28826A658BDDDB19"]
+			id: "2BBCC5A2BACAC88E"
+			rewards: [
+				{
+					id: "5A27E06EDF5DD802"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "43871C1D0734C97F"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "45A87FB026F417EC"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "3C47307DB899DB6D"
+					item: "dimdungeons:block_gilded_portal"
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "54B2EF918184849C"
+					item: "minecraft:stone_bricks"
+					type: "item"
+				}
+				{
+					id: "2AE9A6F1C6268853"
+					item: "dimdungeons:block_portal_keyhole"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2BBCC5A2BACAC88E"]
+			id: "6703E616A1FF6E9C"
+			rewards: [
+				{
+					id: "7B1C878592A79234"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5349CF165FBD4840"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7E9C67451519F9A6"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "18CD58B23FF900C2"
+				item: "dimdungeons:block_key_charger"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["28826A658BDDDB19"]
+			id: "74CEBBEF033FA170"
+			rewards: [
+				{
+					id: "56CF0C3016195C96"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "127FDF6513E2F40A"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "315B466725C2EEAA"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "483FCEA1BAEB74E1"
+				item: "dimdungeons:item_blank_build_key"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2BBCC5A2BACAC88E"]
+			id: "2196821BA29A3134"
+			rewards: [
+				{
+					id: "1959B6C71924583D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2672F4D6A53E6456"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "05425FA5AB7850E0"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "5B0FC7C35B3547DC"
+				item: "dimdungeons:item_blank_teleporter_key"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+	]
+	title: "Dimensional Dungeons"
+}

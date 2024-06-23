@@ -1,0 +1,36 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern":
+    [
+        "aca",
+        "yex",
+        "aza"
+    ],
+    "key":
+    {
+        "x":
+        {
+            "item": "minecraft:emerald_block"
+        },
+        "y": {
+            "item": "minecraft:diamond_block"
+        },
+        "z": {
+            "item": "exocraft:lava_crystal_block"
+        },
+        "c": {
+            "item": "chromaticarsenal:chroma_block"
+        },
+        "a": {
+            "item": "kubejs:eternal_shard"
+        },
+        "e": {
+            "item": "kubejs:eternal_crystal"
+        }
+    },
+    "result":
+    {
+        "item": "kubejs:infinity_crystal",
+        "count": 1
+    }
+}

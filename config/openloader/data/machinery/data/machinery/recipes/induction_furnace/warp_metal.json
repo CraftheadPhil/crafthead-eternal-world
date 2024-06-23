@@ -1,0 +1,84 @@
+{
+	"type": "custommachinery:custom_machine",
+	"machine": "machinery:induction_furnace",
+	"time": 300,
+	"requirements": [
+    {
+      "type": "custommachinery:item",
+      "item": "kubejs:warp_metal",
+      "amount": 1,
+      "mode": "output"
+    },
+    {
+        "type": "custommachinery:item",
+        "item": "immersiveengineering:ingot_electrum",
+        "amount": 1,
+        "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "item": "kubejs:crystal_dust",
+      "amount": 1,
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "item": "kubejs:obsidian_dust",
+      "amount": 1,
+      "mode": "input"
+    },
+    {
+        "type": "custommachinery:fluid",
+        "fluid": "kubejs:enderfluid",
+        "amount": 1000,
+        "mode": "input"
+    },
+    {
+        "type": "custommachinery:energy_per_tick",
+        "amount": 4096,
+        "mode": "input"
+    },
+    {
+      "type": "custommachinery:structure",
+      "keys": {
+        "a": "immersiveengineering:steel_scaffolding_standard[waterlogged\u003dfalse]",
+        "b": "immersiveengineering:coil_hv",
+        "c": "minecraft:waxed_oxidized_copper",
+        "d": "immersiveengineering:sheetmetal_copper",
+        "e": "immersiveengineering:slab_sheetmetal_steel[type\u003dbottom,waterlogged\u003dfalse]"
+      },
+      "pattern": [
+        [
+          "aba",
+          "bcb",
+          "aba",
+          "   "
+        ],
+        [
+          "ada",
+          "d d",
+          "ada",
+          " m "
+        ],
+        [
+          "ada",
+          "d d",
+          "ada",
+          "   "
+        ],
+        [
+          "ada",
+          "d d",
+          "ada",
+          "   "
+        ],
+        [
+          "   ",
+          " e ",
+          "   ",
+          "   "
+        ]
+      ]
+    }
+	]
+}

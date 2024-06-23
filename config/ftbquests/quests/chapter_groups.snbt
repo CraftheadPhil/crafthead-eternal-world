@@ -1,0 +1,10 @@
+{
+	chapter_groups: [
+		{ id: "7678B8622C15829B", title: "Technology" }
+		{ id: "0DE25E42D0C62187", title: "Dietary" }
+		{ id: "32B3130D174146C0", title: "Logistics" }
+		{ id: "11C94E9811BA20DD", title: "Power" }
+		{ id: "4B7DD88F6D5AC7CC", title: "Adventure" }
+		{ id: "327EBB5DF992B177", title: "Domination" }
+	]
+}

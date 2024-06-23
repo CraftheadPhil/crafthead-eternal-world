@@ -1,0 +1,13 @@
+{
+	id: "73677BB2A5693FB3"
+	loot_size: 1
+	order_index: 4
+	rewards: [
+		{ item: "exocraft:matrix_atlas" }
+		{ item: "exocraft:matrix_ogre" }
+		{ item: "exocraft:matrix_legion" }
+		{ item: "exocraft:matrix_ion" }
+		{ item: "exocraft:matrix_stryder" }
+	]
+	title: "exomatrix"
+}

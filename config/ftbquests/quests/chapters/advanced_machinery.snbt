@@ -1,0 +1,1279 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "advanced_machinery"
+	group: "7678B8622C15829B"
+	hide_quest_until_deps_visible: true
+	icon: {
+		Count: 1b
+		id: "custommachinery:custom_machine_item"
+		tag: {
+			machine: "machinery:electro_extractor"
+		}
+	}
+	id: "1E11F7451E76F8BA"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["5E3CAD8D82B26A9B"]
+			description: [
+				"Machinery requires a multiblock, refer to jei requirement tooltip on how to build."
+				"{@pagebreak}"
+				""
+				"{image:machineryrp:textures/gui/quests/induction_furnace.png width:100 height:100 align:1}"
+			]
+			icon: {
+				Count: 1b
+				id: "custommachinery:custom_machine_item"
+				tag: {
+					machine: "machinery:induction_furnace"
+				}
+			}
+			id: "17276FA2CDF18B36"
+			rewards: [
+				{
+					id: "7819EC085D590886"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3079DC59493C23F7"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "65F1C8F3A3D16ECE"
+					table_id: 8636064487688316631L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "743B052813187E65"
+					table_id: 2457031344294738853L
+					type: "choice"
+				}
+			]
+			subtitle: "The induction furnace create stainless steel."
+			tasks: [
+				{
+					id: "73AA47D70A011AFF"
+					item: {
+						Count: 1b
+						id: "custommachinery:custom_machine_item"
+						tag: {
+							machine: "machinery:induction_furnace"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3939B69C16D6BDA5"
+					item: "minecraft:waxed_oxidized_copper"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "1CC38726C9393604"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					type: "item"
+				}
+				{
+					count: 12L
+					id: "3124D4545A69CF01"
+					item: "immersiveengineering:sheetmetal_copper"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "1FA67C580CFE9481"
+					item: "immersiveengineering:coil_hv"
+					type: "item"
+				}
+				{
+					id: "79F4BDABAADF33D6"
+					item: "immersiveengineering:slab_sheetmetal_steel"
+					type: "item"
+				}
+			]
+			title: "Induction Furnace"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["04261C8085327768"]
+			hide: true
+			hide_details_until_startable: true
+			id: "4787299BC8711B88"
+			rewards: [
+				{
+					id: "64BAF93753D80C12"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "44C9761E4DDFFC0D"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5AD4D2813B56170D"
+					table_id: 8636064487688316631L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "745F7D4572BC8296"
+					table_id: 2457031344294738853L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "6998CC9099BB1F07"
+				item: "immersiveengineering:dust_sulfur"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4787299BC8711B88"]
+			description: [
+				"The high pressure boiler is used to produce treated water for mixing with sulfur to create sulfuric acid."
+				""
+				"Requires a structure, refers to jei treated water recipe to see how to build."
+				""
+				"{@pagebreak}"
+				"{image:machineryrp:textures/gui/quests/hp_boiler.png width:100 height:100 align:1}"
+				"{@pagebreak}"
+			]
+			icon: {
+				Count: 1b
+				id: "custommachinery:custom_machine_item"
+				tag: {
+					machine: "machinery:high_pressure_boiler"
+				}
+			}
+			id: "5DF99C0AF76DA81E"
+			rewards: [
+				{
+					id: "01DF229D1E0440D1"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "24F183A932CEB7A7"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "64B6CBF5E1A709E0"
+					table_id: 8636064487688316631L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3D6A36C6D813BE34"
+					table_id: 2457031344294738853L
+					type: "choice"
+				}
+			]
+			subtitle: "Chemical grade water"
+			tasks: [
+				{
+					id: "56837F8E55692984"
+					item: {
+						Count: 1b
+						id: "custommachinery:custom_machine_item"
+						tag: {
+							machine: "machinery:high_pressure_boiler"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 12L
+					id: "54EE958851454523"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "1B2675C20C97324C"
+					item: "immersiveengineering:heavy_engineering"
+					type: "item"
+				}
+				{
+					id: "10A2FE9DF760475D"
+					item: "immersiveengineering:radiator"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "2B332FB996E01D81"
+					item: "immersiveengineering:sheetmetal_lead"
+					type: "item"
+				}
+				{
+					id: "2ACA3D10DF397A33"
+					item: "immersiveengineering:slab_storage_steel"
+					type: "item"
+				}
+			]
+			title: "High Pressure Boiler"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"5DF99C0AF76DA81E"
+				"04261C8085327768"
+			]
+			description: ["Sulfuric acid is used in many advanced machinery recipes."]
+			id: "5E3CAD8D82B26A9B"
+			rewards: [
+				{
+					id: "328A3F12E9F54AC6"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "24F9339E91535314"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5CA280547560BD0E"
+					table_id: 8636064487688316631L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "63525ADD2E2AC529"
+					table_id: 2457031344294738853L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				amount: 1000L
+				fluid: "kubejs:sulfuric_acid"
+				id: "5C01BF18303E586B"
+				type: "fluid"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["17276FA2CDF18B36"]
+			id: "1EA109137309B37C"
+			rewards: [
+				{
+					id: "331E9FF038DEB78D"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "74B8D3AEBCDA03CE"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "26908D1C6EDAE8BD"
+					table_id: 8636064487688316631L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4FC81AB038C3BB50"
+					table_id: 2457031344294738853L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "7973211654620DDF"
+				item: "kubejs:stainless_steel_ingot"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["17276FA2CDF18B36"]
+			id: "4C6952E3445A61CB"
+			rewards: [
+				{
+					id: "3A3512E4CB73AE8B"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "072E2EFF8C15512F"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5E5A9A199E32BA27"
+					table_id: 8636064487688316631L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "34E90C349FB48C4A"
+					table_id: 2457031344294738853L
+					type: "choice"
+				}
+			]
+			subtitle: "Strong nickel chrome alloy used for reinforced reactors."
+			tasks: [{
+				id: "6210B8F35594F7DC"
+				item: "kubejs:inconel_ingot"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["17276FA2CDF18B36"]
+			description: [
+				"Works like a 5x5 crafting grid, consume RF and lubricant per craft."
+				""
+				"Input lubricant from the back."
+			]
+			id: "09B54E601EFE3E28"
+			rewards: [
+				{
+					id: "2850EB36A3F23FE8"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "07062DF58888C76E"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "71BE7110B231A07C"
+					table_id: 8636064487688316631L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "699594269A037967"
+					table_id: 2457031344294738853L
+					type: "choice"
+				}
+			]
+			subtitle: "Larger crafting grid"
+			tasks: [{
+				id: "76EBFE131C313A8D"
+				item: {
+					Count: 1b
+					id: "custommachinery:custom_machine_item"
+					tag: {
+						machine: "machinery:precision_assembler"
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["09B54E601EFE3E28"]
+			description: [
+				"Make very hard plastic."
+				""
+				""
+				"{image:machineryrp:textures/gui/quests/vulcanizer.png width:100 height:100 align:1}"
+			]
+			id: "4EA6BF6C6177A39A"
+			rewards: [
+				{
+					id: "1931924F3D319A73"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3807D6A65DF8DA0B"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "10790C6EE6A4D4D3"
+					table_id: 8636064487688316631L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4E80424D7964C71A"
+					table_id: 2457031344294738853L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "0E1DCE3935253A0F"
+				item: {
+					Count: 1b
+					id: "custommachinery:custom_machine_item"
+					tag: {
+						machine: "machinery:vulcanizer"
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["09B54E601EFE3E28"]
+			description: [
+				"Print circuit boards."
+				""
+				""
+				"{image:machineryrp:textures/gui/quests/chemical_etcher.png width:100 height:100 align:1}"
+			]
+			id: "2F8F55CFEB209CAB"
+			rewards: [
+				{
+					id: "3D2068EE89115F9A"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3D5E677C1EB7E3DE"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4427CD22FC568038"
+					table_id: 8636064487688316631L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5D473EF16A8428B7"
+					table_id: 2457031344294738853L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "1A5AA7C25396C2B6"
+				item: {
+					Count: 1b
+					id: "custommachinery:custom_machine_item"
+					tag: {
+						machine: "machinery:chemical_etcher"
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"4EA6BF6C6177A39A"
+				"3089244BA204141F"
+			]
+			id: "0D252FD09E1B72B9"
+			rewards: [
+				{
+					id: "4B1EFC7F0ABA4F85"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "06A958CCA0EA313A"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1EC5FC5BE92DF6A8"
+					table_id: 8636064487688316631L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6EDA6B573CD67A4D"
+					table_id: 2457031344294738853L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "1A0A145064F4B245"
+				item: "kubejs:plastic_plate"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"0D252FD09E1B72B9"
+				"2F8F55CFEB209CAB"
+			]
+			id: "5A91F9822C62F5C9"
+			rewards: [
+				{
+					id: "14172880DD3305E6"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7305E0FC6AA8FE35"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "55914A064ED8AD50"
+					table_id: 8636064487688316631L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5BB23F0F6AA2412D"
+					table_id: 2457031344294738853L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "520FA4B1E2B4816C"
+				item: "kubejs:circuit_board"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["09B54E601EFE3E28"]
+			description: [
+				"Produce more materials from ores."
+				""
+				"Input slurry from the left, output to the right."
+				""
+				""
+				"{@pagebreak}"
+				""
+				"{image:machineryrp:textures/gui/quests/electro_extractor.png width:100 height:100 align:1}"
+			]
+			icon: {
+				Count: 1b
+				id: "custommachinery:custom_machine_item"
+				tag: {
+					machine: "machinery:electro_extractor"
+				}
+			}
+			id: "0F5A7DAFF6731C4D"
+			rewards: [
+				{
+					id: "4434C8C42DE16D89"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "205E803057545A9F"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "38D75321270D09A0"
+					table_id: 8636064487688316631L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "36E81C799C9F310C"
+					table_id: 2457031344294738853L
+					type: "choice"
+				}
+			]
+			subtitle: "Extract minerals from slurry."
+			tasks: [
+				{
+					id: "267CB4AFFB3442DF"
+					item: {
+						Count: 1b
+						id: "custommachinery:custom_machine_item"
+						tag: {
+							machine: "machinery:electro_extractor"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "00D4A23AE3C7EBA5"
+					item: "immersiveengineering:coil_mv"
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "2EBAA2B2E90C13A9"
+					item: "kubejs:stainless_steel_block"
+					type: "item"
+				}
+				{
+					count: 12L
+					id: "1B71FD2A20C225D0"
+					item: "kubejs:stainless_steel_sheetmetal"
+					type: "item"
+				}
+				{
+					count: 12L
+					id: "001C8C9BB4ED321A"
+					item: "connectedglass:clear_glass_pane"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "43467FDFD6CF8507"
+					item: "minecraft:end_rod"
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["09B54E601EFE3E28"]
+			description: [
+				"Uses sulfuric acid to dissolve ores into a slurry, minerals can then be extracted from the slurry at a 4x multiplication rate."
+				""
+				"Input sulfuric acid from the bottom, ore from the left and output to the right."
+				""
+				"{@pagebreak}"
+				"{image:machineryrp:textures/gui/quests/ore_washer.png width:100 height:100 align:1}"
+			]
+			icon: {
+				Count: 1b
+				id: "custommachinery:custom_machine_item"
+				tag: {
+					machine: "machinery:ore_washer"
+				}
+			}
+			id: "6CD04D1CF45E4E6C"
+			rewards: [
+				{
+					id: "0643CDCE0EB27244"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "14864B79ED7FB2F5"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "64EA219568BE3DA6"
+					table_id: 8636064487688316631L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "787D47B10696CEA1"
+					table_id: 2457031344294738853L
+					type: "choice"
+				}
+			]
+			subtitle: "Turns ore into slurry"
+			tasks: [
+				{
+					id: "62674CA32562ED47"
+					item: {
+						Count: 1b
+						id: "custommachinery:custom_machine_item"
+						tag: {
+							machine: "machinery:ore_washer"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "11FF5882D69F3192"
+					item: "kubejs:stainless_steel_block"
+					type: "item"
+				}
+				{
+					count: 12L
+					id: "45A12A8AF5149EB3"
+					item: "kubejs:stainless_steel_sheetmetal"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4BE2BC207381A6F8"
+					item: "immersiveengineering:alu_scaffolding_standard"
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "33996C32DD7E19E6"
+					item: "kubejs:sulfuric_acid_bucket"
+					type: "item"
+				}
+			]
+			title: "Ore Washer"
+			x: -0.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["09B54E601EFE3E28"]
+			description: [
+				"The melter is a single block machine used to melt liquid crystal and enderfluid."
+				""
+				"Input from the left, output to the right."
+			]
+			id: "32E229EF63D8867A"
+			rewards: [
+				{
+					id: "5A62F70A999C0C74"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "10D832BDCCE4A4FF"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7923452AC2ED8467"
+					table_id: 8636064487688316631L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "376AC65A814261DA"
+					table_id: 2457031344294738853L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "2FDDA9A7C1A7619D"
+				item: {
+					Count: 1b
+					id: "custommachinery:custom_machine_item"
+					tag: {
+						machine: "machinery:melter"
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["09B54E601EFE3E28"]
+			description: [
+				"The crystallizer can create gems and crystals using the power of the infinity crystal."
+				""
+				"Input liquid from the bottom, items from the left and output to the right."
+				""
+				"{@pagebreak}"
+				""
+				""
+				"{image:machineryrp:textures/gui/quests/crystallizer.png width:100 height:100 align:1}"
+			]
+			icon: {
+				Count: 1b
+				id: "custommachinery:custom_machine_item"
+				tag: {
+					machine: "machinery:crystallizer"
+				}
+			}
+			id: "07FC460CC2D7E3F0"
+			rewards: [
+				{
+					id: "52FE74716F2C0FC1"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "769F8798EC7A53B3"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1376BE6551127049"
+					table_id: 8636064487688316631L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "387556ECE17A29E5"
+					table_id: 2457031344294738853L
+					type: "choice"
+				}
+			]
+			tasks: [
+				{
+					id: "766C77E134ECB7A0"
+					item: {
+						Count: 1b
+						id: "custommachinery:custom_machine_item"
+						tag: {
+							machine: "machinery:crystallizer"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 12L
+					id: "473B96C01A976D65"
+					item: "immersiveengineering:alu_scaffolding_standard"
+					type: "item"
+				}
+				{
+					count: 12L
+					id: "08993063F1D57023"
+					item: "immersiveengineering:sheetmetal_electrum"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "42D9DDD602A4DDD6"
+					item: "minecraft:quartz_slab"
+					type: "item"
+				}
+				{
+					id: "04D69C2BA55E4546"
+					item: "minecraft:quartz_block"
+					type: "item"
+				}
+				{
+					id: "3FFD8F37CDAC0C8C"
+					item: "kubejs:infinity_crystal"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "6FD8C76F4756570B"
+					item: "immersiveengineering:slab_sheetmetal_electrum"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "007390A600C6FA61"
+					item: "immersiveengineering:slab_storage_silver"
+					type: "item"
+				}
+				{
+					id: "7CA027D72EEED1B5"
+					item: "immersiveengineering:coil_mv"
+					type: "item"
+				}
+				{
+					id: "4A5DB67C6BA931EC"
+					item: "minecraft:end_rod"
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"73304FFF08E3B95B"
+				"0DEF316B56B34450"
+				"07FC460CC2D7E3F0"
+			]
+			id: "2541ABF6670E97DC"
+			rewards: [
+				{
+					id: "1095BD1060D595FD"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "672E9A8093C267DB"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3C0DBA7512F1C2A8"
+					table_id: 8636064487688316631L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "14DB155A329FFDFA"
+					table_id: 2457031344294738853L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2F6CD650D6F85CFD"
+					table_id: 1366000479578652553L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "5397B056E60B8048"
+				item: {
+					Count: 1b
+					id: "waystones:warp_stone"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["32E229EF63D8867A"]
+			id: "73304FFF08E3B95B"
+			rewards: [
+				{
+					id: "27C7B29C5DA40EAA"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "39521FC65614ED7C"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6B991B1A45384FEF"
+					table_id: 8636064487688316631L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "71724A7DB31EC371"
+					table_id: 2457031344294738853L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				amount: 1000L
+				fluid: "kubejs:liquid_crystal"
+				id: "1BC9C4582E8B8924"
+				type: "fluid"
+			}]
+			x: -2.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["32E229EF63D8867A"]
+			id: "112004208EB6896B"
+			rewards: [
+				{
+					id: "24B14434C960119D"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2833085CF598AD21"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "05F324443EC00383"
+					table_id: 8636064487688316631L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "08EBE7A5E8923F1F"
+					table_id: 2457031344294738853L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				amount: 1000L
+				fluid: "kubejs:enderfluid"
+				id: "71BCC21990B880A6"
+				type: "fluid"
+			}]
+			x: -2.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["112004208EB6896B"]
+			id: "0DEF316B56B34450"
+			rewards: [
+				{
+					id: "5A1F87AD56098BEC"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "62281482E1CB0208"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1868FF366CD4EA0D"
+					table_id: 8636064487688316631L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1DB244053E7EF5E1"
+					table_id: 2457031344294738853L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "1F359270AAB9B213"
+				item: "kubejs:warp_metal"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"4C6952E3445A61CB"
+				"5861003D13A8512A"
+			]
+			description: [
+				""
+				"{image:machineryrp:textures/gui/quests/incinerator.png width:100 height:100 align:1}"
+			]
+			icon: {
+				Count: 1b
+				id: "custommachinery:custom_machine_item"
+				tag: {
+					machine: "machinery:incinerator"
+				}
+			}
+			id: "3EAD21E0B0054F5C"
+			rewards: [
+				{
+					id: "6E9B8527361E183A"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3BCD8A76C52DF56F"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3B7BF987386CDAFE"
+					table_id: 8636064487688316631L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7B919871B24A6A4A"
+					table_id: 2457031344294738853L
+					type: "choice"
+				}
+			]
+			subtitle: "Burns wood to generate RF and produce ash"
+			tasks: [
+				{
+					id: "328A8807594B7C67"
+					item: {
+						Count: 1b
+						id: "custommachinery:custom_machine_item"
+						tag: {
+							machine: "machinery:incinerator"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "717C8EA754A2CE3A"
+					item: "immersiveengineering:radiator"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "0FA1576BA4CA5E46"
+					item: "immersiveengineering:heavy_engineering"
+					type: "item"
+				}
+				{
+					id: "2022886174EAB3A9"
+					item: "kubejs:inconel_block"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "1DFE6591FEFDFEE9"
+					item: "kubejs:inconel_sheetmetal"
+					type: "item"
+				}
+				{
+					id: "2B664CA6154B2A8F"
+					item: "immersiveengineering:slab_storage_steel"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "52EC4F39A358CC4A"
+					item: "immersivepetroleum:flarestack"
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["3EAD21E0B0054F5C"]
+			hide: true
+			id: "28B7C97B01A5BAB9"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5F2098531571A0DC"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					id: "24439FE9C9FBE512"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "51EE7CDE81E4AF6E"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1B2748A0D856D33B"
+					table_id: 8636064487688316631L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "34E40335CB90438D"
+					table_id: 2457031344294738853L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 256L
+				id: "0FCFC1C05FCE9814"
+				item: "supplementaries:ash"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5A91F9822C62F5C9"]
+			id: "2AD6E38C2D455928"
+			rewards: [
+				{
+					id: "3791C1AE571D2C61"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "32C35729F68CF4EB"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7479AB3F5FC62D69"
+					table_id: 8636064487688316631L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5DC074C335653EBA"
+					table_id: 2457031344294738853L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "73523CAC91702589"
+				item: "kubejs:speed_upgrade"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5A91F9822C62F5C9"]
+			id: "3B3E172A894192B5"
+			rewards: [
+				{
+					id: "7A8FBBD1ED34F26A"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "513B9BC10CB992A2"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1C3BC12A4887AB23"
+					table_id: 8636064487688316631L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "52B977276B27A0E4"
+					table_id: 2457031344294738853L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "7C5E9572CB17DFC8"
+				item: "kubejs:energy_upgrade"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -3.5d
+		}
+	]
+	title: "Advanced Machinery"
+}

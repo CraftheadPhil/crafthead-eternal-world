@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern":
+    [
+        "axa",
+        "xex",
+        "axa"
+    ],
+    "key":
+    {
+        "x":
+        {
+            "item": "bigreactors:graphite_ingot"
+        },
+        "a": {
+            "item": "kubejs:stainless_steel_plate"
+        },
+        "e": {
+            "item": "immersiveengineering:alu_scaffolding_standard"
+        }
+    },
+    "result":
+    {
+        "item": "bigreactors:basic_reactorcasing",
+        "count": 4
+    }
+}

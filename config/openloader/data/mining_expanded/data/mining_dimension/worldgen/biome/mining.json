@@ -1,0 +1,86 @@
+{
+    "temperature": 0.6,
+    "downfall": 0,
+    "precipitation": "none",
+    "effects": {
+      "sky_color": 0,
+      "fog_color": 0,
+      "water_color": 4159204,
+      "water_fog_color": 329011,
+      "mood_sound": {
+        "sound": "minecraft:ambient.cave",
+        "tick_delay": 6000,
+        "block_search_extent": 8,
+        "offset": 2
+      }
+    },
+    "spawners": {
+      "monster": [],
+      "creature": [],
+      "ambient": [
+        {
+          "type": "minecraft:bat",
+          "weight": 10,
+          "minCount": 8,
+          "maxCount": 8
+        }
+      ],
+      "axolotls": [],
+      "underground_water_creature": [],
+      "water_creature": [],
+      "water_ambient": [],
+      "misc": []
+    },
+    "spawn_costs": {},
+    "carvers": {
+      "air": [
+        "minecraft:cave",
+        "minecraft:cave_extra_underground",
+        "minecraft:canyon"
+      ]
+    },
+    "features": [
+      [
+        "minecraft:lake_lava_underground",
+        "minecraft:amethyst_geode",
+        "minecraft:ore_dirt",
+        "minecraft:ore_gravel",
+        "minecraft:ore_coal_upper",
+        "minecraft:ore_coal_lower",
+        "minecraft:ore_iron_upper",
+        "minecraft:ore_iron_middle",
+        "minecraft:ore_iron_small",
+        "minecraft:ore_gold",
+        "minecraft:ore_redstone",
+        "minecraft:ore_diamond",
+        "minecraft:ore_diamond_large",
+        "minecraft:ore_diamond_buried",
+        "minecraft:ore_lapis",
+        "minecraft:ore_lapis_buried",
+        "minecraft:ore_copper",
+        "minecraft:underwater_magma",
+        "minecraft:disk_sand",
+        "minecraft:disk_clay",
+        "minecraft:disk_gravel",
+        "minecraft:glow_lichen",
+        "minecraft:ore_emerald",
+        "immersiveengineering:lead",
+        "immersiveengineering:silver",
+        "immersiveengineering:nickel",
+        "immersiveengineering:uranium",
+        "immersiveengineering:bauxite",
+        "mining_dimension:ore_aluminum_extra",
+        "mining_dimension:ore_diamond_extra",
+        "mining_dimension:ore_copper_extra",
+        "mining_dimension:ore_gold_extra",
+        "mining_dimension:ore_iron_extra",
+        "mining_dimension:ore_lead_extra",
+        "mining_dimension:ore_nickel_extra",
+        "mining_dimension:ore_redstone_extra",
+        "mining_dimension:ore_silver_extra",
+        "mining_dimension:ore_uranium_extra",
+        "mining_dimension:ore_coal_extra",
+        "mining_dimension:ore_emerald_extra"
+      ]
+    ]
+  }

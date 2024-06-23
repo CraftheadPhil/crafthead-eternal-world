@@ -1,0 +1,13 @@
+{
+	id: "77D976E54E0726D7"
+	loot_size: 1
+	order_index: 6
+	rewards: [
+		{ count: 128, item: "dustrial_decor:industrial_iron_block" }
+		{ count: 128, item: "dustrial_decor:cast_iron_block" }
+		{ count: 128, item: "dustrial_decor:sheet_metal_plating" }
+		{ count: 128, item: "dustrial_decor:rusty_sheet_metal_plating" }
+		{ count: 128, item: "dustrial_decor:cardboard_box" }
+	]
+	title: "decometal"
+}

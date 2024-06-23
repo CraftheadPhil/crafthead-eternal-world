@@ -1,0 +1,17 @@
+{
+	id: "4CA1E56CBCC1E330"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{ item: "dustrial_decor:red_neon_light" }
+		{ item: "dustrial_decor:orange_neon_light" }
+		{ item: "dustrial_decor:yellow_neon_light" }
+		{ item: "dustrial_decor:green_neon_light" }
+		{ item: "dustrial_decor:cyan_neon_light" }
+		{ item: "dustrial_decor:blue_neon_light" }
+		{ item: "dustrial_decor:pink_neon_light" }
+		{ item: "dustrial_decor:purple_neon_light" }
+		{ item: "dustrial_decor:rainbow_neon_light" }
+	]
+	title: "lights"
+}

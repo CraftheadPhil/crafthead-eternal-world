@@ -1,0 +1,46 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "villagers"
+	group: "327EBB5DF992B177"
+	icon: "easy_villagers:villager"
+	id: "201DD6E95CDCEB4A"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "15D55BB094F7E91E"
+			rewards: [{
+				id: "4666CD5B54124A0F"
+				item: "artifacts:villager_hat"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1C33A3AA9C6BA4F6"
+				item: "easy_villagers:trader"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "7D8D9B06CEABED33"
+			tasks: [{
+				id: "3F71274CA43593A6"
+				item: {
+					Count: 1b
+					id: "easy_villagers:villager"
+					tag: {
+						VillagerData: {
+							profession: "minecraft:fletcher"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.5d
+		}
+	]
+	title: "Villagers"
+}

@@ -1,0 +1,2 @@
+craftingTable.remove(<item:peripherals:grinder>);
+craftingTable.addShaped("grinder", <item:peripherals:grinder> * 1, [[<item:immersiveengineering:sheetmetal_lead>, <item:pickletweaks:emerald_sword>, <item:immersiveengineering:sheetmetal_lead>], [<item:reliquary:zombie_heart>, <item:kubejs:domination_core>, <item:reliquary:nebulous_heart>], [<item:immersiveengineering:sheetmetal_lead>, <item:immersiveengineering:component_electronic_adv>, <item:immersiveengineering:sheetmetal_lead>]]);

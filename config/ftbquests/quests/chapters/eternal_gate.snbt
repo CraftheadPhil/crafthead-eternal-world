@@ -1,0 +1,133 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "eternal_gate"
+	group: "4B7DD88F6D5AC7CC"
+	icon: {
+		Count: 1b
+		id: "gateways:gate_pearl"
+		tag: {
+			gateway: "gateways:eternal_gate"
+		}
+	}
+	id: "2FB034AF33F27CD2"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Summon the eternal gate and complete waves to earn eternal shard and treasure loot."
+				""
+				"The last wave is a wither and defeating it grants an eternal crystal."
+			]
+			id: "4234E8296E3F5D41"
+			rewards: [
+				{
+					id: "6836E12CBA8AB898"
+					item: {
+						Count: 1b
+						id: "gateways:gate_pearl"
+						tag: {
+							gateway: "gateways:eternal_gate"
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "54E6AA5F4416380A"
+					table_id: 1366000479578652553L
+					type: "random"
+				}
+			]
+			subtitle: "Infinite Treasures"
+			tasks: [{
+				id: "79A76FBB119DE66D"
+				item: {
+					Count: 1b
+					id: "gateways:gate_pearl"
+					tag: {
+						gateway: "gateways:eternal_gate"
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4234E8296E3F5D41"]
+			description: ["4 shards can be transformed into an eternal crystal."]
+			id: "23792B2C51BCB3F7"
+			rewards: [
+				{
+					id: "7C96135E0D8D9C75"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7A1CF92F419F2875"
+					table_id: 1366000479578652553L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "717949C06ABEB22F"
+				item: "kubejs:eternal_shard"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4234E8296E3F5D41"]
+			id: "7489EB94C1CAC652"
+			rewards: [
+				{
+					id: "7629194969AABF5E"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "54B88B29EDD58074"
+					table_id: 8315751244172443571L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5D2B4C318D74AD5D"
+					table_id: 1366000479578652553L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "4376A42D8930D79A"
+				item: "kubejs:eternal_crystal"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7489EB94C1CAC652"]
+			id: "1776200B4103F5B3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4D2FD0FFB8941D3E"
+				table_id: 1366000479578652553L
+				type: "random"
+			}]
+			subtitle: "Required for the crystallizer"
+			tasks: [{
+				id: "4193F4917632F8C6"
+				item: "kubejs:infinity_crystal"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+	]
+	title: "Eternal Gate"
+}

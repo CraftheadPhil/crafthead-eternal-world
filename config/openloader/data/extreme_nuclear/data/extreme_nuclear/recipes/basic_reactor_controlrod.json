@@ -1,0 +1,33 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern":
+    [
+        "aha",
+        "ses",
+        "axa"
+    ],
+    "key":
+    {
+        "x":
+        {
+            "item": "bigreactors:graphite_ingot"
+        },
+        "a": {
+            "item": "bigreactors:basic_reactorcasing"
+        },
+        "h": {
+            "item": "minecraft:piston"
+        },
+        "e": {
+            "item": "immersiveengineering:thermoelectric_generator"
+        },
+        "s": {
+            "item": "kubejs:stainless_steel_ingot"
+        }
+    },
+    "result":
+    {
+        "item": "bigreactors:basic_reactorcontrolrod",
+        "count": 1
+    }
+}

@@ -1,0 +1,2 @@
+craftingTable.remove(<item:immersive_aircraft:engine>);
+craftingTable.addShaped("air_engine", <item:immersive_aircraft:engine> * 1, [[<item:immersiveengineering:component_iron>, <item:immersiveengineering:plate_iron>, <item:immersiveengineering:component_iron>], [<item:minecraft:piston>, <item:immersive_aircraft:boiler>, <item:minecraft:piston>], [<item:immersiveengineering:plate_iron>, <item:betterfurnacesreforged:iron_furnace>, <item:immersiveengineering:plate_iron>]]);

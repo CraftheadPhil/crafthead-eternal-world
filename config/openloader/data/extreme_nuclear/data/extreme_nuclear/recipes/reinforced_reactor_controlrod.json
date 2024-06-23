@@ -1,0 +1,30 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern":
+    [
+        "axa",
+        "ses",
+        "axa"
+    ],
+    "key":
+    {
+        "x":
+        {
+            "item": "bigreactors:graphite_ingot"
+        },
+        "a": {
+            "item": "bigreactors:reinforced_reactorcasing"
+        },
+        "e": {
+            "item": "bigreactors:basic_reactorcontrolrod"
+        },
+        "s": {
+            "item": "kubejs:inconel_ingot"
+        }
+    },
+    "result":
+    {
+        "item": "bigreactors:reinforced_reactorcontrolrod",
+        "count": 1
+    }
+}

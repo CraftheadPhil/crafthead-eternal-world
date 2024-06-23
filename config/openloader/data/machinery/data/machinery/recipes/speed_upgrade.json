@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern":
+    [
+        "axa",
+        "xex",
+        "axa"
+    ],
+    "key":
+    {
+        "x":
+        {
+            "item": "minecraft:sugar"
+        },
+        "a": {
+            "item": "immersiveengineering:plate_silver"
+        },
+        "e": {
+            "item": "kubejs:circuit_board"
+        }
+    },
+    "result":
+    {
+        "item": "kubejs:speed_upgrade",
+        "count": 1
+    }
+}

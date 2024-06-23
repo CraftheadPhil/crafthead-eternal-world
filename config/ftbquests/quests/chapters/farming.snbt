@@ -1,0 +1,1464 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "farming"
+	group: "0DE25E42D0C62187"
+	icon: "botanypots:terracotta_botany_pot"
+	id: "0299AB17B817492E"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "09AEAE39D314FCBC"
+			rewards: [
+				{
+					id: "0DEB1E631BD67CE0"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "35B8F099B3B886FD"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0B5AF594247C1F45"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "05351B80CE32FC37"
+				item: {
+					Count: 1b
+					id: "minecraft:stone_hoe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["09AEAE39D314FCBC"]
+			id: "7F9EC94BD38FB1E3"
+			rewards: [
+				{
+					id: "76371980A0C8FB01"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1EC305C829799443"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "53A9C6F42BDD95EF"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "1365CD4599283F55"
+				item: "botanypots:terracotta_botany_pot"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7F9EC94BD38FB1E3"]
+			id: "792AAE9453D0776D"
+			rewards: [
+				{
+					id: "7878A628767F767F"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2064CE335C6B3F53"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "26C7F2836DD51CD5"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "51C8922455C1D7CF"
+				item: "botanypotstiers:elite_terracotta_botany_pot"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["792AAE9453D0776D"]
+			id: "4D5628DFAF456F56"
+			rewards: [
+				{
+					id: "7B39CD97F58FCEBC"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "52A55BE3ADEBD433"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "49EC84FFF213D88E"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "24B3FC0A4FCFA3C6"
+				item: "botanypotstiers:ultra_terracotta_botany_pot"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["09AEAE39D314FCBC"]
+			id: "0A6A9F795EB27B2B"
+			rewards: [
+				{
+					id: "00BDF1749EA7BFAF"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "393F1B9D48D47916"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7787516AB1649757"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "622B0446F9831D45"
+				item: "farmersdelight:organic_compost"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0A6A9F795EB27B2B"]
+			id: "25B40AED4FC50DED"
+			rewards: [
+				{
+					id: "085CD716F8E07C7A"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3AD6371F15225A03"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4E4A3774E16DCE60"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "189F19BED9A77315"
+				item: "farmersdelight:rich_soil"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["25B40AED4FC50DED"]
+			id: "6F3A0DF263C0A605"
+			rewards: [
+				{
+					id: "0040A9C1884B8AD8"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5F03DE74562F92CD"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "06C5B1D583157AF1"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "108EB58403DCE1AC"
+				item: "farmersdelight:rich_soil_farmland"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7F9EC94BD38FB1E3"]
+			id: "5E927F7EC5911B6F"
+			rewards: [
+				{
+					id: "2E190DE12F1F0EF2"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "029111CB89AC96F6"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "73D32CB7DE93CC43"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "736999D29E4FC56C"
+				item: "botanypots:terracotta_hopper_botany_pot"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["09AEAE39D314FCBC"]
+			id: "19519D00BCD6B24C"
+			rewards: [
+				{
+					id: "70E651CC8F875559"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "55BC743AA39A6CCB"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5F52FDC45D8AB46F"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "3F29901D426FFAF3"
+				item: "endercrop:tilled_end_stone"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["09AEAE39D314FCBC"]
+			id: "41358F8F82B51258"
+			rewards: [
+				{
+					id: "71F5E9A6841712C5"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6D61A784CB7F2156"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "524CA184598757ED"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "7BEB3E6DD3844FD6"
+				item: "nethersdelight:soul_compost"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["41358F8F82B51258"]
+			id: "392727B67558C64E"
+			rewards: [
+				{
+					id: "37264B50B871B357"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1FDB487927BF978A"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2A2636289C0383AD"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "17971C08164DE9F9"
+				item: "nethersdelight:rich_soul_soil"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["09AEAE39D314FCBC"]
+			id: "6F9C84212C5AD511"
+			rewards: [
+				{
+					id: "61E4317C45A6C7C6"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5F40BCD368A67688"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0F854C31FFC134BD"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "3B7136F4375DA2F9"
+				item: "farmersdelight:carrot_crate"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["09AEAE39D314FCBC"]
+			id: "7435024319CBCC8D"
+			rewards: [
+				{
+					id: "5CB7466F7970BBC0"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1D2FE62D39B50552"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2B955199D6FE345A"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "7FE05B48A5807606"
+				item: "farmersdelight:potato_crate"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["09AEAE39D314FCBC"]
+			id: "768B96941FFB3CFE"
+			rewards: [
+				{
+					id: "51FB192F4B1C8D71"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "17C6862A41F40F48"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4426E06B194DDFEF"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "43D0F49FE79D9497"
+				item: "farmersdelight:beetroot_crate"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["09AEAE39D314FCBC"]
+			id: "045CF1C65A22576A"
+			rewards: [
+				{
+					id: "7B2AB0C6C1E7C87D"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6F8A13CA2FD52509"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "378C14F74CF15A7C"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "260507D35E15256C"
+				item: "farmersdelight:cabbage_crate"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["09AEAE39D314FCBC"]
+			id: "40A4D119803DC872"
+			rewards: [
+				{
+					id: "6F90007A89F52827"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "36C13370EFAE43C4"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "48D7393620A2CD7B"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "02C67967FD14E6CF"
+				item: "farmersdelight:tomato_crate"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["09AEAE39D314FCBC"]
+			id: "115738C81C1A9F76"
+			rewards: [
+				{
+					id: "53E1A5C092B2FB5B"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1DA51FB308551937"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3EE72A026EDF6C35"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "5872705B5B5D540C"
+				item: "farmersdelight:onion_crate"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["09AEAE39D314FCBC"]
+			id: "09AE9830E8B327B5"
+			rewards: [
+				{
+					id: "20032484DFEC88D8"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6DBF1FF97200253F"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5EC8F77820BA3D06"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "3BEE5EE0CDD0D1E1"
+				item: "endersdelight:chorus_crate"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["09AEAE39D314FCBC"]
+			id: "586504EE552C0DBC"
+			rewards: [
+				{
+					id: "7CA2CA5753B391A5"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1E97009CA1E05CEA"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2ACF8588C2390874"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "74043B18D343A451"
+				item: "culturaldelights:cucumber_crate"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["09AEAE39D314FCBC"]
+			id: "143CB8DE86628A54"
+			rewards: [
+				{
+					id: "3656C19A96F592CA"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2E978D80547060D4"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "19EAD617E39C1E49"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "665B3EDE844DABC5"
+				item: "culturaldelights:pickle_crate"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["09AEAE39D314FCBC"]
+			id: "3E14D1E4ADD37583"
+			rewards: [
+				{
+					id: "6435DD5768272DFC"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "03843F30A7129365"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "40E8332EEE93D467"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "5896434198238A92"
+				item: "culturaldelights:corn_cob_crate"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["09AEAE39D314FCBC"]
+			id: "46FB7AB1ED8F656E"
+			rewards: [
+				{
+					id: "36DC2661365D6BDD"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4934F571BE17C509"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "40B22231233392D2"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "0780D4C80B788A88"
+				item: "culturaldelights:eggplant_crate"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["09AEAE39D314FCBC"]
+			id: "3F96864C337E9176"
+			rewards: [
+				{
+					id: "3C5E52205A90AD5E"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1EDA98B20D23F195"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "05071F7C432CD9FB"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "428454840897421A"
+				item: "culturaldelights:white_eggplant_crate"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["09AEAE39D314FCBC"]
+			id: "6E443A014BE02595"
+			rewards: [
+				{
+					id: "1B6F70049E835741"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7FE1DECB8237B8C4"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0B51CB050B360C78"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "58C4826C0DDB4D2A"
+				item: "collectorsreap:lime_crate"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["09AEAE39D314FCBC"]
+			id: "7A6820C06CB8FD8B"
+			rewards: [
+				{
+					id: "26826BC63DC62BC4"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "66DECFEC9A1C197F"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0F07E53CE9D6EEF1"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "478BF01D7FAAC066"
+				item: "collectorsreap:pomegranate_crate"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["09AEAE39D314FCBC"]
+			id: "25D9C1F3494AC513"
+			rewards: [
+				{
+					id: "6552B9A023F47901"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "383DE51408F512DC"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "15813509432E9337"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "7DF247FA6110AB57"
+				item: "farmingforblockheads:market"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["09AEAE39D314FCBC"]
+			id: "64D287698B7F1955"
+			rewards: [
+				{
+					id: "1AF799CAD7ED6A4E"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "44F05FE391040787"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6994F12DA8C089F8"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "67902F8989331CC9"
+				item: "farmingforblockheads:chicken_nest"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["09AEAE39D314FCBC"]
+			id: "7F9B956903E2EE28"
+			rewards: [
+				{
+					id: "7C5C65DA87CB79A1"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3AED7C40E1A438B9"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "752F989A07425373"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "0DB60644A40904B1"
+				item: "farmingforblockheads:feeding_trough"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["09AEAE39D314FCBC"]
+			id: "1EA30B170B6CF051"
+			rewards: [
+				{
+					id: "52BEE9C243F6D41E"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "714213A109CF2F97"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5E08447992E9F297"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "357DFB91A29C96C4"
+				item: "farmersdelight:rice_bale"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["09AEAE39D314FCBC"]
+			id: "65B596181F312C9D"
+			rewards: [
+				{
+					id: "1DB0C6B6C3EF2ECC"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2C4173FE28B5EFED"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1CE610C2F1DFD5C8"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "040BB85B3C941BCC"
+				item: "culturaldelights:avocado_crate"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["09AEAE39D314FCBC"]
+			id: "42BC08EB78B67A61"
+			rewards: [
+				{
+					id: "41013D49B599D63A"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "734B5EB42DFEB4DD"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "714D523982CFCCE2"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "3021C05425CC0080"
+				item: "supplementaries:flax_block"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["09AEAE39D314FCBC"]
+			id: "2A387A814563E162"
+			rewards: [
+				{
+					id: "173A60DC703F7A9D"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "189457457AD97A0D"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4A2A935906BE06E9"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "1C5CA7B6C5745377"
+				item: "farmersdelight:straw_bale"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["09AEAE39D314FCBC"]
+			id: "23F276DACEB4A7AB"
+			rewards: [
+				{
+					id: "4B72E62783879034"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "468551A4CC0435D7"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2A5581E642BE2EDF"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "1B1D051D082F7C2C"
+				item: {
+					Count: 1b
+					id: "minecraft:fishing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["09AEAE39D314FCBC"]
+			id: "20A315F1633EE8A1"
+			rewards: [
+				{
+					id: "2BB0EA568A57596C"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "347866A26CB2E658"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3429A4619441F76C"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "49D4BD6CF91B366A"
+				item: "fishermens_trap:fishtrap"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["19519D00BCD6B24C"]
+			id: "72111CD485A40954"
+			rewards: [
+				{
+					id: "54087BFE84B53121"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0DB625258CBE40C6"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "709803C8039D321F"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "3E7706D4BEF6F363"
+				item: "endercrop:ender_seeds"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["09AEAE39D314FCBC"]
+			id: "5C9472E7AFDC61E9"
+			rewards: [
+				{
+					id: "135C9E42CBE77F43"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5FC8D74C5770B82A"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "78747241A71F94D8"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "2B3389BEC17F69EC"
+				item: "reliquary:fertile_lily_pad"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["09AEAE39D314FCBC"]
+			id: "6C4CB9942A016AAE"
+			rewards: [
+				{
+					id: "6BAED4E8192FF306"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "29812A4981CBA189"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7034986A216A03D0"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "02056F5B487329AC"
+				item: "immersiveengineering:fertilizer"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["09AEAE39D314FCBC"]
+			id: "6DEA9E8A5061BB96"
+			rewards: [
+				{
+					id: "09420C80E5C8E116"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4FD881E223A96BB7"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2BDBD981D8F2F667"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "55D839C9354A2651"
+				item: "immersiveengineering:cloche"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["09AEAE39D314FCBC"]
+			id: "1B33ECA9DF94130F"
+			rewards: [
+				{
+					id: "7D24943EC4255478"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "625C4BBD5B3E8D34"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "757D0CE1FCF06E81"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "30E6839A180708BB"
+				item: "delightful:salmonberry_sack"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["09AEAE39D314FCBC"]
+			id: "50377B3FC4558783"
+			rewards: [
+				{
+					id: "478E1E993325E6E3"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2B0D0369EA8EF254"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "35DC469163D4086B"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "21208BAE671026D6"
+				item: "delightful:acorn_sack"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["09AEAE39D314FCBC"]
+			id: "0C68A813BFFC0CAF"
+			rewards: [
+				{
+					id: "65BEFA8F2DF8C5B8"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "00163D90E86B8C61"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0C66990E755A3976"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "2A19417DAC5E2660"
+				item: "farmersrespite:green_tea_leaves_sack"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["09AEAE39D314FCBC"]
+			id: "4B89D0EC4D52ACA8"
+			rewards: [
+				{
+					id: "53DACCBAD08754FE"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4D7F21F049E88662"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0C8EC497BCA5D0DF"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "62C108E3B8074059"
+				item: "farmersrespite:yellow_tea_leaves_sack"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["09AEAE39D314FCBC"]
+			id: "1669F2533F224C1B"
+			rewards: [
+				{
+					id: "28A3BE7BA95BE568"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4C925CD2C72A086C"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "39E5FF1D94F8CA0B"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "63DE77AB7F30076C"
+				item: "farmersrespite:black_tea_leaves_sack"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["09AEAE39D314FCBC"]
+			id: "1B5A99478D704A23"
+			rewards: [
+				{
+					id: "3C0D5CAD4A8C3E43"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "31092B121BA8BA0B"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6315ABDAA055D9B7"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "7BAE9EDE61F44202"
+				item: "farmersrespite:coffee_beans_sack"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["792AAE9453D0776D"]
+			id: "7C4C22812A9602A9"
+			rewards: [
+				{
+					id: "689E7322CD78E094"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "38A5E683ED735930"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5AA84C7C2DBD9BC5"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "476C6863293D7106"
+				item: "botanypotstiers:elite_terracotta_hopper_botany_pot"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4D5628DFAF456F56"]
+			id: "528D8C0FCAB8EC10"
+			rewards: [
+				{
+					id: "059AC7D8F0459E86"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "706C4DB7155DD503"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "348AF0DF56E5319B"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "100BFFD0BAAA7C96"
+				item: "botanypotstiers:ultra_terracotta_hopper_botany_pot"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4D5628DFAF456F56"]
+			id: "6F83A751A6AB3797"
+			rewards: [
+				{
+					id: "36F6CF48A089DD09"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "06466A0375E9DE45"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6DAC9D3C1737FF1C"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "368BD085F0910FBC"
+				item: "botanypotstiers:creative_terracotta_botany_pot"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["6F83A751A6AB3797"]
+			id: "61E2E9628A1CD7B8"
+			rewards: [
+				{
+					id: "0B6B3F3D038B9AC6"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "68D7BB1E8C10B270"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "226641765C442A52"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "73E86868E234567E"
+				item: "botanypotstiers:creative_terracotta_hopper_botany_pot"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -5.0d
+		}
+	]
+	title: "Farming"
+}

@@ -1,0 +1,36 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern":
+    [
+        "axb",
+        "xex",
+        "cxd"
+    ],
+    "key":
+    {
+        "x":
+        {
+            "item": "immersiveengineering:reinforced_crate"
+        },
+        "a": {
+            "item": "minecraft:chest"
+        },
+        "b": {
+            "item": "supplementaries:sack"
+        },
+        "c": {
+            "item": "minecraft:barrel"
+        },
+        "d": {
+            "item": "minecraft:shulker_box"
+        },
+        "e": {
+            "item": "reliquary:void_tear"
+        }
+    },
+    "result":
+    {
+        "item": "kubejs:storage_core",
+        "count": 1
+    }
+}

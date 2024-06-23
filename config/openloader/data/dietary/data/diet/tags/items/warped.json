@@ -1,0 +1,17 @@
+{
+    "replace": false,
+    "values": [
+        "minecraft:ender_eye",
+        "minecraft:chorus_fruit",
+        "minecraft:chorus_flower",
+        "minecraft:ender_pearl",
+        "minecraft:warped_roots",
+        "minecraft:crimson_roots",
+        "minecraft:warped_fungus",
+        "minecraft:crimson_fungus",
+        "minecraft:popped_chorus_fruit",
+        "endersdelight:enderman_sight",
+        "endersdelight:shulker_mollusk",
+        "endersdelight:mite_crust"
+    ]
+}

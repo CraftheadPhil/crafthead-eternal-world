@@ -1,0 +1,11 @@
+{
+    "loot_table": "lootintegrations:chests/hard",
+    "max_result_itemcount": 15,
+    "integrated_loot_tables": {
+      "dimdungeons:chests/chestloot_basic_hard": 2,
+      "dimdungeons:chests/chestloot_advanced_hard": 5,
+      "dimdungeons:chests/chestloot_crazy": 5,
+      "dimdungeons:chests/chestloot_lucky": 6,
+      "awesomedungeonend:chests/awesome_dungeon": 3
+    }
+  }

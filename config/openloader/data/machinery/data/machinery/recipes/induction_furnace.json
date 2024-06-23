@@ -1,0 +1,36 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern":
+    [
+        "hxf",
+        "xex",
+        "kxj"
+    ],
+    "key":
+    {
+        "x": {
+            "item": "immersiveengineering:heavy_engineering"
+        },
+        "f": {
+            "item": "engineersdecor:small_electrical_furnace"
+        },
+        "e": {
+            "item": "kubejs:machine_core"
+        },
+        "h": {
+            "item": "engineersdecor:fluid_barrel"
+        },
+        "j": {
+            "item": "immersiveengineering:blastfurnace_preheater"
+        },
+        "k": {
+            "item": "betterfurnacesreforged:netherhot_furnace"
+        }
+    },
+    "result":
+    {
+        "item": "custommachinery:custom_machine_item",
+        "count": 1,
+        "nbt": {"machine":"machinery:induction_furnace"}
+    }
+}

@@ -1,0 +1,875 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "oil_processing"
+	group: "7678B8622C15829B"
+	hide_quest_until_deps_visible: true
+	icon: "immersivepetroleum:pumpjack"
+	id: "33BB3F6A3ECFCA95"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "0CE66E9C2D8758BE"
+			rewards: [
+				{
+					count: 16
+					id: "44DAE840BA68CCA2"
+					item: "immersiveengineering:buckshot"
+					type: "item"
+				}
+				{
+					id: "0ABDC4C6E120AE8F"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "04DA3865F338419E"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "22AA36BE7C1C7ABC"
+					table_id: 2457031344294738853L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "36EC5D5127FA1439"
+					table_id: 5983731832797824056L
+					type: "random"
+				}
+			]
+			subtitle: "Find oil with this tool."
+			tasks: [
+				{
+					id: "16846EF3A0C20277"
+					item: "immersivepetroleum:seismic_survey"
+					type: "item"
+				}
+				{
+					id: "3D914E63B7C0976B"
+					item: "immersiveengineering:buckshot"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0CE66E9C2D8758BE"]
+			id: "0519EE29BD2BD443"
+			rewards: [
+				{
+					id: "5329D38B42D03355"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0F3AF07EE7CAD16F"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2B2BFBE88D8B4E73"
+					table_id: 2457031344294738853L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "682D33134E81284A"
+					table_id: 5983731832797824056L
+					type: "random"
+				}
+			]
+			tasks: [{
+				icon: "immersivepetroleum:derrick"
+				id: "38DE71B3882F64D0"
+				observe_type: 0
+				timer: 0L
+				to_observe: "immersivepetroleum:derrick"
+				type: "observation"
+			}]
+			title: "Derrick"
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0519EE29BD2BD443"]
+			id: "3B7DA17F151E0C88"
+			rewards: [
+				{
+					id: "4C5D5CC3F1657058"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3977A35049272318"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1E27E59DCC314B06"
+					table_id: 2457031344294738853L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4A698EBAC956674A"
+					table_id: 5983731832797824056L
+					type: "random"
+				}
+			]
+			tasks: [{
+				amount: 1000L
+				fluid: "immersivepetroleum:crudeoil"
+				id: "352FE96F8F4298DB"
+				type: "fluid"
+			}]
+			title: "Black Gold"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0519EE29BD2BD443"]
+			id: "484F4CEBA025D8C5"
+			rewards: [
+				{
+					id: "25F78A0FDF5F3543"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "34C769765C641249"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6CB5E34B7275A29A"
+					table_id: 2457031344294738853L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2F3709817F7EA9A1"
+					table_id: 5983731832797824056L
+					type: "random"
+				}
+			]
+			tasks: [{
+				icon: "immersivepetroleum:pumpjack"
+				id: "6D1F63C206805174"
+				observe_type: 0
+				timer: 0L
+				to_observe: "immersivepetroleum:pumpjack"
+				type: "observation"
+			}]
+			title: "Pumpjack"
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0519EE29BD2BD443"]
+			id: "1F988A3AB2AAB1FA"
+			rewards: [
+				{
+					id: "15B252F89B5E2C1E"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0BA8298ED215D0EA"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "25E352B939572A39"
+					table_id: 2457031344294738853L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "41F83DDEB60D0798"
+					table_id: 5983731832797824056L
+					type: "random"
+				}
+			]
+			subtitle: "Need several of this"
+			tasks: [{
+				icon: "immersivepetroleum:oiltank"
+				id: "5932581B6A95F395"
+				observe_type: 0
+				timer: 0L
+				to_observe: "immersivepetroleum:oiltank"
+				type: "observation"
+			}]
+			title: "Oil Tank"
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3B7DA17F151E0C88"]
+			id: "59AFA818B8706236"
+			rewards: [
+				{
+					id: "635D2556E53862D6"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5BC965111886DABB"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "19B99B45E727D616"
+					table_id: 2457031344294738853L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5F701AAD10540A84"
+					table_id: 5983731832797824056L
+					type: "random"
+				}
+			]
+			tasks: [{
+				icon: "immersivepetroleum:distillation_tower"
+				id: "0C5340EB036243EF"
+				observe_type: 0
+				timer: 0L
+				to_observe: "immersivepetroleum:distillation_tower"
+				type: "observation"
+			}]
+			title: "Distillation Tower"
+			x: -1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3B7DA17F151E0C88"]
+			id: "0E69092E5A4A3124"
+			rewards: [
+				{
+					id: "7B579360D395E84D"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "66E52F029CE93D64"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3452EE41F6180EEB"
+					table_id: 2457031344294738853L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "38BE48E900AB1F9E"
+					table_id: 5983731832797824056L
+					type: "random"
+				}
+			]
+			tasks: [{
+				icon: "immersivepetroleum:hydrotreater"
+				id: "276204AF677617E5"
+				observe_type: 0
+				timer: 0L
+				to_observe: "immersivepetroleum:hydrotreater"
+				type: "observation"
+			}]
+			title: "High Pressure Refinery Unit"
+			x: 1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1AE3DFFCE5CADC5F"]
+			description: [
+				"This massive structure turns water and bitumen into petcoke and sulfurized diesel."
+				""
+				"&9Tip:&r It output the petcoke from middle bottom blocks."
+			]
+			id: "102B03DD0CAEBDD3"
+			rewards: [
+				{
+					id: "38A714530B350477"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3AC98F4D89B813B0"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "332375EFC28372AA"
+					table_id: 2457031344294738853L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7D6E47D14CBC64ED"
+					table_id: 5983731832797824056L
+					type: "random"
+				}
+				{
+					count: 128
+					id: "314312E222637165"
+					item: "immersivepetroleum:asphalt"
+					type: "item"
+				}
+			]
+			subtitle: "Faster coke production"
+			tasks: [{
+				icon: "immersivepetroleum:coker_unit"
+				id: "07523929516338A6"
+				observe_type: 0
+				timer: 0L
+				to_observe: "immersivepetroleum:coker_unit"
+				type: "observation"
+			}]
+			title: "Coker"
+			x: -2.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["1AE3DFFCE5CADC5F"]
+			id: "023B1592580D4CEB"
+			rewards: [
+				{
+					id: "01E32BEC2ECDA3D4"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "445863BA5B55269D"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0E3D82A4DCAF1CC8"
+					table_id: 2457031344294738853L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5D729B317EE88E47"
+					table_id: 5983731832797824056L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "16FF9530A640211E"
+				item: "immersivepetroleum:asphalt"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["102B03DD0CAEBDD3"]
+			id: "064661694F45094A"
+			rewards: [
+				{
+					id: "1BF0A2AAD72FDDB4"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "54A5055FD0C18C53"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "113226D67AD79BC9"
+					table_id: 2457031344294738853L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3188B2EDCC4F7F11"
+					table_id: 5983731832797824056L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "41EB248414AC1746"
+				item: "immersivepetroleum:petcoke"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["59AFA818B8706236"]
+			id: "1AE3DFFCE5CADC5F"
+			rewards: [
+				{
+					id: "72098FE37172AEF8"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5FB650A603A5BC6D"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "318D16246BB52BF6"
+					table_id: 2457031344294738853L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1407E7DC8227BF3C"
+					table_id: 5983731832797824056L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "6AF1D9F19EB83129"
+				item: "immersivepetroleum:bitumen"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0E69092E5A4A3124"]
+			id: "5CEF68A93BAF68E3"
+			rewards: [
+				{
+					id: "214D050CFECF75C9"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "542FA76C7FBFD7AE"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "23FC37DA7A365928"
+					table_id: 2457031344294738853L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2BBE404683A71A2A"
+					table_id: 5983731832797824056L
+					type: "random"
+				}
+			]
+			tasks: [{
+				amount: 1000L
+				fluid: "immersivepetroleum:naphtha_cracked"
+				id: "36CD710A9BDB3F55"
+				type: "fluid"
+			}]
+			x: 1.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["0E69092E5A4A3124"]
+			id: "082ADE1FD73A5BC5"
+			rewards: [
+				{
+					id: "0E3227C8F2F2335F"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4D810BAE8D0C5ED5"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "21171CB6A1E67043"
+					table_id: 2457031344294738853L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "504E02C8E74D47AF"
+					table_id: 5983731832797824056L
+					type: "random"
+				}
+			]
+			subtitle: "Ethylene is used to make duroplast sheet"
+			tasks: [{
+				amount: 1000L
+				fluid: "immersivepetroleum:ethylene"
+				id: "3A0E5FE7F3991E67"
+				type: "fluid"
+			}]
+			x: 1.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["59AFA818B8706236"]
+			id: "24EAF913EF839B83"
+			rewards: [
+				{
+					id: "4ED468FC39E13A49"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7EAA43C10262339C"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "15009E11E93E20B0"
+					table_id: 2457031344294738853L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3A6E31D3202CA7FE"
+					table_id: 5983731832797824056L
+					type: "random"
+				}
+			]
+			tasks: [{
+				amount: 1000L
+				fluid: "immersivepetroleum:diesel"
+				id: "1E3A8EE4DC80B7C9"
+				type: "fluid"
+			}]
+			x: -1.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["59AFA818B8706236"]
+			id: "507ADD09D5A3E069"
+			rewards: [
+				{
+					id: "32EE28F706CF5759"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "20704B2DAB3DFC6E"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "01E42ACD50CF2C7A"
+					table_id: 2457031344294738853L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1523BC0FA2CE63FC"
+					table_id: 5983731832797824056L
+					type: "random"
+				}
+			]
+			tasks: [{
+				amount: 1000L
+				fluid: "immersivepetroleum:gasoline"
+				id: "23ED7A8EEC0A69BD"
+				type: "fluid"
+			}]
+			x: -1.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["0E69092E5A4A3124"]
+			id: "64A2C8985229B9F8"
+			rewards: [
+				{
+					id: "61E859B7355F8E11"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "52E5646DE8FDE141"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "36D3939DEAD164D7"
+					table_id: 2457031344294738853L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1951A99E7B56856B"
+					table_id: 5983731832797824056L
+					type: "random"
+				}
+			]
+			subtitle: "Combine benzene and propylene to make creosote"
+			tasks: [{
+				amount: 1000L
+				fluid: "immersivepetroleum:benzene"
+				id: "306C236A75EC8DBA"
+				type: "fluid"
+			}]
+			x: 2.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["0E69092E5A4A3124"]
+			id: "003E74DA8EC18283"
+			rewards: [
+				{
+					id: "28E60E463B9AAF57"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "032D2F02FE6AD8BA"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "299A91E93C93BD4F"
+					table_id: 2457031344294738853L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "31FBC4D767FE0FCC"
+					table_id: 5983731832797824056L
+					type: "random"
+				}
+			]
+			subtitle: "Combine benzene and propylene to make creosote"
+			tasks: [{
+				amount: 1000L
+				fluid: "immersivepetroleum:propylene"
+				id: "39B8EC964940DC3E"
+				type: "fluid"
+			}]
+			x: 2.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["082ADE1FD73A5BC5"]
+			id: "2D64A44C009637F5"
+			rewards: [
+				{
+					id: "72991A0B155901F4"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7F0C3A224296801F"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "73E29A48E53EE36D"
+					table_id: 2457031344294738853L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "327A9A8286366BA0"
+					table_id: 5983731832797824056L
+					type: "random"
+				}
+			]
+			tasks: [{
+				amount: 1000L
+				fluid: "immersiveengineering:acetaldehyde"
+				id: "0EACCA0BE79EF7E6"
+				type: "fluid"
+			}]
+			x: 1.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["2D64A44C009637F5"]
+			id: "3562BD352F8E0237"
+			rewards: [
+				{
+					id: "09E01BEB991A0F98"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0006EA6DF20EC759"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "50D3DAFB6FF343AD"
+					table_id: 2457031344294738853L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "14B78A4E79F364A0"
+					table_id: 5983731832797824056L
+					type: "random"
+				}
+			]
+			tasks: [{
+				amount: 1000L
+				fluid: "immersiveengineering:phenolic_resin"
+				id: "24F5FFD43965AD43"
+				type: "fluid"
+			}]
+			x: 1.0d
+			y: -8.5d
+		}
+		{
+			dependencies: [
+				"3562BD352F8E0237"
+				"2E03CFE0E4B9803A"
+			]
+			id: "3089244BA204141F"
+			rewards: [
+				{
+					id: "7F994B8443D2527E"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "606D6F4F0F718A5F"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3D97EDD5DC81343D"
+					table_id: 2457031344294738853L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "717336CB7219DC6B"
+					table_id: 5983731832797824056L
+					type: "random"
+				}
+			]
+			subtitle: "Primitive plastic"
+			tasks: [{
+				id: "682A75A72E03E959"
+				item: "immersiveengineering:plate_duroplast"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["59AFA818B8706236"]
+			id: "4A840910A6821171"
+			rewards: [
+				{
+					id: "6ED6680A680616AB"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "35876AB7902DFF1A"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6C339B8F79971AB5"
+					table_id: 2457031344294738853L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "663AB87CA791B12D"
+					table_id: 5983731832797824056L
+					type: "random"
+				}
+			]
+			tasks: [{
+				amount: 1000L
+				fluid: "immersivepetroleum:lubricant"
+				id: "509DCB91AE80E097"
+				type: "fluid"
+			}]
+			x: 0.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["0E69092E5A4A3124"]
+			id: "7B85331D3719297C"
+			rewards: [
+				{
+					id: "49FB36E83E53137F"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2D97D55FB0AA7C71"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "20E065B14833D7E7"
+					table_id: 2457031344294738853L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7C62855301E913EC"
+					table_id: 5983731832797824056L
+					type: "random"
+				}
+			]
+			subtitle: "Like bee wax"
+			tasks: [{
+				id: "494CC35BCAD96D01"
+				item: "immersivepetroleum:paraffin_wax"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.0d
+		}
+	]
+	title: "Oil Processing"
+}

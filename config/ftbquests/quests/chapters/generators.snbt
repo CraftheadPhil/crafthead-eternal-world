@@ -1,0 +1,511 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "generators"
+	group: "11C94E9811BA20DD"
+	icon: "immersivepetroleum:gas_generator"
+	id: "47862D746CAEE779"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["28E233969EEDC21A"]
+			icon: "immersiveengineering:watermill"
+			id: "13ACEB48F967752A"
+			rewards: [
+				{
+					id: "6B6AB1685852687D"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 64
+					id: "1EF26B68E3F71674"
+					item: "engineersdecor:old_industrial_wood_planks"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "094A4696DFF3275E"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5964C002F7618F92"
+					table_id: 2457031344294738853L
+					type: "choice"
+				}
+			]
+			tasks: [
+				{
+					count: 3L
+					id: "33DD50C14AC8F38D"
+					item: "immersiveengineering:watermill"
+					type: "item"
+				}
+				{
+					id: "6200524D72A492F8"
+					item: "immersiveengineering:dynamo"
+					type: "item"
+				}
+			]
+			title: "Water Wheel"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["62D44AB2F7424FC0"]
+			id: "3398564A1FF72713"
+			rewards: [
+				{
+					id: "719F7BB5B9C23B1E"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 16
+					id: "012ADD988E68C10F"
+					item: "immersiveengineering:treated_post"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4333493F0C801FEA"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "125E07DFB8A2FE93"
+					table_id: 2457031344294738853L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "0C88495BB5BC70A7"
+				item: "immersiveengineering:capacitor_lv"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3BC054D25321007E"]
+			id: "5673865B38E425D7"
+			rewards: [
+				{
+					id: "1725657FD6229024"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 16
+					id: "124C078FC3C15F15"
+					item: "immersiveengineering:steel_post"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6AF960A8060CD564"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "437691CE19F6098C"
+					table_id: 2457031344294738853L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "35435F2CE7355674"
+				item: "immersiveengineering:capacitor_mv"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3D3C67D96CE2AAAF"]
+			id: "5CC50E2F2BF559C8"
+			rewards: [
+				{
+					id: "01B1946FB193560C"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 16
+					id: "423C39011F3506D9"
+					item: "immersiveposts:postbase"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "07A26BB7DD95D512"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0E380731FFD9BEAE"
+					table_id: 2457031344294738853L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "73E8982FC96F9E60"
+				item: "immersiveengineering:capacitor_hv"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["13ACEB48F967752A"]
+			icon: "immersiveengineering:windmill"
+			id: "27E8781ED6407943"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "09BD95022F9C67C3"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4B5555FC1455F807"
+					table_id: 2457031344294738853L
+					type: "choice"
+				}
+			]
+			tasks: [
+				{
+					id: "036578D0EE11C3C8"
+					item: "immersiveengineering:windmill"
+					type: "item"
+				}
+				{
+					id: "24D7F19C9926BE3F"
+					item: "immersiveengineering:dynamo"
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["13ACEB48F967752A"]
+			id: "72DB70D9E87C1451"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2217BD0203396C9E"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "75DB621BCB54F06D"
+					table_id: 2457031344294738853L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "2C71AF058EC179E7"
+				item: "immersiveengineering:diesel_generator"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["13ACEB48F967752A"]
+			id: "1FE8715B8AAEFDC5"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "32DA46A772D91398"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6984B0E5F26155DD"
+					table_id: 2457031344294738853L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "37F550A5635F90FA"
+				item: "immersivepetroleum:gas_generator"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["13ACEB48F967752A"]
+			icon: "immersiveengineering:wirecoil_copper"
+			id: "62D44AB2F7424FC0"
+			rewards: [
+				{
+					count: 8
+					id: "4F30131E7C1018E0"
+					item: "immersiveengineering:connector_lv"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "514892567A7F7825"
+					item: "immersiveengineering:connector_lv_relay"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "69101D615FE929CE"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "63D115122E86C6F9"
+					table_id: 2457031344294738853L
+					type: "choice"
+				}
+			]
+			tasks: [
+				{
+					id: "4EA08F75C17B4192"
+					item: "immersiveengineering:wirecoil_copper"
+					type: "item"
+				}
+				{
+					id: "6D718437C00AD9A4"
+					item: "immersiveengineering:connector_lv"
+					type: "item"
+				}
+				{
+					id: "0D1FB6F8539055E7"
+					item: "immersiveengineering:connector_lv_relay"
+					type: "item"
+				}
+			]
+			title: "LV"
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["62D44AB2F7424FC0"]
+			icon: "immersiveengineering:wirecoil_electrum"
+			id: "3BC054D25321007E"
+			rewards: [
+				{
+					count: 8
+					id: "477108B1D1918FA4"
+					item: "immersiveengineering:connector_mv"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "1A2B6D04B919073E"
+					item: "immersiveengineering:connector_mv_relay"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0AF1F986B109A534"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6AFC6BD9A1B995EA"
+					table_id: 2457031344294738853L
+					type: "choice"
+				}
+			]
+			tasks: [
+				{
+					id: "61A87973BCAAD473"
+					item: "immersiveengineering:wirecoil_electrum"
+					type: "item"
+				}
+				{
+					id: "0C7CBDFF34D70CBC"
+					item: "immersiveengineering:connector_mv"
+					type: "item"
+				}
+				{
+					id: "751F403C961C53E6"
+					item: "immersiveengineering:connector_mv_relay"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3BC054D25321007E"]
+			icon: "immersiveengineering:wirecoil_steel"
+			id: "3D3C67D96CE2AAAF"
+			rewards: [
+				{
+					count: 8
+					id: "4E8F9207E952763A"
+					item: "immersiveengineering:connector_hv"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "35590D0D7D58ADB4"
+					item: "immersiveengineering:connector_hv_relay"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "17A7D3978F7FC3E8"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "61598DEEDC452E25"
+					table_id: 2457031344294738853L
+					type: "choice"
+				}
+			]
+			tasks: [
+				{
+					id: "552BEE8E19421BF9"
+					item: "immersiveengineering:wirecoil_steel"
+					type: "item"
+				}
+				{
+					id: "730D2369A4C8F337"
+					item: "immersiveengineering:connector_hv"
+					type: "item"
+				}
+				{
+					id: "0B97DB36621930A8"
+					item: "immersiveengineering:connector_hv_relay"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["13ACEB48F967752A"]
+			id: "3D1D45BE17F181F1"
+			optional: true
+			rewards: [
+				{
+					id: "63C36A274132E737"
+					item: "engineersdecor:small_solar_panel"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "440D6E4CF8C5645C"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "23D24D4AA5AC56BF"
+					table_id: 2457031344294738853L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "25C7CB6746E4D445"
+				item: "engineersdecor:small_solar_panel"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5CC50E2F2BF559C8"]
+			icon: "immersiveengineering:lightning_rod"
+			id: "6464EE37EBC219F8"
+			rewards: [
+				{
+					id: "3EB13E7448D0422C"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2CE1AD1B0860FA12"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "74468F6DB575BA88"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "56FB8BCA74C40412"
+					table_id: 1366000479578652553L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					icon: "immersiveengineering:lightning_rod"
+					id: "31042A3D8D6EFE56"
+					observe_type: 0
+					timer: 0L
+					to_observe: "immersiveengineering:lightning_rod"
+					type: "observation"
+				}
+				{
+					count: 4L
+					id: "50D9ABE41BE88DD7"
+					item: "immersiveengineering:capacitor_hv"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "137B138C741DBBEA"
+					item: "immersiveengineering:coil_hv"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4A6527C607C00DEA"
+					item: "immersiveengineering:light_engineering"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "26E34FD5FD633201"
+					item: "immersiveengineering:coil_lv"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "31A948EBA5AA6AC2"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "590579B062245148"
+					item: "immersiveengineering:treated_fence"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 1.5d
+		}
+	]
+	title: "Generators"
+}

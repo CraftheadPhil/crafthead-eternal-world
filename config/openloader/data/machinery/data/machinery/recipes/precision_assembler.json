@@ -1,0 +1,34 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern":
+    [
+        "hxh",
+        "xex",
+        "axf"
+    ],
+    "key":
+    {
+        "x":
+        {
+            "item": "kubejs:stainless_steel_sheetmetal"
+        },
+        "a": {
+            "item": "engineersdecor:fluid_barrel"
+        },
+        "f": {
+            "item": "immersiveengineering:capacitor_hv"
+        },
+        "e": {
+            "item": "kubejs:machine_core"
+        },
+        "h": {
+            "item": "immersiveengineering:craftingtable"
+        }
+    },
+    "result":
+    {
+        "item": "custommachinery:custom_machine_item",
+        "count": 1,
+        "nbt": {"machine":"machinery:precision_assembler"}
+    }
+}

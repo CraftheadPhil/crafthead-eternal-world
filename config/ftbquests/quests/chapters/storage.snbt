@@ -1,0 +1,1015 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "storage"
+	group: "32B3130D174146C0"
+	hide_quest_until_deps_visible: true
+	icon: "minecraft:barrel"
+	id: "75DD5F47CBC8AE1F"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "035808EC217DA9D8"
+			rewards: [
+				{
+					id: "479B76495F4EB06E"
+					item: "sophisticatedstorage:basic_to_iron_tier_upgrade"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "0D007DC53E468E47"
+					item: "sophisticatedstorage:basic_to_copper_tier_upgrade"
+					type: "item"
+				}
+			]
+			subtitle: "Sophisticated storage forms multiblocks and are upgradable."
+			tasks: [{
+				id: "166D6B0C1479E883"
+				item: {
+					Count: 1b
+					id: "sophisticatedstorage:barrel"
+					tag: {
+						woodType: "oak"
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["035808EC217DA9D8"]
+			id: "56F1EEDCE83142E8"
+			rewards: [{
+				id: "0BEE90A1D94650DC"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_1"
+				type: "item"
+			}]
+			subtitle: "Limited barrels store stacks of 1 to 4 items."
+			tasks: [{
+				id: "2CA8064AC14A5928"
+				item: {
+					Count: 1b
+					id: "sophisticatedstorage:limited_barrel_1"
+					tag: {
+						woodType: "oak"
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["56F1EEDCE83142E8"]
+			description: ["&4&lWarning:&r&r Using the controller with a tom storage inventory connector leads to duplicated items showing in the terminal."]
+			id: "068DCC1EE274A076"
+			subtitle: "The controller can interact with pipes."
+			tasks: [{
+				id: "62E4A8377FC890BD"
+				item: "sophisticatedstorage:controller"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			description: [
+				"Just connect it to a sophisticated storage multiblock and you have mass storage like ME system."
+				""
+				"&4&lWarning&r&r using the storage terminal with a storage controller shows duplicates."
+			]
+			id: "73C3389BEEC60EFE"
+			rewards: [
+				{
+					id: "799BCBF32038F9C8"
+					item: {
+						Count: 1b
+						id: "toms_storage:ts.paint_kit"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "678B753962D3DF9C"
+					item: "toms_storage:ts.inventory_cable_framed"
+					type: "item"
+				}
+			]
+			subtitle: "Connect inventories to be used with a terminal."
+			tasks: [{
+				id: "4CEFB3CDF911C56D"
+				item: "toms_storage:ts.inventory_connector"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["73C3389BEEC60EFE"]
+			id: "5E99E2FCA57D2E9A"
+			rewards: [
+				{
+					id: "52BA9AF7F5C44B25"
+					item: "toms_storage:ts.inventory_hopper_basic"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "601981EF22B01FE1"
+					item: "toms_storage:ts.inventory_cable"
+					type: "item"
+				}
+			]
+			subtitle: "The crafting terminal is like a ME terminal without autocrafting."
+			tasks: [{
+				id: "26D9759E8CC180C1"
+				item: "toms_storage:ts.crafting_terminal"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["035808EC217DA9D8"]
+			id: "104D657188D6CC52"
+			rewards: [{
+				id: "425AA41CA84229D6"
+				item: "sophisticatedstorage:crafting_upgrade"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3558F47D5370A6AF"
+				item: {
+					Count: 1b
+					id: "sophisticatedstorage:copper_barrel"
+					tag: {
+						woodType: "oak"
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["104D657188D6CC52"]
+			id: "679E4B8EA01E67A4"
+			rewards: [{
+				id: "2A5391B0BE18298F"
+				item: "sophisticatedstorage:smelting_upgrade"
+				type: "item"
+			}]
+			tasks: [{
+				id: "70EACA87D9BDA085"
+				item: {
+					Count: 1b
+					id: "sophisticatedstorage:iron_barrel"
+					tag: {
+						woodType: "oak"
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["679E4B8EA01E67A4"]
+			id: "3CA8792482615771"
+			rewards: [{
+				id: "73D69E1447FDB344"
+				item: "sophisticatedstorage:stonecutter_upgrade"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7A29E80CC5447ED2"
+				item: {
+					Count: 1b
+					id: "sophisticatedstorage:gold_barrel"
+					tag: {
+						woodType: "oak"
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3CA8792482615771"]
+			id: "4FFD46A0975E36CF"
+			rewards: [
+				{
+					id: "2CE89A97E26AD627"
+					item: "sophisticatedstorage:blasting_upgrade"
+					type: "item"
+				}
+				{
+					id: "48E90413DEBCE135"
+					item: "sophisticatedstorage:smoking_upgrade"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2A61712FCDD9B4E9"
+					table_id: 1366000479578652553L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "64661C4406004093"
+				item: {
+					Count: 1b
+					id: "sophisticatedstorage:diamond_barrel"
+					tag: {
+						woodType: "oak"
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4FFD46A0975E36CF"]
+			id: "536489F924CEA7A4"
+			rewards: [
+				{
+					id: "0CD6D2AF2DDC88F7"
+					item: "sophisticatedstorage:basic_to_diamond_tier_upgrade"
+					type: "item"
+				}
+				{
+					id: "7C8936DD15797EA0"
+					item: "sophisticatedstorage:filter_upgrade"
+					type: "item"
+				}
+				{
+					id: "1814F1DDBFBDF23B"
+					item: "sophisticatedstorage:hopper_upgrade"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "18DBD80EA1A9072E"
+					table_id: 1366000479578652553L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "6C128DD68D08E3F8"
+				item: {
+					Count: 1b
+					id: "sophisticatedstorage:netherite_barrel"
+					tag: {
+						woodType: "oak"
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["56F1EEDCE83142E8"]
+			id: "33A447E85DF3260B"
+			rewards: [{
+				id: "66EC403E7D350554"
+				item: "sophisticatedstorage:stack_upgrade_tier_1_plus"
+				type: "item"
+			}]
+			tasks: [{
+				id: "10D63145EEF9F65E"
+				item: {
+					Count: 1b
+					id: "sophisticatedstorage:limited_copper_barrel_1"
+					tag: {
+						woodType: "oak"
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["33A447E85DF3260B"]
+			id: "4A91DB8FC59220FC"
+			rewards: [{
+				id: "0A30FC27DE0CB4E8"
+				item: "sophisticatedstorage:stack_upgrade_tier_2"
+				type: "item"
+			}]
+			tasks: [{
+				id: "193361386444E89C"
+				item: {
+					Count: 1b
+					id: "sophisticatedstorage:limited_iron_barrel_1"
+					tag: {
+						woodType: "oak"
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4A91DB8FC59220FC"]
+			id: "0F72AB85DFB27919"
+			rewards: [{
+				id: "1FC9674C87374165"
+				item: "sophisticatedstorage:stack_upgrade_tier_3"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5CC818D6DDC5A9EE"
+				item: {
+					Count: 1b
+					id: "sophisticatedstorage:limited_gold_barrel_1"
+					tag: {
+						woodType: "oak"
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0F72AB85DFB27919"]
+			id: "0E2F86AA7E7EBABD"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3E78FCB7A49AD67C"
+					table_id: 1366000479578652553L
+					type: "random"
+				}
+				{
+					id: "48D348A333E24D1B"
+					item: "sophisticatedstorage:stack_upgrade_tier_4"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "32353245569AFD23"
+				item: {
+					Count: 1b
+					id: "sophisticatedstorage:limited_diamond_barrel_1"
+					tag: {
+						woodType: "oak"
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0E2F86AA7E7EBABD"]
+			id: "409AF5B72EF19760"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7196B64186DF0C55"
+					table_id: 1366000479578652553L
+					type: "random"
+				}
+				{
+					id: "317F983980A24C35"
+					item: "sophisticatedstorage:stack_upgrade_tier_4"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "00F067FF26684040"
+				item: {
+					Count: 1b
+					id: "sophisticatedstorage:limited_netherite_barrel_1"
+					tag: {
+						woodType: "oak"
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5E99E2FCA57D2E9A"]
+			id: "2646A73007E745B5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "40C725A4790D39FB"
+				table_id: 1366000479578652553L
+				type: "random"
+			}]
+			subtitle: "A beacon near a terminal provide wireless access from anywhere."
+			tasks: [{
+				id: "1682F70924562016"
+				item: "minecraft:beacon"
+				type: "item"
+			}]
+			title: "Beaconized Terminal"
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["068DCC1EE274A076"]
+			id: "644EFA85101DE2EB"
+			rewards: [{
+				id: "44473B73000F83FF"
+				item: "sophisticatedstorage:storage_link"
+				type: "item"
+			}]
+			tasks: [{
+				id: "373C82128A213AD4"
+				item: "sophisticatedstorage:storage_link"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5E99E2FCA57D2E9A"]
+			id: "3DD4BCE2F820C96D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1C2F8BC6377D3036"
+				table_id: 1366000479578652553L
+				type: "random"
+			}]
+			tasks: [{
+				id: "33520B0833B08FB0"
+				item: "toms_storage:ts.inventory_cable_connector"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7C91BA69095D085D"]
+			id: "5F8460C2954DD698"
+			rewards: [
+				{
+					id: "06A710F113EBE1EF"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "376852F69F4062D3"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "262DC26A605FF212"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "436DA43224936A2F"
+					table_id: 1366000479578652553L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "499ADBA367C6020B"
+				item: {
+					Count: 1b
+					id: "sophisticatedbackpacks:netherite_backpack"
+					tag: {
+						contentsUuid: [I;
+							1735002529
+							74073719
+							-1512100594
+							-1004756355
+						]
+						inventorySlots: 120
+						upgradeSlots: 7
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7D4BD73DD5B134E4"]
+			id: "7C91BA69095D085D"
+			rewards: [
+				{
+					id: "0FE5008A44BD2906"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1829AAFA72C31CCE"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "66FC445EC3DBEFA7"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "7D08A117DD7214B3"
+				item: {
+					Count: 1b
+					id: "sophisticatedbackpacks:diamond_backpack"
+					tag: {
+						contentsUuid: [I;
+							-770756892
+							481641703
+							-1741632072
+							437053779
+						]
+						inventorySlots: 108
+						upgradeSlots: 5
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["18145D656050E16F"]
+			id: "7D4BD73DD5B134E4"
+			rewards: [
+				{
+					id: "5C6F8B5F32DEBFCF"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7FE765C7576E974B"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "790F393A3A77B2B8"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "52F3A4E3DEBE2247"
+				item: {
+					Count: 1b
+					id: "sophisticatedbackpacks:gold_backpack"
+					tag: {
+						contentsUuid: [I;
+							-492044105
+							155339750
+							-1408872010
+							-852380768
+						]
+						inventorySlots: 81
+						upgradeSlots: 3
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5D9EE9D95075F545"]
+			id: "18145D656050E16F"
+			rewards: [
+				{
+					id: "3A7BE0AE60517A04"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "559A8BBAA24CEA20"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0B6C1911307F2475"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "50A7205119AD7966"
+				item: {
+					Count: 1b
+					id: "sophisticatedbackpacks:iron_backpack"
+					tag: {
+						contentsUuid: [I;
+							-477933226
+							1584416048
+							-1587372854
+							-1184682175
+						]
+						inventorySlots: 54
+						upgradeSlots: 2
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["11873533AF2517F0"]
+			id: "5D9EE9D95075F545"
+			rewards: [
+				{
+					id: "522D44C18A20DA4B"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "67AB0008A1FAFC81"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2BB438F5CA2B1949"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "7A1EB6E782792539"
+				item: {
+					Count: 1b
+					id: "sophisticatedbackpacks:copper_backpack"
+					tag: {
+						contentsUuid: [I;
+							1108487842
+							-226341365
+							-1678432354
+							-792514339
+						]
+						inventorySlots: 45
+						upgradeSlots: 1
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			id: "11873533AF2517F0"
+			rewards: [
+				{
+					id: "754A959499EA65C1"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "11D460A3D6DFA753"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2AA2A7948B44B62A"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "58BBCCD3D6942FAC"
+				item: {
+					Count: 1b
+					id: "sophisticatedbackpacks:backpack"
+					tag: {
+						contentsUuid: [I;
+							982894415
+							-419017711
+							-1486901135
+							-2035934860
+						]
+						inventorySlots: 27
+						upgradeSlots: 1
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			id: "05CF07C2A21DE331"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2E74F6534F155A9F"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3AA7F6318DE31B38"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					id: "3E1A7A1DE5A9033A"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6A40D630FDE94BB8"
+					table_id: 2457031344294738853L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "15FF745E787EE584"
+				item: "dankstorage:dank_1"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["05CF07C2A21DE331"]
+			id: "75D6DCCE0A4ECA4E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "665CF28BCD55C1C5"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5BE802B5349B052E"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					id: "3FB9E13047A72293"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "765B56C3D4E799DB"
+					table_id: 2457031344294738853L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "1A3DAB2FAD990AD0"
+				item: "dankstorage:dank_2"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["75D6DCCE0A4ECA4E"]
+			id: "1599B3D0443669AE"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3B91D6F86FC140C0"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1723D49CF62751DB"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					id: "660A11A4A02ECFFA"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "01742E2D0440D047"
+					table_id: 2457031344294738853L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "3D8BB74775B2456B"
+				item: "dankstorage:dank_3"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1599B3D0443669AE"]
+			id: "544561D97C8854E7"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3B35185A87758D73"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "27020A7B1D260ECF"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					id: "29724AC2631B5435"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6DC7B904C3D46313"
+					table_id: 2457031344294738853L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "143F05D956FB7847"
+				item: "dankstorage:dank_4"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["544561D97C8854E7"]
+			id: "3F164210E95F33C7"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "426BF120EE572C78"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2BD5C5AF3D86CD9D"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					id: "0BC65AFE16351627"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4409DEE91AFCF219"
+					table_id: 2457031344294738853L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "25F919B3A2714105"
+				item: "dankstorage:dank_5"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3F164210E95F33C7"]
+			id: "26ECD8FA99D41034"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "09F287F3A4B12C33"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "27B0ADC90D355EAC"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					id: "0178EB7275712E38"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "12FE533769ACD74E"
+					table_id: 2457031344294738853L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "1E50A2F84101A43B"
+				item: "dankstorage:dank_6"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["26ECD8FA99D41034"]
+			id: "59655EDCB141746A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7F3EF0606E57FC45"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3A1B60CBAFD8F35C"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					id: "4E68564206835D4B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "53DDE6A8EF2C9F46"
+					table_id: 2457031344294738853L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1622B9488985B53A"
+					table_id: 1366000479578652553L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "01728285872E5C21"
+				item: "dankstorage:dank_7"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["05CF07C2A21DE331"]
+			id: "6786C4FF4B3C383A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0E37BC500A218146"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "62E33C8F622C291D"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					id: "7E9EFAC0ED172AE7"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1D01651800088CBA"
+					table_id: 2457031344294738853L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "53489CD144229D4A"
+				item: "dankstorage:dock"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.0d
+		}
+	]
+	title: "Storage"
+}

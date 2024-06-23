@@ -1,0 +1,94 @@
+{
+	"type": "custommachinery:custom_machine",
+	"machine": "machinery:chemical_etcher",
+	"time": 60,
+	"requirements": [
+        {
+            "type": "custommachinery:item",
+            "item": "kubejs:plastic_plate",
+            "amount": 1,
+            "mode": "input"
+        },
+        {
+            "type": "custommachinery:item",
+            "item": "immersiveengineering:wire_copper",
+            "amount": 1,
+            "mode": "input"
+        },
+        {
+            "type": "custommachinery:item",
+            "item": "minecraft:redstone",
+            "amount": 1,
+            "mode": "input"
+        },
+        {
+            "type": "custommachinery:item",
+            "item": "kubejs:circuit_board",
+            "amount": 1,
+            "mode": "output"
+        },
+        {
+			"type": "custommachinery:fluid",
+			"fluid": "kubejs:sulfuric_acid",
+			"amount": 100,
+			"mode": "input"
+		},
+		{
+			"type": "custommachinery:energy_per_tick",
+			"amount": 4096,
+			"mode": "input"
+		},
+        {
+            "type": "custommachinery:structure",
+            "keys": {
+              "a": "immersiveengineering:alu_scaffolding_standard[waterlogged\u003dfalse]",
+              "e": "kubejs:stainless_steel_block",
+              "f": "immersiveengineering:alu_fence",
+              "g": "immersiveengineering:light_engineering",
+              "h": "kubejs:stainless_steel_sheetmetal",
+              "i": "dustrial_decor:gold_chain[axis\u003dy,waterlogged\u003dfalse]",
+              "j": "immersiveengineering:alu_fence",
+              "k": "immersiveengineering:slab_steel_scaffolding_grate_top[type\u003dbottom,waterlogged\u003dfalse]",
+              "l": "immersiveengineering:coil_hv"
+            },
+            "pattern": [
+              [
+                " aja ",
+                "jjejj",
+                " aga ",
+                "     "
+              ],
+              [
+                " aha ",
+                "jhihj",
+                " aha ",
+                "  m  "
+              ],
+              [
+                " a a ",
+                "j i j",
+                " a a ",
+                "     "
+              ],
+              [
+                " a a ",
+                "j i j",
+                " a a ",
+                "     "
+              ],
+              [
+                " a a ",
+                "j i j",
+                " a a ",
+                "     "
+              ],
+              [
+                " kkk ",
+                "kklkk",
+                " kkk ",
+                "     "
+              ]
+            ]
+        }
+	]
+}

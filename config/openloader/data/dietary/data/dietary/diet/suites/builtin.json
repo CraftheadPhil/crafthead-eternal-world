@@ -1,0 +1,31 @@
+{
+    "replace": false,
+    "groups": [
+      "warped"
+    ],
+    "effects": [
+      {
+        "status_effects": [
+          {
+            "name": "endersdelight:phasing",
+            "power": 1
+          }
+        ],
+        "attributes": [
+            {
+                "name": "minecraft:generic.movement_speed",
+                "operation": "multiply_base",
+                "amount": 0.3
+            }
+        ],
+        "conditions": [
+          {
+            "groups": ["warped"],
+            "match": "all",
+            "above": 0.8,
+            "below": 1.0
+          }
+        ]
+      }
+    ]
+  }

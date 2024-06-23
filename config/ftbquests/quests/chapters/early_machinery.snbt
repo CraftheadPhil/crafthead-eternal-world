@@ -1,0 +1,1533 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "early_machinery"
+	group: "7678B8622C15829B"
+	hide_quest_until_deps_visible: true
+	icon: "immersiveengineering:crusher"
+	id: "7C9104B6617C9841"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4D8ECFB3AB6F5CBB"]
+			description: [
+				"The coken can be automated with flopper and hopper pulls the output from the bottom blocks."
+				""
+				"The basic blast furncae cannot be automated."
+			]
+			icon: "immersiveengineering:coke_oven"
+			id: "28E233969EEDC21A"
+			rewards: [
+				{
+					count: 27
+					id: "4D14F57EAEFE4F33"
+					item: "immersiveengineering:cokebrick"
+					type: "item"
+				}
+				{
+					id: "66108B2F06E923B5"
+					item: {
+						Count: 1b
+						id: "immersiveengineering:hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "700B56EA1D26A31E"
+					item: "immersiveengineering:manual"
+					type: "item"
+				}
+				{
+					id: "6026D56D32876BD6"
+					item: "torchmaster:megatorch"
+					type: "item"
+				}
+			]
+			subtitle: "Start producing steel with a coke oven and blast furnace."
+			tasks: [
+				{
+					consume_items: false
+					count: 27L
+					id: "43E8BF887C2D5A31"
+					item: "immersiveengineering:cokebrick"
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 27L
+					id: "6C07A8ACFCB423B8"
+					item: "immersiveengineering:blastbrick"
+					type: "item"
+				}
+			]
+			title: "Steel Production"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["28E233969EEDC21A"]
+			icon: "immersiveengineering:crusher"
+			id: "5DB20798F087624F"
+			rewards: [
+				{
+					count: 64
+					id: "6BEC8CBA1D1B8912"
+					item: "minecraft:bricks"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "6EFAD7E3ED51B347"
+					item: "engineersdecor:clinker_brick_block"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					count: 10L
+					id: "6FC3FCAB338BEC86"
+					item: "immersiveengineering:light_engineering"
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "751CEF941DE45E15"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 10L
+					id: "20396547A95DF66A"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 8L
+					id: "7367E8012E0A0538"
+					item: "immersiveengineering:steel_fence"
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 9L
+					id: "507B640DC79F04FB"
+					item: "minecraft:hopper"
+					type: "item"
+				}
+				{
+					icon: "immersiveengineering:crusher"
+					id: "00AD3027E46F7806"
+					observe_type: 0
+					timer: 0L
+					to_observe: "immersiveengineering:crusher"
+					type: "observation"
+				}
+			]
+			title: "Crusher"
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["28E233969EEDC21A"]
+			icon: "immersiveengineering:advanced_blast_furnace"
+			id: "3CAAEE10947A1F22"
+			rewards: [{
+				count: 64
+				id: "53DFF06B36D07530"
+				item: "engineersdecor:slag_brick_block"
+				type: "item"
+			}]
+			subtitle: "The improved blast furnace can be automated."
+			tasks: [
+				{
+					consume_items: false
+					count: 27L
+					id: "07030D41A84CA3C8"
+					item: "immersiveengineering:blastbrick_reinforced"
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "34B3E4646CD15614"
+					item: "minecraft:hopper"
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "45D05BA5344C1C27"
+					item: "immersiveengineering:blastfurnace_preheater"
+					type: "item"
+				}
+				{
+					icon: "immersiveengineering:advanced_blast_furnace"
+					id: "4130E99F5A7C9E3D"
+					observe_type: 0
+					timer: 0L
+					to_observe: "immersiveengineering:advanced_blast_furnace"
+					type: "observation"
+				}
+			]
+			title: "Improved Blast Furnace"
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3CAAEE10947A1F22"]
+			icon: "immersiveengineering:arc_furnace"
+			id: "69989867B7D3B5C0"
+			rewards: [
+				{
+					count: 128
+					id: "7C34575733C31C6B"
+					item: "dustrial_decor:cast_iron_block"
+					type: "item"
+				}
+				{
+					id: "51A4F1771DC86D48"
+					item: {
+						Count: 1b
+						id: "immersiveengineering:blueprint"
+						tag: {
+							blueprint: "electrode"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "The arc furnace can produce steel even faster."
+			tasks: [
+				{
+					count: 27L
+					id: "610857A3C14D31D9"
+					item: "immersiveengineering:blastbrick_reinforced"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "65FD76A71995F8B0"
+					item: "immersiveengineering:sheetmetal_steel"
+					type: "item"
+				}
+				{
+					count: 14L
+					id: "6A2610AC58C56C8B"
+					item: "immersiveengineering:slab_sheetmetal_steel"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "3C59C23ADB745FE3"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "3BD586D275709E64"
+					item: "immersiveengineering:heavy_engineering"
+					type: "item"
+				}
+				{
+					id: "290B6D7AB0461B06"
+					item: "minecraft:cauldron"
+					type: "item"
+				}
+				{
+					id: "0B74A76A86267ABE"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "168728F224E14B61"
+					item: "immersiveengineering:light_engineering"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "0FAF76281D11AB7C"
+					item: "immersiveengineering:storage_steel"
+					type: "item"
+				}
+				{
+					icon: "immersiveengineering:arc_furnace"
+					id: "20D91181B04E6455"
+					observe_type: 0
+					timer: 0L
+					to_observe: "immersiveengineering:arc_furnace"
+					type: "observation"
+				}
+			]
+			title: "Arc Furnace"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"7994AAC82D59C1A9"
+				"28E233969EEDC21A"
+			]
+			icon: "immersiveengineering:metal_press"
+			id: "5A1099C9E33933FF"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "16E50FF72E137C3E"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					id: "55C7AB355D107A11"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "070E95ACFDD72CDB"
+					item: {
+						Count: 1b
+						id: "immersiveengineering:blueprint"
+						tag: {
+							blueprint: "molds"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Craft plates and wires more efficiently."
+			tasks: [
+				{
+					id: "6A0C7D0A434D2D26"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+				{
+					id: "6A52B4F69D5FF642"
+					item: "immersiveengineering:heavy_engineering"
+					type: "item"
+				}
+				{
+					id: "200BC19ECFAD7A26"
+					item: "minecraft:piston"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "5EAFD8A15B1E8AEF"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "6A5A525415277E30"
+					item: "immersiveengineering:conveyor_basic"
+					type: "item"
+				}
+				{
+					icon: "immersiveengineering:metal_press"
+					id: "03822780158D7865"
+					observe_type: 0
+					timer: 0L
+					to_observe: "immersiveengineering:metal_press"
+					type: "observation"
+				}
+			]
+			title: "Metal Press"
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			id: "7EF9EDC3FB3B75F8"
+			rewards: [
+				{
+					id: "667B5CC81792A15E"
+					item: "crafting_on_a_stick:crafting_table"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "384989D4C2464D53"
+					item: "supplementaries:candy"
+					type: "item"
+				}
+			]
+			subtitle: "Crafting station can connect inventories to a crafting grid."
+			tasks: [{
+				id: "7762EEEF4E49244D"
+				item: "craftingstation:crafting_station"
+				type: "item"
+			}]
+			title: "Crafting Station"
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7EF9EDC3FB3B75F8"]
+			id: "7994AAC82D59C1A9"
+			rewards: [
+				{
+					id: "680B474DF23AA24F"
+					item: "immersiveengineering:craftingtable"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "55A5F3AA45D4B5AA"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4328B206653B5057"
+					table_id: 2457031344294738853L
+					type: "choice"
+				}
+				{
+					id: "5C0CB0224FC3855B"
+					item: {
+						Count: 1b
+						id: "immersiveengineering:blueprint"
+						tag: {
+							blueprint: "components"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1C98208AD61B7509"
+				item: "immersiveengineering:workbench"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5A1099C9E33933FF"]
+			description: [
+				"The assembler can automate crafting recipes."
+				"It can accept fluid from the bottom input block to craft recipes that requires a bucket of liquids."
+			]
+			icon: "immersiveengineering:assembler"
+			id: "4D1E4C6544651F08"
+			rewards: [
+				{
+					count: 128
+					id: "4912BEFE4C09ED09"
+					item: "dustrial_decor:sheet_metal_plating"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4A5A7441181FBDF6"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1440A7F5F1D17573"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "1729465A1B34EE62"
+					item: "immersiveengineering:light_engineering"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "4AE575E76045790A"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "263FD1B4ADD7D664"
+					item: "immersiveengineering:sheetmetal_iron"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "6E95265FD529C99B"
+					item: "immersiveengineering:slab_sheetmetal_iron"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "48412F1C727712B4"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "401F129C93709D16"
+					item: "immersiveengineering:conveyor_basic"
+					type: "item"
+				}
+				{
+					icon: "immersiveengineering:assembler"
+					id: "3E3AE29BCB578B08"
+					observe_type: 0
+					timer: 0L
+					to_observe: "immersiveengineering:assembler"
+					type: "observation"
+				}
+			]
+			title: "Assembler"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5A1099C9E33933FF"]
+			id: "2E03CFE0E4B9803A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "72E94945E96C4449"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "081BB9AC2173A028"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				icon: "immersiveengineering:bottling_machine"
+				id: "089CE30F8CD1171D"
+				observe_type: 0
+				timer: 0L
+				to_observe: "immersiveengineering:bottling_machine"
+				type: "observation"
+			}]
+			title: "Bottling Machine"
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7994AAC82D59C1A9"]
+			icon: "immersiveengineering:auto_workbench"
+			id: "619DF000A6400083"
+			rewards: [
+				{
+					id: "322256DEAA10D745"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "285E8F82AB649E18"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				icon: "immersiveengineering:auto_workbench"
+				id: "745971A780411386"
+				observe_type: 0
+				timer: 0L
+				to_observe: "immersiveengineering:auto_workbench"
+				type: "observation"
+			}]
+			title: "Auto workbench"
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5DB20798F087624F"]
+			icon: "immersiveengineering:excavator"
+			id: "48BDD84A238200CF"
+			rewards: [
+				{
+					count: 128
+					id: "1143857E11EB32FE"
+					item: "engineersdecor:clinker_brick_sastor_corner_block"
+					type: "item"
+				}
+				{
+					count: 128
+					id: "24B58B4156294408"
+					item: "immersiveengineering:hempcrete"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 9L
+					id: "47FFC1D2D6CDBD9B"
+					item: "immersiveengineering:storage_steel"
+					type: "item"
+				}
+				{
+					count: 26L
+					id: "15FAC1E2BC06DDB9"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "4457767D1C0B9D15"
+					item: "immersiveengineering:sheetmetal_steel"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "36DA4CDF814ECD11"
+					item: "immersiveengineering:radiator"
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "031CC4C273EF07BF"
+					item: "immersiveengineering:light_engineering"
+					type: "item"
+				}
+				{
+					id: "79D21E530A187868"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "40C93A208D4DFF70"
+					item: "immersiveengineering:heavy_engineering"
+					type: "item"
+				}
+				{
+					icon: "immersiveengineering:excavator"
+					id: "511764E0EF18565B"
+					observe_type: 0
+					timer: 0L
+					to_observe: "immersiveengineering:excavator"
+					type: "observation"
+				}
+			]
+			title: "Excavator"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			id: "4D8ECFB3AB6F5CBB"
+			rewards: [
+				{
+					count: 3
+					id: "02BB96301E556909"
+					item: "minecraft:hopper"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "3E51E6AFE222236C"
+					item: "minecraft:charcoal"
+					type: "item"
+				}
+				{
+					id: "14ED79B4B5353BDD"
+					item: "minecraft:campfire"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "04A301E67CD82357"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+			]
+			subtitle: "Basic furnaces to get thru the day"
+			tasks: [
+				{
+					id: "5D8ABCEAE89FBB30"
+					item: "minecraft:furnace"
+					type: "item"
+				}
+				{
+					id: "26760E0D6E6C3A35"
+					item: "minecraft:blast_furnace"
+					type: "item"
+				}
+				{
+					id: "09299BC465A6FBFE"
+					item: "minecraft:smoker"
+					type: "item"
+				}
+			]
+			title: "Furnaces"
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4D8ECFB3AB6F5CBB"]
+			id: "584A8E096F9520C5"
+			rewards: [
+				{
+					id: "241784CCB618A3D6"
+					item: "betterfurnacesreforged:color_upgrade"
+					type: "item"
+				}
+				{
+					id: "7A6FCFE7AADE1804"
+					item: "betterfurnacesreforged:redstone_signal_upgrade"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "63CBE63492993114"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "568732657A65AEDA"
+				item: {
+					Count: 1b
+					id: "betterfurnacesreforged:iron_furnace"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4D8ECFB3AB6F5CBB"]
+			description: ["The small electric furnace can be used to smelt items with RF early on."]
+			id: "629D38267CB4FDEB"
+			rewards: [
+				{
+					count: 64
+					id: "51482D08656B52F3"
+					item: "engineersdecor:metal_bar"
+					type: "item"
+				}
+				{
+					count: 128
+					id: "591415A761D077F6"
+					item: "engineersdecor:slag_brick_block"
+					type: "item"
+				}
+				{
+					id: "1BEAC34B040CB072"
+					item: "engineersdecor:sign_caution"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4C82D13B2851F8B8"
+				item: "engineersdecor:small_electrical_furnace"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["584A8E096F9520C5"]
+			id: "7EF65B6307313F5C"
+			rewards: [
+				{
+					id: "03B8B7CC89832070"
+					item: "betterfurnacesreforged:autooutput_upgrade"
+					type: "item"
+				}
+				{
+					id: "76350B1B1B52E761"
+					item: "betterfurnacesreforged:autoinput_upgrade"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "274BC1589D565644"
+				item: {
+					Count: 1b
+					id: "betterfurnacesreforged:gold_furnace"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7EF65B6307313F5C"]
+			id: "537AED70545FA70A"
+			rewards: [
+				{
+					id: "52466B0C123837E8"
+					item: "betterfurnacesreforged:factory_upgrade"
+					type: "item"
+				}
+				{
+					id: "1D34F92A3FFA73A9"
+					item: "betterfurnacesreforged:storage_upgrade"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "38714F46E9A11507"
+				item: {
+					Count: 1b
+					id: "betterfurnacesreforged:diamond_furnace"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["537AED70545FA70A"]
+			id: "28E7E76502F3C1F7"
+			rewards: [
+				{
+					id: "05D5FCF47460F43D"
+					item: "betterfurnacesreforged:liquid_fuel_upgrade"
+					type: "item"
+				}
+				{
+					id: "7201497979BB22AF"
+					item: "betterfurnacesreforged:xp_tank_upgrade"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "769EB4D338E2E87D"
+				item: {
+					Count: 1b
+					id: "betterfurnacesreforged:netherhot_furnace"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["28E7E76502F3C1F7"]
+			id: "067A251B49530F72"
+			rewards: [{
+				id: "60DDD33B1E08E1BD"
+				item: "betterfurnacesreforged:energy_upgrade"
+				type: "item"
+			}]
+			tasks: [{
+				id: "63EDE0ECAD35F502"
+				item: "betterfurnacesreforged:energy_upgrade"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["28E7E76502F3C1F7"]
+			id: "0364BDEDA21F6A41"
+			rewards: [{
+				id: "4BCA0F1F5DB5385B"
+				item: "betterfurnacesreforged:generator_upgrade"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2C6ECE406F98F3DD"
+				item: "betterfurnacesreforged:generator_upgrade"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["28E7E76502F3C1F7"]
+			id: "5F279CBA697D6169"
+			rewards: [{
+				id: "34EF5A8EA4FB609A"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			tasks: [{
+				id: "79C2FE3EF12FEC51"
+				item: "betterfurnacesreforged:raw_ore_processing_upgrade"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5F279CBA697D6169"]
+			id: "0EE6D26C77612AF3"
+			rewards: [{
+				id: "4938555F66871891"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			tasks: [{
+				id: "094C3FADCE85F6CF"
+				item: "betterfurnacesreforged:advanced_ore_processing_upgrade"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5F279CBA697D6169"]
+			id: "4F22C9F716C02FB8"
+			rewards: [{
+				id: "784C3CE9E6317D68"
+				type: "xp_levels"
+				xp_levels: 30
+			}]
+			tasks: [{
+				id: "1875256BC6E7E69E"
+				item: "betterfurnacesreforged:ultimate_ore_processing_upgrade"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4D8ECFB3AB6F5CBB"]
+			id: "47ED75CFA6BD9FF4"
+			rewards: [
+				{
+					count: 256
+					id: "2136455D20F625CF"
+					item: "minecraft:blackstone"
+					type: "item"
+				}
+				{
+					id: "38B82754F9CEE1CF"
+					item: "minecraft:stonecutter"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "14024319C640FE97"
+				item: "betterfurnacesreforged:cobblestone_generator"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["629D38267CB4FDEB"]
+			id: "7D680C5263BADF80"
+			rewards: [
+				{
+					count: 64
+					id: "00EEB13109D9458B"
+					item: "engineersdecor:metal_bar"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "6213B9C6205ACB87"
+					item: "engineersdecor:rebar_concrete"
+					type: "item"
+				}
+				{
+					id: "73F48EA74F0A2899"
+					item: "engineersdecor:sign_firehazard"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "07E835FC0B9D484F"
+				item: "engineersdecor:small_mineral_smelter"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["629D38267CB4FDEB"]
+			id: "5861003D13A8512A"
+			rewards: [
+				{
+					count: 64
+					id: "68E43081BF46779D"
+					item: "engineersdecor:metal_bar"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "59EB1F13D5AB90E9"
+					item: "engineersdecor:iron_inset_light"
+					type: "item"
+				}
+				{
+					id: "02272F76C06DF622"
+					item: "engineersdecor:sign_hotsurface"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "68EBFA2415CE5C1D"
+				item: "engineersdecor:small_waste_incinerator"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["629D38267CB4FDEB"]
+			id: "2BFC8325CC0D345D"
+			rewards: [
+				{
+					count: 64
+					id: "76043ED9BA63A53F"
+					item: "engineersdecor:metal_bar"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "5BF9501BC2E441B6"
+					item: "engineersdecor:panzerglass_block"
+					type: "item"
+				}
+				{
+					id: "60BB7806B0A741DE"
+					item: "engineersdecor:sign_frost"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6CB538FDE66E0EA3"
+				item: "engineersdecor:small_freezer"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["28E233969EEDC21A"]
+			id: "04261C8085327768"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "123D3FF51A5DE9C6"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					id: "1ECCD7810C917E91"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				icon: "immersiveengineering:mixer"
+				id: "6B5F5B8A74C2DDF5"
+				observe_type: 0
+				timer: 0L
+				to_observe: "immersiveengineering:mixer"
+				type: "observation"
+			}]
+			title: "Mixer"
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["28E233969EEDC21A"]
+			id: "6F931BE2E44F1488"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6CDAE9A57918C20B"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					id: "502A1CEE164EF2EB"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				icon: "immersiveengineering:squeezer"
+				id: "177311A096795BC3"
+				observe_type: 0
+				timer: 0L
+				to_observe: "immersiveengineering:squeezer"
+				type: "observation"
+			}]
+			title: "Industrial Squeezer"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["28E233969EEDC21A"]
+			id: "28513331447D3CB3"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "487DC9A43B276756"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					id: "00B9B3B20CE8828C"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				id: "73AA5BE559278E37"
+				item: "immersiveengineering:fermenter"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["28E233969EEDC21A"]
+			id: "25420E09737D836F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5F110281F5468D39"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					id: "5BEABB0D7CF48291"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				icon: "immersiveengineering:refinery"
+				id: "37F85889B776AE2D"
+				observe_type: 0
+				timer: 0L
+				to_observe: "immersiveengineering:refinery"
+				type: "observation"
+			}]
+			title: "Refinery"
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"6F931BE2E44F1488"
+				"07FC460CC2D7E3F0"
+			]
+			id: "539B7F45934BF441"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "625E6527280A4A5F"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					id: "2BC2A2ECB45CA064"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				amount: 1000L
+				fluid: "immersiveengineering:plantoil"
+				id: "1D941EDCDDD0A43A"
+				type: "fluid"
+			}]
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"07FC460CC2D7E3F0"
+				"28513331447D3CB3"
+			]
+			id: "3A869FFD72495D56"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5168A88F1BC3A326"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					id: "18782CA4CC1DB98F"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				amount: 1000L
+				fluid: "immersiveengineering:ethanol"
+				id: "2A221BD3E4EA48FD"
+				type: "fluid"
+			}]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"07FC460CC2D7E3F0"
+				"25420E09737D836F"
+				"539B7F45934BF441"
+				"3A869FFD72495D56"
+			]
+			id: "1D7C2FDDDF1B13C1"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5C65741BF8B195E3"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					id: "4BAD4115D13E66AD"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				amount: 1000L
+				fluid: "immersiveengineering:biodiesel"
+				id: "660C883AD2B94FD9"
+				type: "fluid"
+			}]
+			x: 2.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5A1099C9E33933FF"]
+			id: "48D922411A13A43E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3362463C7436089A"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5A7624A247524E52"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				icon: "immersiveengineering:sawmill"
+				id: "02937D24DCE25BBB"
+				observe_type: 0
+				timer: 0L
+				to_observe: "immersiveengineering:sawmill"
+				type: "observation"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["04261C8085327768"]
+			id: "36520C21729BB1E2"
+			tasks: [{
+				amount: 1000L
+				fluid: "immersiveengineering:concrete"
+				id: "46D47859CBF18FD8"
+				type: "fluid"
+			}]
+			x: 4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["584A8E096F9520C5"]
+			id: "21EDBEB988997D2B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "02985BEE2DF7E651"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7C89EAB6C376E2A0"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7BF791927D322E2F"
+					table_id: 5521946873318990640L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "281138E54A3DB4FB"
+				item: {
+					Count: 1b
+					id: "betterfurnacesreforged:iron_forge"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7EF65B6307313F5C"]
+			id: "06CBF297756F6975"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2A45490A314543B2"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1B3AE4E6BC4B6A72"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7E72E8D8DB90A2C8"
+					table_id: 5521946873318990640L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "047AE5EF98310037"
+				item: {
+					Count: 1b
+					id: "betterfurnacesreforged:gold_forge"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["537AED70545FA70A"]
+			id: "56E03C494D06FF20"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5E327DDD377D245A"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "702D44C6B046946B"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6E5627BFEAEBC581"
+					table_id: 5521946873318990640L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "2CE132D7ECE514FF"
+				item: {
+					Count: 1b
+					id: "betterfurnacesreforged:diamond_forge"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["28E7E76502F3C1F7"]
+			id: "6DA901E21678FA64"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5C18FE0F4816989D"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3378F053D1189B94"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "545F9B9973CDEEEC"
+					table_id: 5521946873318990640L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "42DD12478359C788"
+				item: {
+					Count: 1b
+					id: "betterfurnacesreforged:netherhot_forge"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["28E7E76502F3C1F7"]
+			id: "1235056D803A23D2"
+			rewards: [
+				{
+					id: "5F8F309BF512D7BE"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "618A1881B5D6C382"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "11985223D4F6DAE9"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2820424ECDCD56BB"
+					table_id: 1366000479578652553L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "16A29E583DC8EE56"
+				item: {
+					Count: 1b
+					id: "betterfurnacesreforged:extreme_furnace"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1235056D803A23D2"]
+			id: "199E5F51034360B9"
+			rewards: [
+				{
+					id: "2DB2118DE05EA064"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "00F3E40C28251DEC"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "521A313762D823EB"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4C25E3AAE80E7210"
+					table_id: 1366000479578652553L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "41A140C23798260E"
+				item: {
+					Count: 1b
+					id: "betterfurnacesreforged:ultimate_furnace"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["199E5F51034360B9"]
+			id: "021125199BE77D29"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "665CF5814556BA94"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "341D5C52EE29A3D3"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2C20C40BBBF3373C"
+					table_id: 5521946873318990640L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "3FF67A5BAC167E8C"
+				item: {
+					Count: 1b
+					id: "betterfurnacesreforged:ultimate_forge"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1235056D803A23D2"]
+			id: "7306A80FCC344A34"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "72B7A887E78D5ED5"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1923D476205B64E1"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "56F2D26D6C2BECA5"
+					table_id: 5521946873318990640L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "61AE87D981C15495"
+				item: {
+					Count: 1b
+					id: "betterfurnacesreforged:extreme_forge"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 5.0d
+		}
+	]
+	title: "Machinery"
+}

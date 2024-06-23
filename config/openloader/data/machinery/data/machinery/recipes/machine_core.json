@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern":
+    [
+        "axa",
+        "xex",
+        "axa"
+    ],
+    "key":
+    {
+        "x":
+        {
+            "item": "immersiveengineering:light_engineering"
+        },
+        "a": {
+            "item": "immersiveengineering:plate_aluminum"
+        },
+        "e": {
+            "item": "betterfurnacesreforged:energy_upgrade"
+        }
+    },
+    "result":
+    {
+        "item": "kubejs:machine_core",
+        "count": 1
+    }
+}

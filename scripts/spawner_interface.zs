@@ -1,0 +1,2 @@
+craftingTable.remove(<item:peripherals:spawner_interface>);
+craftingTable.addShaped("spawner_interface", <item:peripherals:spawner_interface> * 1, [[<item:immersiveengineering:sheetmetal_lead>, <item:minecraft:nether_star>, <item:immersiveengineering:sheetmetal_lead>], [<item:minecraft:netherite_ingot>, <item:kubejs:domination_core>, <item:minecraft:netherite_ingot>], [<item:immersiveengineering:sheetmetal_lead>, <item:immersiveengineering:component_electronic_adv>, <item:immersiveengineering:sheetmetal_lead>]]);

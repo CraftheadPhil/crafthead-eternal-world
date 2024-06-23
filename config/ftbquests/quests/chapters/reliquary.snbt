@@ -1,0 +1,1007 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "reliquary"
+	group: "327EBB5DF992B177"
+	hide_quest_until_deps_visible: true
+	icon: {
+		Count: 1b
+		id: "reliquary:mercy_cross"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "45BF15485B57D790"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "487CAD5D5EA7998C"
+			rewards: [
+				{
+					id: "69E79D5313AFEA89"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "reliquary:severing"
+								lvl: 5s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "57789B0B4EDC13DD"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "726A25ECE3833083"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "21B4E9197F53A9DF"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0727620BA1333C2A"
+					table_id: 5521946873318990640L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "1F3030966A80997A"
+				item: {
+					Count: 1b
+					id: "reliquary:magicbane"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["487CAD5D5EA7998C"]
+			id: "193B3A5156749888"
+			rewards: [
+				{
+					id: "171FFA1AE3678B76"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7AAE61BD6445E994"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4F8BBC9712016E81"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "01B9206EFEA0F3EC"
+					table_id: 5521946873318990640L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "2A9D34CC646AE52C"
+				item: "reliquary:apothecary_mortar"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["487CAD5D5EA7998C"]
+			id: "5F17C30271E3B2D7"
+			rewards: [
+				{
+					id: "5986C6ADB21FBCBB"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "790C61093261F0C2"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "02CC404B175CDE54"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6838F377C9F1E891"
+					table_id: 5521946873318990640L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "6BCD1794C9946349"
+				item: "reliquary:apothecary_cauldron"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["487CAD5D5EA7998C"]
+			id: "2A917F7589041EB5"
+			rewards: [
+				{
+					id: "20E395EF21F67FE2"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0ECDB0D5595831D4"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "221BA53D381D3631"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "02CB9587E4C87BB4"
+					table_id: 5521946873318990640L
+					type: "choice"
+				}
+			]
+			subtitle: "Infinite Nether Stars"
+			tasks: [{
+				id: "667DF938B2F76A04"
+				item: {
+					Count: 1b
+					id: "reliquary:alkahestry_tome"
+					tag: {
+						Damage: 1001
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2A917F7589041EB5"]
+			id: "02FE8C4934AB6482"
+			rewards: [
+				{
+					id: "7D8F88E69E347981"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "32C861713F66FC06"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3D43644A3DB38A18"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5F652A8792C5B275"
+					table_id: 5521946873318990640L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "6E2142A950462763"
+				item: "minecraft:nether_star"
+				only_from_crafting: true
+				type: "item"
+			}]
+			title: "Craft a nether star"
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["487CAD5D5EA7998C"]
+			description: [
+				"Pedestrals can be used to automate early mob grinding."
+				""
+				"Just put in a sword and it will kill mobs around it."
+				""
+				"Check JEI for all the possible interactions."
+			]
+			id: "0A8D03093077978F"
+			rewards: [
+				{
+					id: "71A8738BCDB19F2C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0287BE313B5C20FB"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7986EAA9EA597530"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3BD85308715F1914"
+					table_id: 5521946873318990640L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "07B7845C207D48E5"
+				item: "reliquary:pedestals/white_pedestal"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0A8D03093077978F"]
+			id: "2829A2B8BF76E542"
+			rewards: [
+				{
+					id: "09C3368F8A0C1B51"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "38D399A2E7DAB994"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "22919192E6C24128"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0CC971AA5E5684A2"
+					table_id: 5521946873318990640L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "4CAA16B42D153634"
+				item: "reliquary:fortune_coin"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0A8D03093077978F"]
+			id: "6AE606E8F704D912"
+			rewards: [
+				{
+					id: "2709E322E77692C7"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1C3288DB8054717B"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "13F9DF944383765B"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0A99B328CE0A7391"
+					table_id: 5521946873318990640L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "777779B36EDE449C"
+				item: "reliquary:hero_medallion"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["487CAD5D5EA7998C"]
+			id: "1E31BB5AFF451B4C"
+			rewards: [
+				{
+					id: "55738B1DD3291853"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2EEEEB01F2D9AC46"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3002CC73A2AA54CB"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5EAD8C72C84A4A94"
+					table_id: 5521946873318990640L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "2FCB305716940A1B"
+				item: "reliquary:mob_charm_belt"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1E31BB5AFF451B4C"]
+			id: "179418CC311D0CFA"
+			rewards: [
+				{
+					id: "4017CEE15662829C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1BE05A71C9B3D42C"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "26F08397E1BD22F5"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5C394424418456DA"
+					table_id: 5521946873318990640L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "33525E77747D53CE"
+				item: {
+					Count: 1b
+					id: "reliquary:mob_charm"
+					tag: {
+						Damage: 0
+						entity: "minecraft:blaze"
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1E31BB5AFF451B4C"]
+			id: "3B3F487467CE7368"
+			rewards: [
+				{
+					id: "3F8FA057288ED927"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7E06F7AA0B25FEDD"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "28EDFA0B8CF4178C"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5EA4D75E073778DA"
+					table_id: 5521946873318990640L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "723AE1097D876EA7"
+				item: {
+					Count: 1b
+					id: "reliquary:mob_charm"
+					tag: {
+						Damage: 0
+						entity: "minecraft:skeleton"
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1E31BB5AFF451B4C"]
+			id: "1D730E3906DD79F5"
+			rewards: [
+				{
+					id: "52EE2DCBB4504FCB"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4657B41915AA3A76"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3BA0DAEA588695A3"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "623918335208305E"
+					table_id: 5521946873318990640L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "71A1212CE816FD84"
+				item: {
+					Count: 1b
+					id: "reliquary:mob_charm"
+					tag: {
+						Damage: 0
+						entity: "minecraft:creeper"
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1E31BB5AFF451B4C"]
+			id: "693C96870DD750D7"
+			rewards: [
+				{
+					id: "7DEA82A5652294E5"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6FBAF367F1E2A335"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "751644E39BE48D94"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "24309F8CD1F1C860"
+					table_id: 5521946873318990640L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "54DB6A99B736C5D3"
+				item: {
+					Count: 1b
+					id: "reliquary:mob_charm"
+					tag: {
+						Damage: 0
+						entity: "minecraft:spider"
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1E31BB5AFF451B4C"]
+			id: "086A582B2799D353"
+			rewards: [
+				{
+					id: "3C806C7C725AECEE"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "74C811C705FEB18A"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "46AACD70AA9EE804"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6BA0291A0F768DA4"
+					table_id: 5521946873318990640L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "28B01DA1DB49A430"
+				item: {
+					Count: 1b
+					id: "reliquary:mob_charm"
+					tag: {
+						Damage: 0
+						entity: "minecraft:zombie"
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1E31BB5AFF451B4C"]
+			id: "7E981ADBCD2E7581"
+			rewards: [
+				{
+					id: "7405FFB217920A70"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "73ECC5604668BD42"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3D64985E6C5EAABC"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "23CECF06EFA58657"
+					table_id: 5521946873318990640L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "68B987BF37285CAF"
+				item: {
+					Count: 1b
+					id: "reliquary:mob_charm"
+					tag: {
+						Damage: 0
+						entity: "minecraft:witch"
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1E31BB5AFF451B4C"]
+			id: "6DBEEB9EE11021B3"
+			rewards: [
+				{
+					id: "17992467FB4A4E69"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2804F85B021AD3BD"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "168E393CE5B03A51"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "24411211BC4AC002"
+					table_id: 5521946873318990640L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "5EDAAAA5CF812D23"
+				item: {
+					Count: 1b
+					id: "reliquary:mob_charm"
+					tag: {
+						Damage: 0
+						entity: "minecraft:enderman"
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1E31BB5AFF451B4C"]
+			id: "31FA59286F1BD379"
+			rewards: [
+				{
+					id: "5B804EAE17EE849C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1FEADC96CAFC3650"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4A2431B1A5BB0A47"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "11B9CBE213A15903"
+					table_id: 5521946873318990640L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "4D37914A4C00A059"
+				item: {
+					Count: 1b
+					id: "reliquary:mob_charm"
+					tag: {
+						Damage: 0
+						entity: "minecraft:wither_skeleton"
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1E31BB5AFF451B4C"]
+			id: "67DFE84A67FED32B"
+			rewards: [
+				{
+					id: "37F1C49B7EE804D0"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "083BE88E7BA7E81B"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7A6FD4343AA59676"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "050C7D6E3139AAEC"
+					table_id: 5521946873318990640L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "1B7BE53A25D49980"
+				item: {
+					Count: 1b
+					id: "reliquary:mob_charm"
+					tag: {
+						Damage: 0
+						entity: "minecraft:ghast"
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["487CAD5D5EA7998C"]
+			id: "1B17B9444280C2C3"
+			rewards: [
+				{
+					id: "1D53AB2793FB191D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "247188755506775F"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4D96B72CC79858F2"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3D675753A6BF5141"
+					table_id: 5521946873318990640L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "4138A8D1C4C0EA9E"
+				item: "reliquary:handgun"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["487CAD5D5EA7998C"]
+			id: "2E14E4B0D335AE8B"
+			rewards: [
+				{
+					id: "319C2957572EC903"
+					item: "reliquary:wraith_node"
+					type: "item"
+				}
+				{
+					id: "6E64194BD13AA5EE"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "18255872A8DB1F60"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "090E28ADD0F83EB2"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "68788C260F130090"
+					table_id: 5521946873318990640L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "36BD301400B3E426"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Items: [{
+								amount: 0
+								filter: {
+									Count: 1b
+									id: "minecraft:ender_pearl"
+								}
+							}]
+						}
+					}
+					id: "reliquary:ender_staff"
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2E14E4B0D335AE8B"]
+			id: "1C4C5951E575B0E4"
+			rewards: [
+				{
+					id: "4F5CCFAE63D8E256"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "73756F6750415514"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6CCBDC87170C1246"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "67F28579646EEEB7"
+					table_id: 5521946873318990640L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "1A9EF606E0FD749F"
+				item: "reliquary:glacial_staff"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2E14E4B0D335AE8B"]
+			id: "5EB959E53C04121A"
+			rewards: [
+				{
+					id: "2C7CA9DA1877030F"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "11C3362CF8558849"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2A5448C50AFB56E4"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0587B7A762E8ABC8"
+					table_id: 5521946873318990640L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "70961F24F9637981"
+				item: "reliquary:pyromancer_staff"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2E14E4B0D335AE8B"]
+			id: "698543983B82B2FE"
+			rewards: [
+				{
+					id: "649E64D33E7A0572"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5BBAF9CB7E16F481"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "14A1CB618B33DDAA"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "67DFFE8B331FCE65"
+					table_id: 5521946873318990640L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "61D1495753891D1E"
+				item: {
+					Count: 1b
+					id: "reliquary:serpent_staff"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2E14E4B0D335AE8B"]
+			id: "01EAAE3AD6109914"
+			rewards: [
+				{
+					id: "7E7863ECBE3F351C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2175534E523C3CF9"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6A673DB44EE90146"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "266B40449930CFB8"
+					table_id: 5521946873318990640L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "1AB767D18793B1D7"
+				item: "reliquary:sojourner_staff"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.5d
+		}
+	]
+	title: "Reliquary"
+}

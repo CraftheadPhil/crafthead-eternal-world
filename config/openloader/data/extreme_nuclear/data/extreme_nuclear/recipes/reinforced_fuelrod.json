@@ -1,0 +1,30 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern":
+    [
+        "axa",
+        "geg",
+        "axa"
+    ],
+    "key":
+    {
+        "x":
+        {
+            "item": "bigreactors:graphite_ingot"
+        },
+        "a": {
+            "item": "kubejs:inconel_plate"
+        },
+        "e": {
+            "item": "bigreactors:basic_reactorfuelrod"
+        },
+        "g": {
+            "item": "engineersdecor:panzerglass_block"
+        }
+    },
+    "result":
+    {
+        "item": "bigreactors:reinforced_reactorfuelrod",
+        "count": 1
+    }
+}

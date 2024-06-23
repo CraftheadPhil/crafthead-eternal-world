@@ -1,0 +1,14 @@
+{
+    "replace": false,
+    "values": [
+        "nethersdelight:hoglin_loin",
+        "nethersdelight:hoglin_ear",
+        "nethersdelight:strider_slice",
+        "nethersdelight:plate_of_stuffed_hoglin_snout",
+        "nethersdelight:plate_of_stuffed_hoglin_ham",
+        "nethersdelight:plate_of_stuffed_hoglin_roast",
+        "casualness_delight:raw_donkey_meat",
+        "kubejs:smoked_meat",
+        "kubejs:smoked_fish"
+    ]
+}

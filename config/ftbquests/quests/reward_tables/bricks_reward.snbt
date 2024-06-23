@@ -1,0 +1,13 @@
+{
+	icon: "minecraft:bricks"
+	id: "1C020991A9A54E25"
+	loot_size: 128
+	order_index: 0
+	rewards: [
+		{ count: 128, item: "minecraft:bricks" }
+		{ count: 128, item: "engineersdecor:clinker_brick_block" }
+		{ count: 128, item: "supplementaries:ash_bricks" }
+		{ count: 128, item: "engineersdecor:slag_brick_block" }
+	]
+	title: "bricks reward"
+}

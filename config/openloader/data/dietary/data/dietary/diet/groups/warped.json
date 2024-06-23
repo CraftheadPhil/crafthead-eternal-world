@@ -1,0 +1,9 @@
+{
+    "icon": "minecraft:ender_eye",
+    "color": "#ffffff",
+    "order": 6,
+    "default_value": 0.25,
+    "gain_multiplier": 2.0,
+    "decay_multiplier": 0.5,
+    "beneficial": true
+}

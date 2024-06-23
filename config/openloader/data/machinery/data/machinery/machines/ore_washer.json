@@ -1,0 +1,155 @@
+{
+    "name": "Ore Washer",
+    "appearance": {
+        "block": "machineryrp:machine/ore_washer_idle",
+        "running": {
+            "block": "machineryrp:machine/ore_washer_active",
+            "lightlevel": 15
+        }
+    },
+    "gui": [
+        {
+            "texture": "custommachinery:textures/gui/base_background.png",
+            "x": 0,
+            "y": 0,
+            "type": "custommachinery:texture"
+        },
+        {
+            "x": 47,
+            "y": 80,
+            "type": "custommachinery:player_inventory"
+        },
+        {
+            "x": 47,
+            "y": 30,
+            "type": "custommachinery:fluid",
+            "id": "acid_tank"
+        },
+        {
+            "id": "input",
+            "x": 76,
+            "y": 40,
+            "type": "custommachinery:slot"
+          },
+        {
+            "x": 140,
+            "y": 30,
+            "type": "custommachinery:fluid",
+            "id": "slurry_tank"
+        },
+        {
+            "id": "upgrade_speed",
+            "x": 228,
+            "y": 30,
+            "type": "custommachinery:slot"
+        },
+        {
+            "id": "upgrade_energy",
+            "x": 228,
+            "y": 48,
+            "type": "custommachinery:slot"
+        },
+        {
+            "x": 102,
+            "y": 42,
+            "type": "custommachinery:progress"
+        },
+        {
+            "x": 236,
+            "y": 5,
+            "type": "custommachinery:status"
+        },
+        {
+            "x": 192,
+            "y": 30,
+            "type": "custommachinery:energy"
+        },
+        {
+            "text": "Ore Washer",
+            "x": 7,
+            "y": 5,
+            "type": "custommachinery:text"
+        }
+    ],
+    "components": [
+        {
+            "mode": "input",
+            "id": "input",
+            "type": "custommachinery:item",
+            "config": {
+                "default": "none",
+                "left": "input",
+                "input": true,
+                "output": false
+            }
+        },
+        {
+            "type": "custommachinery:fluid",
+            "capacity": 12000,
+            "id": "acid_tank",
+            "maxInput": 1000,
+            "maxOutput": 0,
+            "filter": ["kubejs:sulfuric_acid"],
+            "whitelist": true,
+            "config": {
+                "default": "none",
+                "bottom": "input",
+                "input": true,
+                "output": false
+            }
+        },
+        {
+            "type": "custommachinery:fluid",
+            "capacity": 12000,
+            "id": "slurry_tank",
+            "maxInput": 0,
+            "maxOutput": 1000,
+            "filter": [
+                "kubejs:iron_slurry",
+                "kubejs:gold_slurry",
+                "kubejs:copper_slurry",
+                "kubejs:silver_slurry",
+                "kubejs:lead_slurry",
+                "kubejs:aluminum_slurry",
+                "kubejs:nickel_slurry"
+            ],
+            "whitelist": true,
+            "config": {
+                "default": "none",
+                "right": "output",
+                "input": false,
+                "output": true
+            }
+        },
+        {
+            "mode": "input",
+            "id": "upgrade_speed",
+            "type": "custommachinery:item",
+            "variant": "custommachinery:upgrade",
+            "filter": ["kubejs:speed_upgrade"],
+            "whitelist": true
+        },
+        {
+            "mode": "input",
+            "id": "upgrade_energy",
+            "type": "custommachinery:item",
+            "variant": "custommachinery:upgrade",
+            "filter": ["kubejs:energy_upgrade"],
+            "whitelist": true
+        },
+        {
+            "capacity": 400000,
+            "type": "custommachinery:energy",
+            "config": {
+                "default": "none",
+                "top": "input",
+                "input": true,
+                "output": false
+            }
+        },
+        {
+            "type": "custommachinery:redstone",
+            "poweroutput": 15
+        }
+    ]
+}

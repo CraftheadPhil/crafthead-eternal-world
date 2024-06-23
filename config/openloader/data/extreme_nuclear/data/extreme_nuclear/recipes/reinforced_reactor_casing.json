@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern":
+    [
+        "axa",
+        "xex",
+        "axa"
+    ],
+    "key":
+    {
+        "x":
+        {
+            "item": "bigreactors:graphite_ingot"
+        },
+        "a": {
+            "item": "kubejs:inconel_plate"
+        },
+        "e": {
+            "item": "bigreactors:basic_reactorcasing"
+        }
+    },
+    "result":
+    {
+        "item": "bigreactors:reinforced_reactorcasing",
+        "count": 4
+    }
+}

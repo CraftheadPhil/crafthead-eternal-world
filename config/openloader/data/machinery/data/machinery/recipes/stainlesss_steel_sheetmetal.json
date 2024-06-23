@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern":
+    [
+        " x ",
+        "x x",
+        " x "
+    ],
+    "key":
+    {
+        "x":
+        {
+            "item": "kubejs:stainless_steel_plate"
+        }
+    },
+    "result":
+    {
+        "item": "kubejs:stainless_steel_sheetmetal",
+        "count": 1
+    }
+}

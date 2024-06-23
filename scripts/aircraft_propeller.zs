@@ -1,0 +1,2 @@
+craftingTable.remove(<item:immersive_aircraft:propeller>);
+craftingTable.addShaped("aircraft_propeller", <item:immersive_aircraft:propeller> * 1, [[<item:immersiveengineering:plate_aluminum>, <item:immersiveengineering:plate_aluminum>, <item:minecraft:air>], [<item:minecraft:air>, <item:immersiveengineering:component_iron>, <item:minecraft:air>], [<item:minecraft:air>, <item:immersiveengineering:plate_aluminum>, <item:immersiveengineering:plate_aluminum>]]);

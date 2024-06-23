@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern":
+    [
+        " e ",
+        "exe",
+        " e "
+    ],
+    "key":
+    {
+        "x": {
+            "item": "bigreactors:cyanite_ingot"
+        },
+        "e": {
+            "item": "kubejs:inconel_plate"
+        }
+    },
+    "result":
+    {
+        "item": "bigreactors:reinforced_turbinerotorshaft",
+        "count": 1
+    }
+}

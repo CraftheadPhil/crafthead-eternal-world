@@ -1,0 +1,2 @@
+craftingTable.remove(<item:betterfurnacesreforged:netherhot_conductor_block>);
+craftingTable.addShaped("netherhot_conductor", <item:betterfurnacesreforged:netherhot_conductor_block> * 1, [[<item:exocraft:lava_crystal>, <item:minecraft:blaze_rod>, <item:exocraft:lava_crystal>], [<item:minecraft:blaze_rod>, <item:betterfurnacesreforged:gold_conductor_block>, <item:minecraft:blaze_rod>], [<item:exocraft:lava_crystal>, <item:minecraft:blaze_rod>, <item:exocraft:lava_crystal>]]);

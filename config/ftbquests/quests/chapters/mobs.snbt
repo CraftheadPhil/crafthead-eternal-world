@@ -1,0 +1,452 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "mobs"
+	group: "327EBB5DF992B177"
+	hide_quest_until_deps_visible: true
+	icon: "cagedmobs:mob_cage"
+	id: "7C47932EFD77DF95"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7489EB94C1CAC652"]
+			id: "098B4DCE86C6009A"
+			rewards: [
+				{
+					id: "7F412808B80B77E6"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3AE97BD1128F9D70"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "42C47853C4EE9C7E"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "60393887941186E9"
+					table_id: 2457031344294738853L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "16186E065FC31644"
+				item: "kubejs:domination_core"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["098B4DCE86C6009A"]
+			id: "3C80E4547E4D59A2"
+			rewards: [
+				{
+					id: "2F01A766A830FFAF"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3FC2AFC4C874A30F"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "48472EE25D7190B9"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "627E887E491B53C1"
+					table_id: 2457031344294738853L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "3B1AF2F5CCAF159D"
+				item: "cagedmobs:mob_cage"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3C80E4547E4D59A2"]
+			id: "66EA1764F5D15B80"
+			rewards: [
+				{
+					id: "06B84CD040808944"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5ABADD214C1E5D65"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0D94876C21BA4B41"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "70078652AF6CA0D6"
+					table_id: 2457031344294738853L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "1293676EDD637434"
+				item: "cagedmobs:hopping_mob_cage"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["098B4DCE86C6009A"]
+			id: "38B6F76B99F26625"
+			rewards: [
+				{
+					id: "4A652D92CE63D49A"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0D2BE94F4B34E1E1"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "76EFB654F250796A"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4659A8A1BCF02D60"
+					table_id: 2457031344294738853L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "17B8E7A37AEF9CAA"
+				item: "cagedmobs:dna_sampler"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["098B4DCE86C6009A"]
+			id: "07652D86CB41560E"
+			rewards: [
+				{
+					id: "0AAE94A215553FCD"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "58E8B3B954696232"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "430AA3056401AEAA"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "40F45F36B4941641"
+					table_id: 2457031344294738853L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "1E0F081E9286914A"
+				item: "cagedmobs:diamond_dna_sampler"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["098B4DCE86C6009A"]
+			id: "161B02418EC7776D"
+			rewards: [
+				{
+					id: "36E78FA4401CB031"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3684E9497C0588AB"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5A08879CABD745C8"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1A2D1EFFF35DFDF7"
+					table_id: 2457031344294738853L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "12B93B84EB4CB768"
+				item: "cagedmobs:netherite_dna_sampler"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["098B4DCE86C6009A"]
+			id: "6051E99656F0A9CE"
+			rewards: [
+				{
+					id: "2E4D303DFD2AD072"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "71F89761D480B037"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "79DB4B0BF50DD993"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "15D72A01AB5E791F"
+					table_id: 2457031344294738853L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "63587D2E79CAAD3D"
+				item: "cagedmobs:speed_i_upgrade"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["098B4DCE86C6009A"]
+			id: "74D320FAB1B1E8D9"
+			rewards: [
+				{
+					id: "70A037D9A1EA4A8B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6E63BB0A8FC87026"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5D65E62A1E6AD01A"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "05797101A5DA8311"
+					table_id: 2457031344294738853L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "61FE5803D3C48713"
+				item: "cagedmobs:looting_upgrade"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["098B4DCE86C6009A"]
+			id: "5D14E4A3B7D8AA0D"
+			rewards: [
+				{
+					id: "07A24C4C8C8201D3"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "78B7FEB17174F562"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "126CA5D45FF08D60"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4D9E215EC59F63F8"
+					table_id: 2457031344294738853L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "01368E1EF9651CB6"
+				item: "cagedmobs:experience_upgrade"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["098B4DCE86C6009A"]
+			id: "6D1A2F12B23CE251"
+			rewards: [
+				{
+					id: "34AE7D4800448491"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4BC15FAA47B0FCDA"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0848DDA425599CF6"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "06EEA85E1ADF9523"
+					table_id: 2457031344294738853L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "40D0E12956BB7CBA"
+				item: "cagedmobs:lightning_upgrade"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6051E99656F0A9CE"]
+			id: "342E714B84005B22"
+			rewards: [
+				{
+					id: "675F00E68D72C66F"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "71F49A0CB9E6D1AA"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "69E3F023E4569539"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "61865B74C7A98FA5"
+					table_id: 2457031344294738853L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "1924AEBEF3077476"
+				item: "cagedmobs:speed_ii_upgrade"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["342E714B84005B22"]
+			id: "0DB320B07F6E549A"
+			rewards: [
+				{
+					id: "7E236B5A1E30008F"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "77962E297C1CDD52"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "27BB02F61F289C38"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7E462D326B18E249"
+					table_id: 2457031344294738853L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5E6CF49426B6831A"
+					table_id: 1366000479578652553L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "70C6E62250FEFFC1"
+				item: "cagedmobs:speed_iii_upgrade"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -5.5d
+		}
+	]
+	title: "Mobs"
+}

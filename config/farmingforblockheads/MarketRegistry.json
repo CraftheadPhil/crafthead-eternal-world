@@ -1,0 +1,134 @@
+{
+    "customEntries": [
+        {
+            "output": {
+                "item": "culturaldelights:eggplant_seeds"
+            },
+            "payment": {
+                "item": "minecraft:emerald",
+                "count": 1
+            },
+            "category": "farmingforblockheads:seeds"
+        },
+        {
+            "output": {
+                "item": "culturaldelights:cucumber_seeds"
+            },
+            "payment": {
+                "item": "minecraft:emerald",
+                "count": 1
+            },
+            "category": "farmingforblockheads:seeds"
+        },
+        {
+            "output": {
+                "item": "culturaldelights:corn_kernels"
+            },
+            "payment": {
+                "item": "minecraft:emerald",
+                "count": 1
+            },
+            "category": "farmingforblockheads:seeds"
+        },
+        {
+            "output": {
+                "item": "italian_delight:grape_seeds"
+            },
+            "payment": {
+                "item": "minecraft:emerald",
+                "count": 1
+            },
+            "category": "farmingforblockheads:seeds"
+        },
+        {
+            "output": {
+                "item": "farmersrespite:tea_seeds"
+            },
+            "payment": {
+                "item": "minecraft:emerald",
+                "count": 1
+            },
+            "category": "farmingforblockheads:seeds"
+        },
+        {
+            "output": {
+                "item": "collectorsreap:pomegranate_seeds"
+            },
+            "payment": {
+                "item": "minecraft:emerald",
+                "count": 2
+            },
+            "category": "farmingforblockheads:seeds"
+        },
+        {
+            "output": {
+                "item": "collectorsreap:lime_seeds"
+            },
+            "payment": {
+                "item": "minecraft:emerald",
+                "count": 2
+            },
+            "category": "farmingforblockheads:seeds"
+        },
+        {
+            "output": {
+                "item": "culturaldelights:avocado_sapling"
+            },
+            "payment": {
+                "item": "minecraft:emerald",
+                "count": 1
+            },
+            "category": "farmingforblockheads:saplings"
+        },
+        {
+            "output": {
+                "item": "endercrop:ender_seeds"
+            },
+            "payment": {
+                "item": "minecraft:emerald",
+                "count": 8
+            },
+            "category": "farmingforblockheads:seeds"
+        },
+        {
+            "output": {
+                "item": "exocraft:unit_old"
+            },
+            "payment": {
+                "item": "minecraft:emerald",
+                "count": 30
+            },
+            "category": "farmingforblockheads:other"
+        },
+        {
+            "output": {
+                "item": "supplementaries:globe"
+            },
+            "payment": {
+                "item": "minecraft:emerald",
+                "count": 10
+            },
+            "category": "farmingforblockheads:other"
+        },
+        {
+            "output": {
+                "item": "minecraft:slime_ball"
+            },
+            "payment": {
+                "item": "minecraft:emerald",
+                "count": 4
+            },
+            "category": "farmingforblockheads:other"
+        },
+        {
+            "output": {
+                "item": "minecraft:ender_pearl"
+            },
+            "payment": {
+                "item": "minecraft:emerald",
+                "count": 8
+            },
+            "category": "farmingforblockheads:other"
+        }
+    ]
+}

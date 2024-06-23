@@ -1,0 +1,17 @@
+{
+    "item": "kubejs:energy_upgrade",
+    "machines": [
+      "machinery:electro_extractor", "machinery:ore_washer",
+      "machinery:induction_furnace", "machinery:melter",
+      "machinery:crystallizer", "machinery:vulcanizer",
+      "machinery:chemical_etcher"
+    ],
+    "modifiers": [
+      {
+        "requirement": "custommachinery:energy_per_tick",
+        "mode": "input",
+        "operation": "exponential",
+        "modifier": 0.75
+      }
+    ]
+  }

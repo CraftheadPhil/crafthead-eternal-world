@@ -1,0 +1,2127 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "tools__gadgets"
+	group: ""
+	hide_quest_until_deps_visible: true
+	icon: {
+		Count: 1b
+		id: "justhammers:diamond_hammer"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "621F7DA1FDE1BE85"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["You can repair tools with their craft materials in a crafting grid."]
+			id: "59EFEA83237EEC32"
+			rewards: [
+				{
+					count: 16
+					id: "00C1DDAF2D238266"
+					item: "minecraft:flint"
+					type: "item"
+				}
+				{
+					id: "61938280E023AE22"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7744ED8A0F143E11"
+					table_id: 3560176666418337475L
+					type: "random"
+				}
+				{
+					id: "4FF5E76DFB8873FA"
+					item: "minecraft:anvil"
+					type: "item"
+				}
+			]
+			subtitle: "Wooden tools are disabled."
+			tasks: [
+				{
+					id: "3CCB29DA7BBDB268"
+					item: {
+						Count: 1b
+						id: "pickletweaks:flint_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1D49BE5B71A4EC58"
+					item: {
+						Count: 1b
+						id: "pickletweaks:flint_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "42CA285F93C4E0CE"
+					item: {
+						Count: 1b
+						id: "pickletweaks:flint_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4D5841D1CBFDDAA6"
+					item: {
+						Count: 1b
+						id: "pickletweaks:flint_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Flint Tools"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["59EFEA83237EEC32"]
+			id: "53F59B57DE994720"
+			rewards: [
+				{
+					id: "1A58BD1C43D6BAC1"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 16
+					id: "5E528AEDE9A822D8"
+					item: "minecraft:flint"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "484A9F044EAF8AC2"
+					table_id: 3560176666418337475L
+					type: "random"
+				}
+			]
+			subtitle: "Paxels take less spaces"
+			tasks: [{
+				id: "1FB3C978D6A97B67"
+				item: {
+					Count: 1b
+					id: "pickletweaks:flint_paxel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["59EFEA83237EEC32"]
+			description: [
+				"Hammers have a few oddities in how they work."
+				""
+				"They should not break when durability reach 1, but if you mine more than the durability, then it will break. The same is true for axe and felling trees."
+				""
+				"They can be repaired with their crafting material on a crafting grid before they break."
+				""
+				"They will destroy blocks they cannot mine (dirt, gravel)."
+				""
+				"They will not apply extra fortune boost from curios like the lucky scarf."
+			]
+			id: "71FD7B9A5738BF27"
+			rewards: [
+				{
+					id: "17A5B0FDF5443468"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 64
+					id: "4A6B987E4005DA0F"
+					item: "minecraft:stone"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0EB912AE63D0167B"
+					table_id: 3560176666418337475L
+					type: "random"
+				}
+			]
+			subtitle: "Hammers can mine a larger area."
+			tasks: [{
+				id: "067AAC8A6AAA4568"
+				item: {
+					Count: 1b
+					id: "justhammers:stone_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["71FD7B9A5738BF27"]
+			id: "44F1B46426546BF4"
+			rewards: [
+				{
+					id: "2EDD154FC0A32143"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "11881A262ECDE4FB"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "15A089FC954424D7"
+					table_id: 3560176666418337475L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "2A8FE2F3427E050A"
+				item: {
+					Count: 1b
+					id: "justhammers:iron_impact_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["44F1B46426546BF4"]
+			id: "4C394D403EF04B4B"
+			rewards: [
+				{
+					id: "0FAC58D7C9D1C518"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4F07BF779CFF9D77"
+					table_id: 1366000479578652553L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "641353E49B032DA6"
+					table_id: 2457031344294738853L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "70FB6B8CDA898FCF"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+			]
+			subtitle: "This makes big holes"
+			tasks: [{
+				id: "49B7FBC4AF1C3465"
+				item: {
+					Count: 1b
+					id: "justhammers:diamond_reinforced_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["54F2655F1D218F37"]
+			id: "118F98DC49C99AFC"
+			rewards: [
+				{
+					id: "16A68E55627E3F46"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					exclude_from_claim_all: true
+					id: "304A287A685C2EB2"
+					table_id: 1366000479578652553L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2EA6360443BFBF07"
+					table_id: 5983731832797824056L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "19D97A3FBAF16862"
+					table_id: 5521946873318990640L
+					type: "random"
+				}
+			]
+			subtitle: "Ultimate land clearing"
+			tasks: [{
+				id: "3EE10F6202BB87BF"
+				item: {
+					Count: 1b
+					id: "justhammers:netherite_destructor_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["53F59B57DE994720"]
+			id: "1D441EC7DBA818F7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7F455BCE27ED988F"
+				table_id: 3560176666418337475L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0E77830BE03B6A8B"
+				item: {
+					Count: 1b
+					id: "pickletweaks:iron_sickle"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["53F59B57DE994720"]
+			id: "752BBC9B341C0711"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7EBD0B00454D70A8"
+				table_id: 3560176666418337475L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6C55C4301BE0B4FC"
+				item: {
+					Count: 1b
+					id: "pickletweaks:iron_scythe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["53F59B57DE994720"]
+			id: "2A41ED82F493050B"
+			rewards: [
+				{
+					id: "70A07D5CDA370091"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7365F56524688398"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "30AC59F67790236C"
+					table_id: 2457031344294738853L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "26754278917757DD"
+					table_id: 3560176666418337475L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "0CD5D5F101F3387B"
+				item: {
+					Count: 1b
+					id: "pickletweaks:iron_paxel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2A41ED82F493050B"]
+			id: "5F759702F96D0BB4"
+			rewards: [{
+				id: "7C09FAB839A6AEDD"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "710FFC841FDC2329"
+				item: {
+					Count: 1b
+					id: "pickletweaks:diamond_paxel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5F759702F96D0BB4"]
+			id: "741E43BCAE28D6B0"
+			rewards: [{
+				id: "570422DA3C0ECB5B"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "4DC441FC7D3F4DE3"
+				item: {
+					Count: 1b
+					id: "pickletweaks:netherite_paxel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["59EFEA83237EEC32"]
+			id: "7CF7DFA8898CA706"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6C0CAE40DA96D034"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					id: "08108EDB32B95DB3"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Charge items with burnables"
+			tasks: [{
+				id: "5B27E05EE9291ECC"
+				item: {
+					Count: 1b
+					id: "charginggadgets:charging_station"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["7CF7DFA8898CA706"]
+			id: "43F6023881421556"
+			rewards: [
+				{
+					id: "674DB3F6CBC3AB39"
+					type: "xp"
+					xp: 250
+				}
+				{
+					exclude_from_claim_all: true
+					id: "20290E8D6020376B"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3AF43B7CD7A8A872"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7779AB38204FF9FA"
+					table_id: 8636064487688316631L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "19A6330819817926"
+				item: {
+					Count: 1b
+					id: "buildinggadgets:gadget_building"
+					tag: {
+						state: {
+							data: { }
+							serializer: "buildinggadgets:dummy_serializer"
+							state: {
+								Name: "minecraft:air"
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["7CF7DFA8898CA706"]
+			id: "30028B8524E5A6CC"
+			rewards: [
+				{
+					id: "7822C65EDB1A5088"
+					type: "xp"
+					xp: 250
+				}
+				{
+					exclude_from_claim_all: true
+					id: "75ADFAC6B4AECFD7"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "29674313F0C78683"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5A1C5065CB293D3F"
+					table_id: 8636064487688316631L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "4FA94C60EC6EC9C9"
+				item: {
+					Count: 1b
+					id: "buildinggadgets:gadget_exchanging"
+					tag: {
+						state: {
+							data: { }
+							serializer: "buildinggadgets:dummy_serializer"
+							state: {
+								Name: "minecraft:air"
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["7CF7DFA8898CA706"]
+			id: "356258B77529A5F2"
+			rewards: [
+				{
+					id: "35B5F5A0F1FBB196"
+					type: "xp"
+					xp: 250
+				}
+				{
+					exclude_from_claim_all: true
+					id: "41AB5F7978E9B269"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "406AC26AB61248C1"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1B3FBE6CE75E82EC"
+					table_id: 8636064487688316631L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "508C571DFB4919A3"
+				item: {
+					Count: 1b
+					id: "buildinggadgets:gadget_copy_paste"
+					tag: {
+						mode: 0b
+						template_id: [I;
+							1930810647
+							1900429441
+							-1445548081
+							166914378
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7CF7DFA8898CA706"]
+			id: "32CDF5C189EEEC3B"
+			rewards: [
+				{
+					id: "0C6B8EFF63C311F8"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "753F318B37E7F409"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0541363D410DCD1F"
+					table_id: 2457031344294738853L
+					type: "choice"
+				}
+			]
+			subtitle: "Charge items with RF"
+			tasks: [{
+				id: "0EC8B8E65A1DC425"
+				item: "immersiveengineering:charging_station"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["32CDF5C189EEEC3B"]
+			id: "17F8E90D34A62B9C"
+			rewards: [
+				{
+					id: "3299E9C8B35D8B9E"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3ED7F94B83E43FAA"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "49948E1D4FEFE3AF"
+					table_id: 5521946873318990640L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "4FBD083F9D023190"
+				item: "wirelesschargers:basic_wireless_block_charger"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["7CF7DFA8898CA706"]
+			id: "4547B5B356EA08AA"
+			rewards: [
+				{
+					id: "46C6E90E331994C4"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "35F1692E17794CE6"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "664D2BA5D9B5D0A4"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "1F4E219032A95918"
+				item: "scannable:scanner"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4547B5B356EA08AA"]
+			id: "06B91AA273100B8B"
+			rewards: [
+				{
+					id: "79A9809BF2DC5405"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1183A56DFF23982B"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "43A4AB7943C2E35E"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+			]
+			tasks: [
+				{
+					id: "0E20E522FFA1C480"
+					item: "scannable:common_ores_module"
+					type: "item"
+				}
+				{
+					id: "7CCDAE63AD72A521"
+					item: "scannable:rare_ores_module"
+					type: "item"
+				}
+			]
+			title: "Scanner Modules"
+			x: 3.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["7994AAC82D59C1A9"]
+			id: "0162CCFF8233FFD7"
+			optional: true
+			rewards: [
+				{
+					id: "386C415EFBE9CA16"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "417DAB6F0726743B"
+					table_id: 1366000479578652553L
+					type: "random"
+				}
+			]
+			subtitle: "Projector help building multiblocks"
+			tasks: [{
+				id: "06432BCCE7F3EACD"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 0
+						}
+					}
+					id: "immersivepetroleum:projector"
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["22B74DBB8B672EBC"]
+			id: "28B914EF90A23C0B"
+			rewards: [
+				{
+					id: "5339A319758048F6"
+					type: "xp"
+					xp: 250
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2D42AE4B1FA03E78"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "74DE7621519A70B2"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "268E822127E3F011"
+				item: {
+					Count: 1b
+					id: "minecraft:diamond_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["22B74DBB8B672EBC"]
+			id: "6A6BB7D33214D3AC"
+			rewards: [
+				{
+					id: "783933DEF405E1A7"
+					type: "xp"
+					xp: 250
+				}
+				{
+					exclude_from_claim_all: true
+					id: "11B8E424C4313353"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2AD3E7B74EA4D478"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3C1F8CC72B438AA0"
+					table_id: 3560176666418337475L
+					type: "random"
+				}
+			]
+			subtitle: "Knives get you extra food loot."
+			tasks: [{
+				id: "5353F944B121011F"
+				item: {
+					Count: 1b
+					id: "delightful:steel_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6A6BB7D33214D3AC"]
+			id: "0F3C14F78F435BF1"
+			rewards: [
+				{
+					id: "16437644293F2DCB"
+					type: "xp"
+					xp: 250
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1B20425CFFA65F7C"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0DBC897F52450805"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3B479474C78E48E5"
+					table_id: 3560176666418337475L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "459ABA8B22BA36F1"
+				item: {
+					Count: 1b
+					id: "farmersdelight:diamond_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["22B74DBB8B672EBC"]
+			id: "0A7E40B8FCF6667B"
+			rewards: [
+				{
+					id: "5989D60BF802B68C"
+					type: "xp"
+					xp: 250
+				}
+				{
+					exclude_from_claim_all: true
+					id: "12EB6E0C04E4F3F1"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "005A94C2B68CC8A8"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2E8D8F1B571ED8D0"
+					table_id: 3560176666418337475L
+					type: "random"
+				}
+			]
+			subtitle: "Also get you more food, but at a lesser rate."
+			tasks: [{
+				id: "47080D6ACB5FCE34"
+				item: {
+					Count: 1b
+					id: "nethersdelight:iron_machete"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0F3C14F78F435BF1"]
+			id: "2E9BA16B2FE33F7D"
+			rewards: [
+				{
+					id: "2F24577FE07CBCFB"
+					type: "xp"
+					xp: 250
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2459F0E00C34B547"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4EB1399226D59416"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "64EC9A0B0CDE9847"
+					table_id: 1366000479578652553L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "512B752E376D7FE3"
+					table_id: 3560176666418337475L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "7DD7B0FA33C73789"
+				item: {
+					Count: 1b
+					id: "farmersdelight:netherite_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["28B914EF90A23C0B"]
+			id: "73A81BD14DABC5DB"
+			rewards: [
+				{
+					id: "7EEE1FD9E729BB67"
+					type: "xp"
+					xp: 250
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1C21D142C8C08E79"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "09EBFA734920B36C"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4AD3CAA3C86C9AC7"
+					table_id: 1366000479578652553L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0561428D921A7488"
+					table_id: 2457031344294738853L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "78DBE994A8FDD260"
+				item: {
+					Count: 1b
+					id: "minecraft:netherite_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["59EFEA83237EEC32"]
+			description: ["Steel makes a sword as good as diamond but with less durability."]
+			id: "22B74DBB8B672EBC"
+			rewards: [
+				{
+					id: "7290B8AA3FDFEC25"
+					type: "xp"
+					xp: 250
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6CD9EB8EA18895D5"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3D6FE74AF4BC7964"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2C0698E336AA7E30"
+					table_id: 3560176666418337475L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "05175B0690CC03A1"
+				item: {
+					Count: 1b
+					id: "immersiveengineering:sword_steel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0A7E40B8FCF6667B"]
+			id: "54222EE56C7CA58F"
+			rewards: [
+				{
+					id: "0D83BFCD4AF56F3F"
+					type: "xp"
+					xp: 250
+				}
+				{
+					exclude_from_claim_all: true
+					id: "11F24FE628542E7C"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6B91E3892FF9F36C"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "139022A0E5FDAB43"
+					table_id: 3560176666418337475L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "637E7F9AF562B854"
+				item: {
+					Count: 1b
+					id: "nethersdelight:diamond_machete"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["54222EE56C7CA58F"]
+			id: "54DA6EDDCAC59A7E"
+			rewards: [
+				{
+					id: "041C87A347E9240E"
+					type: "xp"
+					xp: 250
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2DE57719C1C8E0BD"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "04A90D5EA65FA28C"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1D931E5F7143A180"
+					table_id: 1366000479578652553L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6E6B91B88637C127"
+					table_id: 3560176666418337475L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "7AAC46FC5BA37A03"
+				item: {
+					Count: 1b
+					id: "nethersdelight:netherite_machete"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["59EFEA83237EEC32"]
+			id: "3A9A02D222B192BD"
+			rewards: [
+				{
+					id: "2B82AC7F68DBDBFB"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "30D9CC2C53B51D79"
+					table_id: 1366000479578652553L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "467DF039FE6EBE9F"
+					table_id: 3560176666418337475L
+					type: "random"
+				}
+			]
+			subtitle: "Useful if you can't find a particular biome."
+			tasks: [{
+				id: "17416A3AA39E7A26"
+				item: {
+					Count: 1b
+					id: "naturescompass:naturescompass"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["59EFEA83237EEC32"]
+			id: "2F3CE7732BF50A83"
+			rewards: [
+				{
+					id: "024B9A7F6B92FDB0"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "110C1EA8848A531C"
+					table_id: 1366000479578652553L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "220E02EC5A51CDCA"
+					table_id: 3560176666418337475L
+					type: "random"
+				}
+			]
+			subtitle: "Most useful exploration tool"
+			tasks: [{
+				id: "04FC381E119E7371"
+				item: {
+					Count: 1b
+					id: "explorerscompass:explorerscompass"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["59EFEA83237EEC32"]
+			id: "06B98ED9090D1996"
+			rewards: [
+				{
+					id: "4E99176E1941B95C"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "057B2DF479A06197"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "60D41527B2A4BB2C"
+					table_id: 2457031344294738853L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "56A915F0C1C4A764"
+				item: {
+					Count: 1b
+					id: "simplemagnets:basicmagnet"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["06B98ED9090D1996"]
+			id: "3ACAC6A7BAAA44E9"
+			rewards: [
+				{
+					id: "0B4E03181C0707E5"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "05B2D0A957958738"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "00A90F7BA7C7EEC7"
+					table_id: 2457031344294738853L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "54254A14A7254341"
+				item: {
+					Count: 1b
+					id: "simplemagnets:advancedmagnet"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["06B98ED9090D1996"]
+			id: "1922FAB12911242A"
+			rewards: [
+				{
+					id: "30A2B2B08A12CE3C"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4F4389C92D56C8BF"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7CC10DD2558D21F0"
+					table_id: 2457031344294738853L
+					type: "random"
+				}
+				{
+					id: "6E9F7EC07202058B"
+					item: "simplemagnets:basic_demagnetization_coil"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0C49BAF42CB87B5B"
+				item: "simplemagnets:basic_demagnetization_coil"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1922FAB12911242A"]
+			id: "439EB125C6472290"
+			rewards: [
+				{
+					id: "295E81D720F9C054"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "12D8A84972B18B5B"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "17FD6E84B6733C63"
+					table_id: 2457031344294738853L
+					type: "random"
+				}
+				{
+					id: "74F5A6B0418E2ECD"
+					item: "simplemagnets:advanced_demagnetization_coil"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3A63196CA32CF5DD"
+				item: "simplemagnets:advanced_demagnetization_coil"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7994AAC82D59C1A9"]
+			id: "330591FC6440556C"
+			optional: true
+			rewards: [
+				{
+					id: "046588E65978FE54"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4670D02DB2C00D11"
+					table_id: 1366000479578652553L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "765C9606615A78DF"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 3
+						}
+					}
+					id: "immersiveengineering:railgun"
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7994AAC82D59C1A9"]
+			id: "53767E4F0C27592E"
+			optional: true
+			rewards: [
+				{
+					id: "1D4EC8C0136F803F"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "631A377773AD01BB"
+					table_id: 1366000479578652553L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "7FC07C1503A5DF42"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 5
+						}
+					}
+					id: "immersiveengineering:drill"
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["59EFEA83237EEC32"]
+			description: ["Chisel blocks are hidden in JEI but still available with the chisel."]
+			id: "34F7CC02A3DBADEC"
+			rewards: [
+				{
+					count: 128
+					id: "1C7D3075C8347D33"
+					item: "minecraft:blackstone"
+					type: "item"
+				}
+				{
+					count: 128
+					id: "47E8361D8D42867E"
+					item: "minecraft:basalt"
+					type: "item"
+				}
+				{
+					count: 128
+					id: "60DD6E8BADCAA756"
+					item: "minecraft:bricks"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1F080C28A75C0311"
+				item: {
+					Count: 1b
+					id: "rechiseled:chisel"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7994AAC82D59C1A9"]
+			id: "086033C70929E99E"
+			optional: true
+			rewards: [
+				{
+					count: 64
+					id: "6DE28F342D944E9F"
+					item: "immersiveengineering:casull"
+					type: "item"
+				}
+				{
+					id: "5F986B4E25302838"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "70CFF8179FE5D26C"
+					table_id: 1366000479578652553L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "18DA721A4F45019D"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 21
+						}
+					}
+					id: "immersiveengineering:revolver"
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7994AAC82D59C1A9"]
+			id: "36CEF34E4D846DBE"
+			optional: true
+			rewards: [
+				{
+					id: "41A17956880F8076"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7EF18D5674F4DAFE"
+					table_id: 1366000479578652553L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "58FA05D14AD2E7A0"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 4
+						}
+					}
+					id: "immersiveengineering:chemthrower"
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7994AAC82D59C1A9"]
+			id: "39E28B82CE8CB1C6"
+			optional: true
+			rewards: [
+				{
+					id: "662EEA5FB2887E9A"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "568BB96512976D86"
+					table_id: 1366000479578652553L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "7002180616EB0F43"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 2
+						}
+					}
+					id: "immersiveengineering:skyhook"
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4C394D403EF04B4B"]
+			id: "54F2655F1D218F37"
+			rewards: [
+				{
+					id: "3A48E701DB02033E"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					exclude_from_claim_all: true
+					id: "51C670F92EB3245C"
+					table_id: 1366000479578652553L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6DCAA8BBD025ED8B"
+					table_id: 2018186104236494373L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "24F03EA172D2B84C"
+					table_id: 8636064487688316631L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "1924513D13F202E5"
+				item: {
+					Count: 1b
+					id: "justhammers:diamond_reinforced_impact_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["06B91AA273100B8B"]
+			id: "3E15AFF6CDA9312B"
+			rewards: [
+				{
+					id: "710FB171220465A5"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6FDF60F9A003E12C"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "74418D48247094C3"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "5046FC1F9E94A7A7"
+				item: "scannable:range_module"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["36CEF34E4D846DBE"]
+			id: "701C7D3F9E681639"
+			rewards: [{
+				id: "66FEEA881D243D33"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "5D569ABDCADA11A7"
+				item: "immersiveengineering:turret_chem"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["086033C70929E99E"]
+			id: "7B3C8FD74A05EE77"
+			rewards: [
+				{
+					id: "3D2EA20B63697FFE"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 64
+					id: "01DFEDA8DD96AADE"
+					item: "immersiveengineering:armor_piercing"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4B12BCED01ADD398"
+				item: "immersiveengineering:turret_gun"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["701C7D3F9E681639"]
+			id: "17F5AF6D6E182253"
+			tasks: [{
+				amount: 1000L
+				fluid: "immersivepetroleum:napalm"
+				id: "3639B0F98B05D3D5"
+				type: "fluid"
+			}]
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["59EFEA83237EEC32"]
+			id: "7EFE4DD311F7CA40"
+			rewards: [
+				{
+					id: "4DF569818D14A900"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "00C9F5CAD782A02A"
+					table_id: 1366000479578652553L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "00072AA50A8DDA08"
+					table_id: 3560176666418337475L
+					type: "random"
+				}
+			]
+			subtitle: "No more random"
+			tasks: [{
+				id: "08FE645A698A4703"
+				item: "enchantinginfuser:enchanting_infuser"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7EFE4DD311F7CA40"]
+			id: "0066C6823DDCC518"
+			rewards: [
+				{
+					id: "40D08186D714A4AB"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5624820F61C912F1"
+					table_id: 1366000479578652553L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6538CEBE9E605A21"
+					table_id: 3560176666418337475L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "128045F32A3E78CD"
+				item: "enchantinginfuser:advanced_enchanting_infuser"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["59EFEA83237EEC32"]
+			description: [
+				"The mining dimension makes it easy to mine for ores in peace."
+				""
+				"There is no mob spawn in the mining dimension and there is no deepslate or other stone types."
+				""
+				"The ore generation is also increased."
+			]
+			id: "4D777FB5F33F507B"
+			rewards: [
+				{
+					id: "100EE1809CA02782"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:efficiency"
+								lvl: 3s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2C58C3DBB72C390A"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:fortune"
+								lvl: 2s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "372EB40405696ED9"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:unbreaking"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Peaceful Mining"
+			tasks: [
+				{
+					id: "5CDEF8ECC84B3600"
+					item: "mining_dimension:teleporter"
+					type: "item"
+				}
+				{
+					dimension: "mining_dimension:mining"
+					id: "4F572C973DA54368"
+					type: "dimension"
+				}
+			]
+			title: "Mining Dimension"
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["59EFEA83237EEC32"]
+			id: "3D19C31ECD9FBED0"
+			rewards: [
+				{
+					id: "38BE1ED24B5135E2"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2D860BC9C4AEA1C9"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3BA4039CD8A37463"
+					table_id: 3560176666418337475L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "34E2DB3AAF9248E7"
+				item: {
+					Count: 1b
+					id: "adhooks:spear_launcher"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["59EFEA83237EEC32"]
+			id: "588E930CBD10203F"
+			rewards: [
+				{
+					id: "12D4B5276442D73D"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0AD35D87ED446C5A"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "22BB2F6A078F11CB"
+					table_id: 3560176666418337475L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "124680089910F5C8"
+				item: {
+					Count: 1b
+					id: "adhooks:pudge_launcher"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["59EFEA83237EEC32"]
+			id: "693BABEC00C0F454"
+			rewards: [
+				{
+					id: "702B36F20CDE16A4"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "20F49FEDD9FC5BF1"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "25CCFE43D0C7348A"
+					table_id: 3560176666418337475L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "3B20EAB39886FCB0"
+				item: {
+					Count: 1b
+					id: "adhooks:web_launcher"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4D777FB5F33F507B"]
+			description: ["These break on damage even on when in the curios slot."]
+			id: "697C198F1D838CFD"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "19D1A22AD682333A"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "06A596149778C036"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "03EF2C111C873C39"
+					table_id: 5521946873318990640L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "55B6DB99E0F966E7"
+				item: {
+					Count: 1b
+					id: "pickletweaks:night_vision_goggles"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["697C198F1D838CFD"]
+			id: "23538ADABD1770C1"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "69A7C913A32E2B68"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "484E4D4AE36D5932"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1682E7D94335441C"
+					table_id: 5521946873318990640L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "1EAEA5DFD8A0D6AF"
+				item: {
+					Count: 1b
+					id: "pickletweaks:reinforced_night_vision_goggles"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["697C198F1D838CFD"]
+			id: "19ADD1CBCBF1D182"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "75F50CADE03A7F34"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6F1480B62D5F5804"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "31F4EBDE70529B58"
+					table_id: 5521946873318990640L
+					type: "choice"
+				}
+			]
+			subtitle: "These don't break"
+			tasks: [{
+				id: "4D678DDF191169BC"
+				item: "artifacts:night_vision_goggles"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["34F7CC02A3DBADEC"]
+			description: [
+				"Chipped blocks are hidden in JEI but can still be crafted."
+				""
+				"You can upgrade a sophisticated backpack/storage for easy crafting."
+			]
+			id: "5F2602CE0C1BA43B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "67B4C9D310115F6A"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "16ED717179DBF4D4"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5E10670C0192B4A6"
+					table_id: 2457031344294738853L
+					type: "choice"
+				}
+			]
+			tasks: [
+				{
+					id: "1DFD3B010D2756A4"
+					item: "chipped:mason_table"
+					type: "item"
+				}
+				{
+					id: "214B96CA8D22E256"
+					item: "chipped:loom_table"
+					type: "item"
+				}
+				{
+					id: "27C3A580B62F6A42"
+					item: "chipped:alchemy_bench"
+					type: "item"
+				}
+				{
+					id: "3485CBB3ED5302F0"
+					item: "chipped:tinkering_table"
+					type: "item"
+				}
+				{
+					id: "0D1AF2E4A54B0861"
+					item: "chipped:glassblower"
+					type: "item"
+				}
+				{
+					id: "3BD78A07114F31A7"
+					item: "chipped:carpenters_table"
+					type: "item"
+				}
+				{
+					id: "5F84064A12BB19FE"
+					item: "chipped:botanist_workbench"
+					type: "item"
+				}
+			]
+			title: "Chipped Blocks"
+			x: 0.0d
+			y: -3.5d
+		}
+	]
+	title: "Tools"
+}

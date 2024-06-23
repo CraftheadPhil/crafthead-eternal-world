@@ -1,0 +1,368 @@
+{
+    "name": "Precision Assembler",
+    "appearance": {
+        "block": "machineryrp:machine/precision_assembler"
+    },
+    "processor": {
+        "type": "custommachinery:craft"
+    },
+    "gui": [
+        {
+            "texture": "machineryrp:textures/gui/background_precision_assembler.png",
+            "x": 0,
+            "y": 0,
+            "type": "custommachinery:texture"
+        },
+        {
+            "x": 47,
+            "y": 124,
+            "type": "custommachinery:player_inventory"
+        },
+        {
+            "id": "output",
+            "x": 130,
+            "y": 40,
+            "type": "custommachinery:slot",
+            "variant": "custommachinery:result"
+        },
+        {
+            "id": "input1",
+            "x": 7,
+            "y": 18,
+            "type": "custommachinery:slot"
+        },
+        {
+            "id": "input2",
+            "x": 25,
+            "y": 18,
+            "type": "custommachinery:slot"
+        },
+        {
+            "id": "input3",
+            "x": 43,
+            "y": 18,
+            "type": "custommachinery:slot"
+        },
+        {
+            "id": "input4",
+            "x": 61,
+            "y": 18,
+            "type": "custommachinery:slot"
+        },
+        {
+            "id": "input5",
+            "x": 79,
+            "y": 18,
+            "type": "custommachinery:slot"
+        },
+        {
+            "id": "input6",
+            "x": 7,
+            "y": 36,
+            "type": "custommachinery:slot"
+        },
+        {
+            "id": "input7",
+            "x": 25,
+            "y": 36,
+            "type": "custommachinery:slot"
+        },
+        {
+            "id": "input8",
+            "x": 43,
+            "y": 36,
+            "type": "custommachinery:slot"
+        },
+        {
+            "id": "input9",
+            "x": 61,
+            "y": 36,
+            "type": "custommachinery:slot"
+        },
+        {
+            "id": "input10",
+            "x": 79,
+            "y": 36,
+            "type": "custommachinery:slot"
+        },
+        {
+            "id": "input11",
+            "x": 7,
+            "y": 54,
+            "type": "custommachinery:slot"
+        },
+        {
+            "id": "input12",
+            "x": 25,
+            "y": 54,
+            "type": "custommachinery:slot"
+        },
+        {
+            "id": "input13",
+            "x": 43,
+            "y": 54,
+            "type": "custommachinery:slot"
+        },
+        {
+            "id": "input14",
+            "x": 61,
+            "y": 54,
+            "type": "custommachinery:slot"
+        },
+        {
+            "id": "input15",
+            "x": 79,
+            "y": 54,
+            "type": "custommachinery:slot"
+        },
+        {
+            "id": "input16",
+            "x": 7,
+            "y": 72,
+            "type": "custommachinery:slot"
+        },
+        {
+            "id": "input17",
+            "x": 25,
+            "y": 72,
+            "type": "custommachinery:slot"
+        },
+        {
+            "id": "input18",
+            "x": 43,
+            "y": 72,
+            "type": "custommachinery:slot"
+        },
+        {
+            "id": "input19",
+            "x": 61,
+            "y": 72,
+            "type": "custommachinery:slot"
+        },
+        {
+            "id": "input20",
+            "x": 79,
+            "y": 72,
+            "type": "custommachinery:slot"
+        },
+        {
+            "id": "input21",
+            "x": 7,
+            "y": 90,
+            "type": "custommachinery:slot"
+        },
+        {
+            "id": "input22",
+            "x": 25,
+            "y": 90,
+            "type": "custommachinery:slot"
+        },
+        {
+            "id": "input23",
+            "x": 43,
+            "y": 90,
+            "type": "custommachinery:slot"
+        },
+        {
+            "id": "input24",
+            "x": 61,
+            "y": 90,
+            "type": "custommachinery:slot"
+        },
+        {
+            "id": "input25",
+            "x": 79,
+            "y": 90,
+            "type": "custommachinery:slot"
+        },
+        {
+            "id": "lube_tank",
+            "type": "custommachinery:fluid",
+            "x": 170,
+            "y": 30
+        },
+        {
+            "x": 104,
+            "y": 42,
+            "type": "custommachinery:progress"
+        },
+        {
+            "x": 236,
+            "y": 5,
+            "type": "custommachinery:status"
+        },
+        {
+            "x": 200,
+            "y": 30,
+            "type": "custommachinery:energy"
+        },
+        {
+            "text": "Precision Assembler",
+            "x": 7,
+            "y": 5,
+            "type": "custommachinery:text"
+        }
+    ],
+    "components": [
+        {
+            "mode": "output",
+            "id": "output",
+            "type": "custommachinery:item",
+            "variant": "custommachinery:result"
+        },
+        {
+            "mode": "input",
+            "id": "input1",
+            "type": "custommachinery:item"
+        },
+        {
+            "mode": "input",
+            "id": "input2",
+            "type": "custommachinery:item"
+        },
+        {
+            "mode": "input",
+            "id": "input3",
+            "type": "custommachinery:item"
+        },
+        {
+            "mode": "input",
+            "id": "input4",
+            "type": "custommachinery:item"
+        },
+        {
+            "mode": "input",
+            "id": "input5",
+            "type": "custommachinery:item"
+        },
+        {
+            "mode": "input",
+            "id": "input6",
+            "type": "custommachinery:item"
+        },
+        {
+            "mode": "input",
+            "id": "input7",
+            "type": "custommachinery:item"
+        },
+        {
+            "mode": "input",
+            "id": "input8",
+            "type": "custommachinery:item"
+        },
+        {
+            "mode": "input",
+            "id": "input9",
+            "type": "custommachinery:item"
+        },
+        {
+            "mode": "input",
+            "id": "input10",
+            "type": "custommachinery:item"
+        },
+        {
+            "mode": "input",
+            "id": "input11",
+            "type": "custommachinery:item"
+        },
+        {
+            "mode": "input",
+            "id": "input12",
+            "type": "custommachinery:item"
+        },
+        {
+            "mode": "input",
+            "id": "input13",
+            "type": "custommachinery:item"
+        },
+        {
+            "mode": "input",
+            "id": "input14",
+            "type": "custommachinery:item"
+        },
+        {
+            "mode": "input",
+            "id": "input15",
+            "type": "custommachinery:item"
+        },
+        {
+            "mode": "input",
+            "id": "input16",
+            "type": "custommachinery:item"
+        },
+        {
+            "mode": "input",
+            "id": "input17",
+            "type": "custommachinery:item"
+        },
+        {
+            "mode": "input",
+            "id": "input18",
+            "type": "custommachinery:item"
+        },
+        {
+            "mode": "input",
+            "id": "input19",
+            "type": "custommachinery:item"
+        },
+        {
+            "mode": "input",
+            "id": "input20",
+            "type": "custommachinery:item"
+        },
+        {
+            "mode": "input",
+            "id": "input21",
+            "type": "custommachinery:item"
+        },
+        {
+            "mode": "input",
+            "id": "input22",
+            "type": "custommachinery:item"
+        },
+        {
+            "mode": "input",
+            "id": "input23",
+            "type": "custommachinery:item"
+        },
+        {
+            "mode": "input",
+            "id": "input24",
+            "type": "custommachinery:item"
+        },
+        {
+            "mode": "input",
+            "id": "input25",
+            "type": "custommachinery:item"
+        },
+        {
+            "type": "custommachinery:fluid",
+            "capacity": 12000,
+            "id": "lube_tank",
+            "maxInput": 1000,
+            "maxOutput": 0,
+            "filter": ["immersivepetroleum:lubricant"],
+            "whitelist": true,
+            "config": {
+                "default": "none",
+                "back": "input",
+                "input": true,
+                "output": false
+            }
+        },
+        {
+            "capacity": 4000000,
+            "type": "custommachinery:energy",
+            "config": {
+                "default": "none",
+                "top": "input",
+                "input": true,
+                "output": false
+            }
+        },
+        {
+            "type": "custommachinery:redstone",
+            "poweroutput": 15
+        }
+    ]
+}

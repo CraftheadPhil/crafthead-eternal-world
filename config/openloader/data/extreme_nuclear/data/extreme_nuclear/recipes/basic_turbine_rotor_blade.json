@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern":
+    [
+        "   ",
+        "exe",
+        "   "
+    ],
+    "key":
+    {
+        "x": {
+            "item": "bigreactors:cyanite_ingot"
+        },
+        "e": {
+            "item": "immersiveengineering:plate_aluminum"
+        }
+    },
+    "result":
+    {
+        "item": "bigreactors:basic_turbinerotorblade",
+        "count": 1
+    }
+}

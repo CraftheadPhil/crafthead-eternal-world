@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:blasting",
+    "ingredient": {
+        "item": "immersiveengineering:ingot_uranium"
+    },
+    "result": "bigreactors:yellorium_ingot",
+    "experience": 0.1,
+    "cookingtime": 100
+}

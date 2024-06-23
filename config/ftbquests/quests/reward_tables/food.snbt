@@ -1,0 +1,30 @@
+{
+	id: "316849D0C37FD6C3"
+	loot_size: 1
+	order_index: 7
+	rewards: [
+		{ item: "farmersdelight:fried_rice" }
+		{ item: "farmersdelight:hamburger" }
+		{ item: "farmersdelight:bacon_sandwich" }
+		{ item: "farmersdelight:beef_stew" }
+		{ item: "collectorsreap:honey_lime_chicken" }
+		{ item: "culturaldelights:chicken_taco" }
+		{ item: "collectorsreap:pomegranate_chicken" }
+		{ item: "culturaldelights:beef_burrito" }
+		{ item: "casualness_delight:beef_noodles" }
+		{ item: "culturaldelights:spicy_curry" }
+		{ item: "delightful:smore" }
+		{ item: "italian_delight:risotto_al_sugo" }
+		{ item: "farmersdelight:mushroom_rice" }
+		{ item: "casualness_delight:donkey_burger" }
+		{ item: "casualness_delight:fish_and_chips" }
+		{ item: "casualness_delight:spring_roll" }
+		{ item: "minecraft:suspicious_stew" }
+		{ item: "farmersdelight:fish_stew" }
+		{ item: "pineapple_delight:pineapple_fried_rice" }
+		{ item: "endersdelight:uncanny_cookies" }
+		{ item: "collectorsreap:pomegranate_mutton" }
+		{ item: "collectorsreap:lime_cookie" }
+	]
+	title: "food"
+}

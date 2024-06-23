@@ -1,0 +1,2 @@
+craftingTable.remove(<item:immersive_aircraft:sail>);
+craftingTable.addShaped("aircraft_sail", <item:immersive_aircraft:sail> * 1, [[<item:immersiveengineering:hemp_fabric>, <item:immersiveengineering:hemp_fabric>, <item:immersiveengineering:hemp_fiber>], [<item:immersiveengineering:hemp_fabric>, <item:immersiveengineering:hemp_fabric>, <item:immersiveengineering:hemp_fiber>], [<item:immersiveengineering:hemp_fabric>, <item:immersiveengineering:hemp_fabric>, <item:immersiveengineering:hemp_fiber>]]);

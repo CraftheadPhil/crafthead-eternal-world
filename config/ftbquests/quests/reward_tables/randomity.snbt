@@ -1,0 +1,155 @@
+{
+	id: "12F50232E44C7F89"
+	loot_size: 1
+	order_index: 5
+	rewards: [
+		{ item: "supplementaries:globe" }
+		{ item: "supplementaries:bomb" }
+		{
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					Parent: {
+						Items: [ ]
+						SelectedSlot: 0
+						Size: 6
+					}
+				}
+				id: "supplementaries:quiver"
+			}
+		}
+		{ item: "supplementaries:altimeter" }
+		{ item: "chromaticarsenal:chroma_shard" }
+		{ item: "chromaticarsenal:spicy_coal" }
+		{ item: "chromaticarsenal:cosmicola" }
+		{ item: "chromaticarsenal:magic_garlic_bread" }
+		{ item: "artifacts:night_vision_goggles" }
+		{
+			item: {
+				Count: 1b
+				id: "pickletweaks:night_vision_goggles"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "artifacts:kitty_slippers" }
+		{ item: "artifacts:lucky_scarf" }
+		{ item: "reliquary:angelic_feather" }
+		{ item: "reliquary:ice_magus_rod" }
+		{ item: "reliquary:infernal_claws" }
+		{ item: "reliquary:kraken_shell" }
+		{ item: "reliquary:phoenix_down" }
+		{
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					Parent: {
+						Items: [{
+							amount: 0
+							filter: {
+								Count: 1b
+								id: "minecraft:feather"
+							}
+						}]
+					}
+				}
+				id: "reliquary:rending_gale"
+			}
+		}
+		{ item: "reliquary:pyromancer_staff" }
+		{ item: "reliquary:rod_of_lyssa" }
+		{ item: "reliquary:sojourner_staff" }
+		{
+			item: {
+				Count: 1b
+				id: "reliquary:magicbane"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "reliquary:fertile_lily_pad" }
+		{ item: "toms_peripherals:laser_pointer" }
+		{ item: "cookingforblockheads:fridge" }
+		{
+			item: {
+				Count: 1b
+				id: "pickletweaks:watering_can"
+				tag: {
+					Water: 0b
+				}
+			}
+		}
+		{ item: "pickletweaks:diamond_apple" }
+		{ item: "pickletweaks:emerald_apple" }
+		{ item: "minecraft:enchanted_golden_apple" }
+		{ item: "manyideas_doors:player_door_sensor" }
+		{ item: "exocraft:unit_old" }
+		{ item: "cookingforblockheads:milk_jar" }
+		{ item: "minecraft:nautilus_shell" }
+		{ item: "minecraft:shulker_shell" }
+		{ item: "minecraft:turtle_egg" }
+		{ item: "minecraft:conduit" }
+		{ item: "minecraft:sea_lantern" }
+		{ item: "waystones:portstone" }
+		{ item: "reliquary:interdiction_torch" }
+		{ item: "farmersdelight:roast_chicken_block" }
+		{ item: "minecraft:tnt" }
+		{
+			item: {
+				Count: 1b
+				id: "gateways:gate_pearl"
+				tag: {
+					gateway: "gateways:eternal_gate"
+				}
+			}
+		}
+		{ item: "minecraft:diamond_horse_armor" }
+		{ item: "minecraft:firework_rocket" }
+		{ item: "reliquary:holy_hand_grenade" }
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:elytra"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "reliquary:emperor_chalice" }
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:trident"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "brewinandchewin:beer" }
+		{
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					Parent: {
+						Items: [ ]
+						Size: 0
+					}
+				}
+				id: "immersivepetroleum:projector"
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "farmersdelight:golden_knife"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "endersdelight:strange_eclair" }
+	]
+	title: "randomity"
+}

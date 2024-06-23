@@ -1,0 +1,97 @@
+{
+    "name": "High Pressure Boiler",
+    "appearance": {
+        "block": "machineryrp:machine/hp_boiler_idle",
+        "running": {
+            "lightlevel": 15,
+            "block": "machineryrp:machine/hp_boiler_active"
+        }
+    },
+    "gui": [
+        {
+            "texture": "custommachinery:textures/gui/base_background.png",
+            "x": 0,
+            "y": 0,
+            "type": "custommachinery:texture"
+        },
+        {
+            "x": 67,
+            "y": 30,
+            "type": "custommachinery:fluid",
+            "id": "water_tank"
+        },
+        {
+            "x": 116,
+            "y": 30,
+            "type": "custommachinery:fluid",
+            "id": "treated_water_tank"
+        },
+        {
+            "x": 87,
+            "y": 36,
+            "type": "custommachinery:progress"
+        },
+        {
+            "x": 236,
+            "y": 5,
+            "type": "custommachinery:status"
+        },
+        {
+            "x": 200,
+            "y": 30,
+            "type": "custommachinery:energy"
+        },
+        {
+            "text": "High Pressure Boiler",
+            "x": 7,
+            "y": 5,
+            "type": "custommachinery:text"
+        }
+    ],
+    "components": [
+        {
+            "type": "custommachinery:fluid",
+            "capacity": 10000,
+            "id": "water_tank",
+            "maxInput": 1000,
+            "maxOutput": 0,
+            "filter": ["minecraft:water"],
+            "whitelist": true,
+            "config": {
+                "default": "none",
+                "left": "input",
+                "input": true,
+                "output": false
+            }
+        },
+        {
+            "type": "custommachinery:fluid",
+            "capacity": 12000,
+            "id": "treated_water_tank",
+            "maxInput": 0,
+            "maxOutput": 1000,
+            "filter": ["kubejs:treated_water"],
+            "whitelist": true,
+            "config": {
+                "default": "none",
+                "right": "output",
+                "input": false,
+                "output": true
+            }
+        },
+        {
+            "capacity": 120000,
+            "type": "custommachinery:energy",
+            "config": {
+                "default": "none",
+                "top": "input",
+                "input": true,
+                "output": false
+            }
+        },
+        {
+            "type": "custommachinery:redstone",
+            "poweroutput": 15
+        }
+    ]
+}

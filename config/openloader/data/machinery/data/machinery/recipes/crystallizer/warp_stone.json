@@ -1,0 +1,85 @@
+{
+	"type": "custommachinery:custom_machine",
+	"machine": "machinery:crystallizer",
+	"time": 160,
+	"requirements": [
+		{
+			"type": "custommachinery:item",
+			"item": "waystones:warp_dust",
+			"amount": 4,
+			"mode": "input"
+		},
+        {
+			"type": "custommachinery:item",
+			"item": "minecraft:purple_dye",
+			"amount": 1,
+			"mode": "input"
+		},
+        {
+			"type": "custommachinery:item",
+			"item": "waystones:warp_stone",
+			"amount": 1,
+			"mode": "output"
+		},
+		{
+			"type": "custommachinery:fluid",
+			"fluid": "kubejs:liquid_crystal",
+			"amount": 1000,
+			"mode": "input"
+		},
+		{
+			"type": "custommachinery:energy_per_tick",
+			"amount": 4096,
+			"mode": "input"
+		},
+		{
+			"type": "custommachinery:structure",
+			"keys": {
+			  "a": "immersiveengineering:alu_scaffolding_standard[waterlogged\u003dfalse]",
+			  "b": "immersiveengineering:sheetmetal_electrum",
+			  "c": "minecraft:quartz_slab[type\u003dbottom,waterlogged\u003dfalse]",
+			  "d": "minecraft:quartz_block",
+			  "e": "kubejs:infinity_crystal",
+			  "f": "immersiveengineering:slab_sheetmetal_electrum[type\u003dtop,waterlogged\u003dfalse]",
+			  "g": "minecraft:end_rod[facing\u003ddown]",
+			  "h": "immersiveengineering:slab_sheetmetal_electrum[type\u003dbottom,waterlogged\u003dfalse]",
+			  "i": "immersiveengineering:slab_storage_silver[type\u003dbottom,waterlogged\u003dfalse]",
+			  "z": "immersiveengineering:coil_mv"
+			},
+			"pattern": [
+			  [
+				"abbba",
+				"bcccb",
+				"bcdcb",
+				"bcccb",
+				"abbba",
+				"  m  "
+			  ],
+			  [
+				"a   a",
+				"     ",
+				"  e  ",
+				"     ",
+				"a   a",
+				"     "
+			  ],
+			  [
+				"a   a",
+				"f   f",
+				"f g f",
+				"f   f",
+				"a   a",
+				"     "
+			  ],
+			  [
+				"h   h",
+				"     ",
+				"iizii",
+				"     ",
+				"h   h",
+				"     "
+			  ]
+			]
+		}
+	]
+}

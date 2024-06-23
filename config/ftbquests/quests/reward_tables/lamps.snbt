@@ -1,0 +1,17 @@
+{
+	id: "221920FD5EB03BA5"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{ count: 4, item: "minecraft:lantern" }
+		{ count: 4, item: "supplementaries:copper_lantern" }
+		{ count: 4, item: "supplementaries:crimson_lantern" }
+		{ count: 4, item: "supplementaries:lead_lantern" }
+		{ count: 4, item: "supplementaries:silver_lantern" }
+		{ count: 4, item: "dustrial_decor:redstone_lantern" }
+		{ item: "dustrial_decor:large_redstone_lantern" }
+		{ count: 4, item: "dustrial_decor:large_lantern" }
+		{ count: 4, item: "immersiveengineering:lantern" }
+	]
+	title: "Lanterns"
+}

@@ -1,0 +1,124 @@
+{
+    "name": "Melter",
+    "appearance": {
+        "block": "machineryrp:machine/melter_idle",
+        "running": {
+            "lightlevel": 15,
+            "block": "machineryrp:machine/melter_active"
+        }
+    },
+    "gui": [
+        {
+            "texture": "custommachinery:textures/gui/base_background.png",
+            "x": 0,
+            "y": 0,
+            "type": "custommachinery:texture"
+        },
+        {
+            "x": 47,
+            "y": 80,
+            "type": "custommachinery:player_inventory"
+        },
+        {
+            "id": "output_tank",
+            "x": 156,
+            "y": 26,
+            "type": "custommachinery:fluid"
+        },
+        {
+            "id": "input1",
+            "x": 80,
+            "y": 40,
+            "type": "custommachinery:slot"
+        },
+        {
+            "id": "upgrade_speed",
+            "x": 228,
+            "y": 30,
+            "type": "custommachinery:slot"
+        },
+        {
+            "id": "upgrade_energy",
+            "x": 228,
+            "y": 48,
+            "type": "custommachinery:slot"
+        },
+        {
+            "x": 120,
+            "y": 42,
+            "type": "custommachinery:progress"
+        },
+        {
+            "x": 236,
+            "y": 5,
+            "type": "custommachinery:status"
+        },
+        {
+            "x": 192,
+            "y": 26,
+            "type": "custommachinery:energy"
+        },
+        {
+            "text": "Melter",
+            "x": 7,
+            "y": 5,
+            "type": "custommachinery:text"
+        }
+    ],
+    "components": [
+        {
+            "mode": "input",
+            "id": "input1",
+            "type": "custommachinery:item",
+            "config": {
+                "default": "none",
+                "right": "input",
+                "input": true,
+                "output": false
+            }
+        },
+        {
+            "type": "custommachinery:fluid",
+            "capacity": 12000,
+            "id": "output_tank",
+            "maxInput": 0,
+            "maxOutput": 1000,
+            "config": {
+                "default": "none",
+                "right": "output",
+                "input": true,
+                "output": true
+            }
+        },
+        {
+            "mode": "input",
+            "id": "upgrade_speed",
+            "type": "custommachinery:item",
+            "variant": "custommachinery:upgrade",
+            "filter": ["kubejs:speed_upgrade"],
+            "whitelist": true
+        },
+        {
+            "mode": "input",
+            "id": "upgrade_energy",
+            "type": "custommachinery:item",
+            "variant": "custommachinery:upgrade",
+            "filter": ["kubejs:energy_upgrade"],
+            "whitelist": true
+        },
+        {
+            "capacity": 120000,
+            "type": "custommachinery:energy",
+            "config": {
+                "default": "none",
+                "top": "input",
+                "input": true,
+                "output": false
+            }
+        },
+        {
+            "type": "custommachinery:redstone",
+            "poweroutput": 15
+        }
+    ]
+}

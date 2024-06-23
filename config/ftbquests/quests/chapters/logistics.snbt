@@ -1,0 +1,1345 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "logistics"
+	group: "32B3130D174146C0"
+	hide_quest_until_deps_visible: true
+	icon: "immersiveengineering:conveyor_basic"
+	id: "52FE3E863E5B9FE1"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["70FA040E0B0C1BFB"]
+			id: "05F95DB1ECC49729"
+			rewards: [
+				{
+					id: "0CF988B6B1129246"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3D1323DE743BD026"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "757190F35F442826"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5B1938F9F33C6F00"
+					table_id: 2457031344294738853L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1D620892F6B30F8E"
+					table_id: 3560176666418337475L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "4BB3DEA0D0D1AFDC"
+				item: "immersiveengineering:conveyor_basic"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["70FA040E0B0C1BFB"]
+			id: "7DBFAD4FCE497A21"
+			rewards: [
+				{
+					id: "01D10FDE97331BDD"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6C2519250581D852"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "006FCB84BC7FFDDC"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2782D75807D003EF"
+					table_id: 2457031344294738853L
+					type: "choice"
+				}
+			]
+			subtitle: "A better hopper"
+			tasks: [{
+				id: "42A7D8713B71B00D"
+				item: "engineersdecor:factory_hopper"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["70FA040E0B0C1BFB"]
+			description: [
+				"This can used to extract liquid from a block."
+				""
+				"Particularly useful with the coke oven, it will pump the creosote in pipes early on."
+			]
+			id: "461DF281A841B795"
+			rewards: [
+				{
+					id: "262B99F8936CA2F7"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5962C509A00B067F"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "457AF71834FA28CA"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5666E40EDAECBB1C"
+					table_id: 2457031344294738853L
+					type: "choice"
+				}
+			]
+			subtitle: "Hopper for liquids"
+			tasks: [{
+				id: "51DC7AE78889688B"
+				item: "flopper:flopper"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			id: "70FA040E0B0C1BFB"
+			rewards: [
+				{
+					id: "54044718A87E06B7"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0E19752D68E23727"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "33B91F15BA9EE992"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "53037889136BE096"
+					table_id: 2457031344294738853L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "523D54D2350ED3E1"
+					table_id: 3560176666418337475L
+					type: "random"
+				}
+			]
+			subtitle: "Does the job."
+			tasks: [{
+				id: "26CCCA89F12907F8"
+				item: "minecraft:hopper"
+				type: "item"
+			}]
+			title: "Hopper"
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["461DF281A841B795"]
+			id: "0A26E2E620CACAC4"
+			rewards: [
+				{
+					id: "5B4AE693899FBA8F"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "065E108601611958"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "139C9280B67D4E0C"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3E9AA5F9DC698A48"
+					table_id: 2457031344294738853L
+					type: "choice"
+				}
+			]
+			subtitle: "Move fluids across distance"
+			tasks: [{
+				id: "0AD4DFF073BCFAE7"
+				item: "immersiveengineering:fluid_pipe"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["05F95DB1ECC49729"]
+			id: "13A45584BD90635D"
+			rewards: [
+				{
+					id: "0E3D8108C1D5F815"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7562B35B2C0D5B94"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "19B775E38A35E8AD"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1B95A1045369A0FB"
+					table_id: 2457031344294738853L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "6999A0799A87BAF3"
+				item: "immersiveengineering:conveyor_extract"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["05F95DB1ECC49729"]
+			id: "52BD125F34F1AA61"
+			rewards: [
+				{
+					id: "1AE94E28980C7030"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "41343337475C6F9B"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "165370AF1094983E"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "797B4596719A0946"
+					table_id: 2457031344294738853L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "585F2EA927B85E3C"
+				item: "immersiveengineering:conveyor_splitter"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["05F95DB1ECC49729"]
+			id: "0E4AE62A80D030ED"
+			rewards: [
+				{
+					id: "3E443A5D2A44810D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "398A8513E13D3452"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2F87BA7179374051"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "77A2F9E76CA7357C"
+					table_id: 2457031344294738853L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "403B52BBE9745CCA"
+				item: "immersiveengineering:sorter"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["05F95DB1ECC49729"]
+			id: "48D297A253D722B6"
+			rewards: [
+				{
+					id: "12409FBACCAE2907"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "17C669DF5A8D6004"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1F7F03907E515F57"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "361F6EE6F5084CB0"
+					table_id: 2457031344294738853L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "3C37FCB111E1FDD2"
+				item: "immersiveengineering:item_batcher"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["05F95DB1ECC49729"]
+			id: "55764F16778AFA3D"
+			rewards: [
+				{
+					id: "2813ACDB543742A2"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1868132A12E7C772"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "10897CFE9F7CB604"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "38A3B20105CBB73F"
+					table_id: 2457031344294738853L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "6465F6E9C2516BB2"
+				item: "prettypipes:pipe"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0A26E2E620CACAC4"]
+			id: "0A15E1F651195E1B"
+			rewards: [
+				{
+					id: "3ED59207B5CE5268"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4E9288A022AFB61A"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7B79442DB6B9B9D8"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4C0EBB9DDC196E0C"
+					table_id: 2457031344294738853L
+					type: "choice"
+				}
+			]
+			subtitle: "Valves can help routing fluids."
+			tasks: [
+				{
+					id: "54866F5538CB807A"
+					item: "engineersdecor:straight_pipe_valve"
+					type: "item"
+				}
+				{
+					id: "75A7588E3C8D6895"
+					item: "engineersdecor:straight_pipe_valve_redstone"
+					type: "item"
+				}
+				{
+					id: "76DE12F9E10C7B90"
+					item: "engineersdecor:straight_pipe_valve_redstone_analog"
+					type: "item"
+				}
+			]
+			title: "Valves"
+			x: -1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0A26E2E620CACAC4"]
+			id: "6680C7E832907AF3"
+			rewards: [
+				{
+					id: "3130AC8800954641"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5EF193D307ABB63E"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "58B2B560E8EDF615"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "36CF5B96313140BA"
+					table_id: 2457031344294738853L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "110EED07A96D8D78"
+				item: "immersiveengineering:fluid_pump"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0A26E2E620CACAC4"]
+			id: "7A2F5614ED511E60"
+			rewards: [
+				{
+					id: "053BA59E896BD166"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "41DE8C79118FD4F9"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "22065B334C0DF16C"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "01C3CC8C2B95C4C6"
+					table_id: 2457031344294738853L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "4AD785C27E6A3C96"
+				item: "immersiveengineering:fluid_sorter"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["6680C7E832907AF3"]
+			id: "79BC26AB8ECAED42"
+			rewards: [
+				{
+					id: "3967C20D8A761896"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4BEBD0BCB805F3A6"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6A61A1874B055FAB"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "115EDFD0BC39A0D2"
+					table_id: 2457031344294738853L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "7DA320B92983B088"
+				item: "immersiveengineering:fluid_placer"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["55764F16778AFA3D"]
+			id: "44E2E3DB8F51BE2C"
+			rewards: [
+				{
+					id: "1FAE5EAFB6ABD4D9"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "41416313DE884BA0"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7075E2641B8C0B8F"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "24D354A88D21E95C"
+					table_id: 2457031344294738853L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "78F51598255F8046"
+				item: "ppfluids:fluid_pipe"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["55764F16778AFA3D"]
+			id: "467B85966C946D12"
+			rewards: [
+				{
+					id: "115C28788514BEE9"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "62713B0B9BE7B7F4"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "49AC2AE3ECA5D4DF"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "548E17DA7B4A7D0D"
+					table_id: 2457031344294738853L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "4D26D34DF4B29A57"
+				item: "prettypipes:item_terminal"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["467B85966C946D12"]
+			id: "48F9421DD320FB6B"
+			rewards: [
+				{
+					id: "5D0E6FDF33CBD8E8"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "24EEE1CD595B20F2"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1ABD4BDC7E1EE8A3"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5A21193A44A2A9EF"
+					table_id: 2457031344294738853L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "69DCECC3901C0462"
+				item: "prettypipes:crafting_terminal"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["55764F16778AFA3D"]
+			id: "7F4A8E035C0B20C5"
+			rewards: [
+				{
+					id: "7CD7DF25CBEBD2ED"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "648C2CBE7FF5E3FE"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "509325E104D32E0F"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "25A927C7E9EAA9A0"
+					table_id: 2457031344294738853L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "51C1011A39DA6DDF"
+				item: "prettypipes:low_extraction_module"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["55764F16778AFA3D"]
+			id: "2EF4E74FEAF140F0"
+			rewards: [
+				{
+					id: "5829E46634745B98"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "607D74C5AFACE1BF"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "646246ED42805EE7"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "728A7138E0D4FA2E"
+					table_id: 2457031344294738853L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "0EAB973CEAE60A4B"
+				item: "prettypipes:low_filter_module"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["55764F16778AFA3D"]
+			id: "16770ED9B2BD34AE"
+			rewards: [
+				{
+					id: "1AA3168ED1CFAF3A"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "71B46A4E9EC9E43F"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "50CE095567276528"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "35A8749251B1B2E9"
+					table_id: 2457031344294738853L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "65E4D9871FEDBA75"
+				item: "prettypipes:low_retrieval_module"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["55764F16778AFA3D"]
+			id: "3BBCA8C352692F0A"
+			rewards: [
+				{
+					id: "13191C40A7A5C2AE"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "383B753C8AE96762"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "297FE973D2C1AC7C"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2304F3DB404C8EF5"
+					table_id: 2457031344294738853L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "7B5EC58EA5C314FE"
+				item: "prettypipes:low_speed_module"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["55764F16778AFA3D"]
+			id: "1CF2F3CF7F348D3E"
+			rewards: [
+				{
+					id: "66034BD659863B1A"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "45C438B06C67B45C"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5C919D6C2CB6D20A"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "60607FCB38B23E30"
+					table_id: 2457031344294738853L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "3BEFC17B8E622C0D"
+				item: "prettypipes:low_crafting_module"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["55764F16778AFA3D"]
+			id: "15AAB665307B362E"
+			rewards: [
+				{
+					id: "58C079FA790544E7"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "602072DB21227AD9"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2366740E5BFAF968"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3BB0862359144C4D"
+					table_id: 2457031344294738853L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "53C6F5A7B5379E7D"
+				item: "prettypipes:filter_increase_modifier"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["55764F16778AFA3D"]
+			id: "7C99E2E77D14321D"
+			rewards: [
+				{
+					id: "650936F9411D47A4"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "11AA2CE74E8213D0"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4017670BF630D7A4"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "617DA9D3B8896307"
+					table_id: 2457031344294738853L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "3087556E30061B47"
+				item: "prettypipes:nbt_filter_modifier"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["55764F16778AFA3D"]
+			id: "5B4ABA846E761AB9"
+			rewards: [
+				{
+					id: "7B28C0DE420D7211"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7E43E0B7C40F4D72"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "050AF63C510A5866"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "08FEEE2FB4D52987"
+					table_id: 2457031344294738853L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "45D3CCDE570966DF"
+				item: "prettypipes:tag_filter_modifier"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["55764F16778AFA3D"]
+			id: "2A168BC640FEF966"
+			rewards: [
+				{
+					id: "45AF55D3F0DD9AA0"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4EB978032824B6E4"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4E3F15308742D32C"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2F11C6B8AB3840B5"
+					table_id: 2457031344294738853L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "6CFF1F5686CA99F5"
+				item: "prettypipes:mod_filter_modifier"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2EF4E74FEAF140F0"]
+			id: "52CFB21552B4549F"
+			rewards: [
+				{
+					id: "729CB5D12552E425"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4C8AAA05D8A4F6DF"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "27A92F9467FAE086"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4614FD22D73AEFC3"
+					table_id: 2457031344294738853L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "51EBD13763FA6A37"
+				item: "prettypipes:medium_filter_module"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["52CFB21552B4549F"]
+			id: "67F181095F7A990E"
+			rewards: [
+				{
+					id: "26CB9DD43D748B1D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4AF96FFAF62F27B8"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "12C355D410492636"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5823ED7757C3CA03"
+					table_id: 2457031344294738853L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "2C50BCCC8E5A1A62"
+				item: "prettypipes:high_filter_module"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["16770ED9B2BD34AE"]
+			id: "5EFF561DA79805BD"
+			rewards: [
+				{
+					id: "1B4F7CADEAEB3FE8"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3676EC83EEBD8D6F"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "04F2DE4BC82B8DD0"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0DAC7A9EF043A6AB"
+					table_id: 2457031344294738853L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "6A0EB748B2866017"
+				item: "prettypipes:medium_retrieval_module"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["7F4A8E035C0B20C5"]
+			id: "2C0EED47C5F9DF8A"
+			rewards: [
+				{
+					id: "16E07655498137E4"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "62E9D4D1F10DE082"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1A5736B59814CC4C"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "498A5301F5F6EB14"
+					table_id: 2457031344294738853L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "67B6368190CB0B91"
+				item: "prettypipes:medium_extraction_module"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["2C0EED47C5F9DF8A"]
+			id: "41E61F63AD09D26F"
+			rewards: [
+				{
+					id: "2A25668E618B66B1"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "10333873FE79A246"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "01376151B6795508"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7937023294024EB6"
+					table_id: 2457031344294738853L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "6467921D8E2F5196"
+				item: "prettypipes:high_extraction_module"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["5EFF561DA79805BD"]
+			id: "63DCA01F52F9C902"
+			rewards: [
+				{
+					id: "6BC41E6CA516DE11"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "774BCD84EA312323"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1CE3843226FC23DC"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7698AB8FD6F41B77"
+					table_id: 2457031344294738853L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "34474CE20860AC37"
+				item: "prettypipes:high_retrieval_module"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["3BBCA8C352692F0A"]
+			id: "361D1EDAFCD2AEED"
+			rewards: [
+				{
+					id: "5C28B01CAB058F00"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "277FEC2FF2D23624"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "663D3C995780FE94"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "26AEA7A80609FCA3"
+					table_id: 2457031344294738853L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "4C34C99EE09D148A"
+				item: "prettypipes:medium_speed_module"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["361D1EDAFCD2AEED"]
+			id: "648EB5E87A32B690"
+			rewards: [
+				{
+					id: "7EC7C3CA9B439700"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4244A8677CCDCCD3"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1637AABB6EFBCD37"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0A1BD942BD7ECE66"
+					table_id: 2457031344294738853L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "424F51B314E60983"
+				item: "prettypipes:high_speed_module"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["1CF2F3CF7F348D3E"]
+			id: "0D23884ECDDBBCEF"
+			rewards: [
+				{
+					id: "446527A390C5ABE5"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7B9E8987B1A4CB6C"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2DF07B680725C012"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "780818FDAD7CD8C8"
+					table_id: 2457031344294738853L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "774DB0923C7D1B91"
+				item: "prettypipes:medium_crafting_module"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["0D23884ECDDBBCEF"]
+			id: "12EF9E5020DEE23A"
+			rewards: [
+				{
+					id: "6E0E6A7CC3A10E2D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "30CB633A15BEDE53"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0A2A02E362FDEB76"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "00D772E3CAD096F2"
+					table_id: 2457031344294738853L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "71BEF8D112C80D49"
+				item: "prettypipes:high_crafting_module"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -6.5d
+		}
+	]
+	title: "Logistics"
+}

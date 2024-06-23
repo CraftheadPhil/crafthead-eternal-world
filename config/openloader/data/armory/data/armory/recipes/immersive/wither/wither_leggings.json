@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:smithing",
+    "base": {
+        "item": "immersive_armors:bone_leggings"
+    },
+    "addition": {
+        "item": "reliquary:withered_rib"
+    },
+    "result": {
+        "item": "immersive_armors:wither_leggings"
+    }
+}

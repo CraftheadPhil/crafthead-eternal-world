@@ -1,0 +1,31 @@
+{
+  "hideSecondLayerUnderArmor": true,
+  "enableEffects": true,
+  "enableEnchantmentGlint": true,
+  "_documentation": "https://github.com/Luke100000/ImmersiveArmors/blob/HEAD/config.md",
+  "hudClockX": -111,
+  "hudClockXOffhand": -140,
+  "hudClockY": -20,
+  "hudCompassX": 95,
+  "hudCompassXOffhand": 124,
+  "hudCompassY": -20,
+  "lootChance": 0.025,
+  "mobEntityUseImmersiveArmorChance": 0.5,
+  "overwriteValues": {
+    "prismarine:toughness": 3.0,
+    "divine:toughness": 1.0,
+    "divine:helmetProtection": 4.0,
+    "divine:bootsProtection": 4.0,
+    "wither:toughness": 1.0,
+    "wither:helmetProtection": 3.0,
+    "wither:chestplateProtection": 7.0,
+    "wither:leggingsProtection": 6.0,
+    "wither:bootsProtection": 3.0,
+    "heavy:helmetProtection": 3.0,
+    "heavy:chestplateProtection": 8.0,
+    "heavy:leggingsProtection": 6.0,
+    "heavy:bootsProtection": 3.0
+  },
+  "enabledArmors": {},
+  "version": 1
+}

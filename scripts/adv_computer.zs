@@ -1,0 +1,2 @@
+craftingTable.remove(<item:computercraft:computer_advanced>);
+craftingTable.addShaped("adv_computer", <item:computercraft:computer_advanced> * 1, [[<item:immersiveengineering:plate_gold>, <item:immersiveengineering:plate_gold>, <item:immersiveengineering:plate_gold>], [<item:immersiveengineering:plate_gold>, <item:immersiveengineering:component_electronic_adv>, <item:immersiveengineering:plate_gold>], [<item:immersiveengineering:plate_gold>, <item:computercraft:computer_normal>, <item:immersiveengineering:plate_gold>]]);

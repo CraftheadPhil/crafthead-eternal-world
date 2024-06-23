@@ -1,0 +1,11 @@
+{
+	id: "530A7C66151C8438"
+	loot_size: 1
+	order_index: 3
+	rewards: [
+		{ count: 128, item: "immersiveengineering:concrete" }
+		{ count: 128, item: "immersiveengineering:hempcrete" }
+		{ count: 128, item: "immersivepetroleum:asphalt" }
+	]
+	title: "concretes"
+}

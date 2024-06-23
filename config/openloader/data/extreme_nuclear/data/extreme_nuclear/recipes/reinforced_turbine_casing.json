@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern":
+    [
+        "axa",
+        "xex",
+        "axa"
+    ],
+    "key":
+    {
+        "a":
+        {
+            "item": "kubejs:inconel_plate"
+        },
+        "x": {
+            "item": "bigreactors:cyanite_ingot"
+        },
+        "e": {
+            "item": "bigreactors:basic_turbinecasing"
+        }
+    },
+    "result":
+    {
+        "item": "bigreactors:reinforced_turbinecasing",
+        "count": 4
+    }
+}

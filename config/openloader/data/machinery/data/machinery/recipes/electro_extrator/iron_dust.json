@@ -1,0 +1,82 @@
+{
+	"type": "custommachinery:custom_machine",
+	"machine": "machinery:electro_extractor",
+	"time": 30,
+	"requirements": [
+        {
+            "type": "custommachinery:item",
+            "item": "immersiveengineering:dust_iron",
+            "amount": 1,
+            "mode": "output"
+        },
+		{
+            "type": "custommachinery:item",
+            "item": "kubejs:chromium_dust",
+            "amount": 1,
+            "mode": "output",
+			"chance": 0.25
+        },
+		{
+            "type": "custommachinery:item",
+            "item": "immersiveengineering:dust_nickel",
+            "amount": 1,
+            "mode": "output",
+			"chance": 0.05
+        },
+		{
+			"type": "custommachinery:fluid",
+			"fluid": "kubejs:iron_slurry",
+			"amount": 250,
+			"mode": "input"
+		},
+		{
+			"type": "custommachinery:energy_per_tick",
+			"amount": 4096,
+			"mode": "input"
+		},
+		{
+			"type": "custommachinery:structure",
+			"keys": {
+			  "a": "immersiveengineering:coil_mv",
+			  "b": "kubejs:stainless_steel_block",
+			  "c": "kubejs:stainless_steel_sheetmetal",
+			  "d": "connectedglass:clear_glass_pane[east\u003dtrue,north\u003dfalse,south\u003dfalse,waterlogged\u003dfalse,west\u003dtrue]",
+			  "e": "connectedglass:clear_glass_pane[east\u003dfalse,north\u003dtrue,south\u003dtrue,waterlogged\u003dfalse,west\u003dfalse]",
+			  "f": "minecraft:end_rod[facing\u003dup]",
+			  "g": "minecraft:end_rod[facing\u003ddown]"
+			},
+			"pattern": [
+			  [
+				"aba",
+				"bbb",
+				"aba",
+				" m "
+			  ],
+			  [
+				"cdc",
+				"efe",
+				"cdc",
+				"   "
+			  ],
+			  [
+				"cdc",
+				"e e",
+				"cdc",
+				"   "
+			  ],
+			  [
+				"cdc",
+				"ege",
+				"cdc",
+				"   "
+			  ],
+			  [
+				"aba",
+				"bbb",
+				"aba",
+				"   "
+			  ]
+			]
+		}
+	]
+}

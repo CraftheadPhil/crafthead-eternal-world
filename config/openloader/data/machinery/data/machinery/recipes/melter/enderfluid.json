@@ -1,0 +1,24 @@
+{
+	"type": "custommachinery:custom_machine",
+	"machine": "machinery:melter",
+	"time": 80,
+	"requirements": [
+		{
+			"type": "custommachinery:item",
+			"item": "minecraft:ender_pearl",
+			"amount": 1,
+			"mode": "input"
+		},
+		{
+			"type": "custommachinery:fluid",
+			"fluid": "kubejs:enderfluid",
+			"amount": 250,
+			"mode": "output"
+		},
+		{
+			"type": "custommachinery:energy_per_tick",
+			"amount": 4096,
+			"mode": "input"
+		}
+	]
+}

@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern":
+    [
+        "axa",
+        "xex",
+        "axa"
+    ],
+    "key":
+    {
+        "x":
+        {
+            "item": "exocraft:energy_coree"
+        },
+        "a": {
+            "item": "immersiveengineering:plate_electrum"
+        },
+        "e": {
+            "item": "kubejs:circuit_board"
+        }
+    },
+    "result":
+    {
+        "item": "kubejs:energy_upgrade",
+        "count": 1
+    }
+}

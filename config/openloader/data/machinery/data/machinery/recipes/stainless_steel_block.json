@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern":
+    [
+        "xxx",
+        "xxx",
+        "xxx"
+    ],
+    "key":
+    {
+        "x":
+        {
+            "item": "kubejs:stainless_steel_ingot"
+        }
+    },
+    "result":
+    {
+        "item": "kubejs:stainless_steel_block",
+        "count": 1
+    }
+}

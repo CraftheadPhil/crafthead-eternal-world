@@ -1,0 +1,2 @@
+craftingTable.remove(<item:computercraft:computer_normal>);
+craftingTable.addShaped("computer", <item:computercraft:computer_normal> * 1, [[<item:immersiveengineering:plate_iron>, <item:immersiveengineering:plate_iron>, <item:immersiveengineering:plate_iron>], [<item:immersiveengineering:plate_iron>, <item:immersiveengineering:component_electronic>, <item:immersiveengineering:plate_iron>], [<item:immersiveengineering:plate_iron>, <item:minecraft:glass_pane>, <item:immersiveengineering:plate_iron>]]);

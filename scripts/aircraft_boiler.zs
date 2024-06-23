@@ -1,0 +1,2 @@
+craftingTable.remove(<item:immersive_aircraft:boiler>);
+craftingTable.addShaped("aircraft_boiler", <item:immersive_aircraft:boiler> * 1, [[<item:minecraft:air>, <item:immersiveengineering:plate_copper>, <item:minecraft:air>], [<item:immersiveengineering:plate_copper>, <item:immersiveengineering:coil_lv>, <item:immersiveengineering:plate_copper>], [<item:immersiveengineering:plate_copper>, <item:betterfurnacesreforged:copper_furnace>, <item:immersiveengineering:plate_copper>]]);

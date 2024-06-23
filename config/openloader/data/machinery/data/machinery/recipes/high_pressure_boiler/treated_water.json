@@ -1,0 +1,60 @@
+{
+	"type": "custommachinery:custom_machine",
+	"machine": "machinery:high_pressure_boiler",
+	"time": 20,
+	"requirements": [
+		{
+			"type": "custommachinery:fluid",
+			"fluid": "minecraft:water",
+			"amount": 10,
+			"mode": "input"
+		},
+		{
+			"type": "custommachinery:fluid",
+			"fluid": "kubejs:treated_water",
+			"amount": 10,
+			"mode": "output"
+		},
+		{
+			"type": "custommachinery:energy_per_tick",
+			"amount": 256,
+			"mode": "input"
+		},
+		{
+			"type": "custommachinery:structure",
+			"keys": {
+			  "a": "immersiveengineering:steel_scaffolding_standard[waterlogged\u003dfalse]",
+			  "b": "immersiveengineering:heavy_engineering",
+			  "c": "immersiveengineering:radiator",
+			  "d": "immersiveengineering:sheetmetal_lead",
+			  "e": "immersiveengineering:slab_storage_steel[type\u003dbottom,waterlogged\u003dfalse]"
+			},
+			"pattern": [
+			  [
+				"aba",
+				"bcb",
+				"aba",
+				" m "
+			  ],
+			  [
+				"ada",
+				"d d",
+				"ada",
+				"   "
+			  ],
+			  [
+				"ada",
+				"d d",
+				"ada",
+				"   "
+			  ],
+			  [
+				"   ",
+				" e ",
+				"   ",
+				"   "
+			  ]
+			]
+		  }
+	]
+}

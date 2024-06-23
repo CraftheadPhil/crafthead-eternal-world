@@ -1,0 +1,57 @@
+{
+	"type": "custommachinery:custom_machine",
+	"machine": "machinery:ore_washer",
+	"time": 60,
+	"requirements": [
+        {
+            "type": "custommachinery:item",
+            "item": "minecraft:copper_ore",
+            "amount": 1,
+            "mode": "input"
+        },
+		{
+			"type": "custommachinery:fluid",
+			"fluid": "kubejs:sulfuric_acid",
+			"amount": 100,
+			"mode": "input"
+		},
+		{
+			"type": "custommachinery:fluid",
+			"fluid": "kubejs:copper_slurry",
+			"amount": 1000,
+			"mode": "output"
+		},
+		{
+			"type": "custommachinery:energy_per_tick",
+			"amount": 512,
+			"mode": "input"
+		},
+		{
+			"type": "custommachinery:structure",
+			"keys": {
+			  "a": "immersiveengineering:alu_scaffolding_standard[waterlogged\u003dfalse]",
+			  "b": "kubejs:stainless_steel_block",
+			  "c": "kubejs:stainless_steel_sheetmetal",
+			  "d": "kubejs:sulfuric_acid[level\u003d0]"
+			},
+			"pattern": [
+			  [
+				"a   a",
+				" bbb ",
+				" bbb ",
+				" bbb ",
+				"a   a",
+				"     "
+			  ],
+			  [
+				"accca",
+				"cdddc",
+				"cdddc",
+				"cdddc",
+				"accca",
+				"  m  "
+			  ]
+			]
+		}
+	]
+}

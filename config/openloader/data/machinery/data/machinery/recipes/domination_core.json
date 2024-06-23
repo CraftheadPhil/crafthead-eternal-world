@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern":
+    [
+        "axa",
+        "xex",
+        "axa"
+    ],
+    "key":
+    {
+        "x":
+        {
+            "item": "minecraft:emerald"
+        },
+        "a": {
+            "item": "minecraft:amethyst_shard"
+        },
+        "e": {
+            "item": "kubejs:eternal_crystal"
+        }
+    },
+    "result":
+    {
+        "item": "kubejs:domination_core",
+        "count": 1
+    }
+}

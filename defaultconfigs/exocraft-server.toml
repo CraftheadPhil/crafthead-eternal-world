@@ -1,0 +1,15 @@
+
+#General
+[general]
+	#Enables ingame rewards on first spawn for Patreons
+	patreon_rewards = true
+	#Should mech suits be enchantable at the enchantment table?
+	is_table_enchantable = true
+	#Should mech suits be enchantable with enchantment books?
+	is_book_enchantable = true
+	#Enable trades of units from Wandering Traders
+	wandering_trades = true
+	#How many emeralds should the units cost for the Wandering Trader?
+	#Range: 1 ~ 64
+	unit_cost = 30
+

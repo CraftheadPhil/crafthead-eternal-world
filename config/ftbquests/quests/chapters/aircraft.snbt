@@ -1,0 +1,304 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "aircraft"
+	group: "4B7DD88F6D5AC7CC"
+	icon: "immersive_aircraft:biplane"
+	id: "1877442F4966C9A2"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "2574DCB433BDD24B"
+			rewards: [
+				{
+					id: "4AB9828890532328"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0C6DB1C2161C2279"
+					table_id: 2457031344294738853L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "17E41C2213422BD6"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "230EA2EB61FF234F"
+					table_id: 1366000479578652553L
+					type: "random"
+				}
+			]
+			subtitle: "The airship is slow but helps getting around."
+			tasks: [{
+				id: "278BDEDB532F6B64"
+				item: "immersive_aircraft:airship"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2574DCB433BDD24B"]
+			id: "4AF904AC705BA8CD"
+			rewards: [
+				{
+					id: "7B759E820A6DBB92"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1C11FD257C2790B0"
+					table_id: 2457031344294738853L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "579D23F25511CCFF"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2F97E67DE20D0C58"
+					table_id: 1366000479578652553L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "5C4CCA24891683A8"
+				item: "immersive_aircraft:cargo_airship"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			id: "40FA9BEAE0810355"
+			rewards: [
+				{
+					id: "5CB1D77DEBA9BF26"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0AC87DFD1450FC00"
+					table_id: 2457031344294738853L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "31E7F70136DD6D01"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0CD9A8B36DE07D50"
+					table_id: 1366000479578652553L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "0AFC18E702334284"
+				item: "immersive_aircraft:biplane"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			id: "08F330F0888DFE78"
+			rewards: [
+				{
+					id: "5A238998E59EF739"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1B51BAC9073C8387"
+					table_id: 2457031344294738853L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "36492C14BB7A7669"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "767E70287DD41D2A"
+					table_id: 1366000479578652553L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "727021C8F204EE70"
+				item: "immersive_aircraft:quadrocopter"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			id: "0DD80E445A38ADBF"
+			rewards: [
+				{
+					id: "141F8861D4B65ABF"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "75F0F139D9764A31"
+					table_id: 2457031344294738853L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "712AAEE9602D6B56"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "4152A5B4F2495108"
+				item: "immersive_aircraft:gyrodyne"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Elytra flying doesn't require rockets anymore and  bounce off the floor."
+				""
+				"You can repair it in the crafting grid with phantom membrane."
+			]
+			id: "2D1DAF68C42414B2"
+			rewards: [
+				{
+					id: "706EF7EF9FF7AD3E"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "aileron:smokestack"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1900E6436956542B"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "56EF2DA78CEB6D99"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "06F546394591638C"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+			]
+			subtitle: "Vanilla Flying Revisited"
+			tasks: [{
+				id: "739B85851717D595"
+				item: {
+					Count: 1b
+					id: "minecraft:elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			id: "34F6428F7283018A"
+			rewards: [
+				{
+					id: "600D528767F5924B"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1BBB703D04D22039"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3EA847CF3CAC623E"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "2E3F6ACC55A7AB78"
+				item: {
+					Count: 1b
+					id: "immersiveengineering:glider"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			id: "3F18DC521ED96CED"
+			rewards: [
+				{
+					id: "75D542031796403C"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4352B9631906857B"
+					table_id: 5983731832797824056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6EB608C84148A3E4"
+					table_id: 2018186104236494373L
+					type: "choice"
+				}
+			]
+			subtitle: "This can glide too"
+			tasks: [{
+				id: "224C2DC7472AE335"
+				item: "artifacts:umbrella"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+	]
+	title: "Aircraft"
+}

@@ -1,0 +1,34 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern":
+    [
+        "hxh",
+        "xex",
+        "axf"
+    ],
+    "key":
+    {
+        "x":
+        {
+            "item": "immersiveengineering:heavy_engineering"
+        },
+        "a": {
+            "item": "immersive_aircraft:steel_boiler"
+        },
+        "f": {
+            "item": "immersiveengineering:fluid_pump"
+        },
+        "e": {
+            "item": "kubejs:machine_core"
+        },
+        "h": {
+            "item": "engineersdecor:fluid_barrel"
+        }
+    },
+    "result":
+    {
+        "item": "custommachinery:custom_machine_item",
+        "count": 1,
+        "nbt": {"machine":"machinery:high_pressure_boiler"}
+    }
+}

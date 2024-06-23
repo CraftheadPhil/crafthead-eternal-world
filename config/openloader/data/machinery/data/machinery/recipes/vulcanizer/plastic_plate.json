@@ -1,0 +1,72 @@
+{
+	"type": "custommachinery:custom_machine",
+	"machine": "machinery:vulcanizer",
+	"time": 60,
+	"requirements": [
+        {
+            "type": "custommachinery:item",
+            "item": "kubejs:plastic_plate",
+            "amount": 1,
+            "mode": "output"
+        },
+        {
+			"type": "custommachinery:fluid",
+			"fluid": "kubejs:sulfuric_acid",
+			"amount": 100,
+			"mode": "input"
+		},
+        {
+            "type": "custommachinery:item",
+            "item": "immersiveengineering:plate_duroplast",
+            "amount": 1,
+            "mode": "input"
+        },
+		{
+			"type": "custommachinery:energy_per_tick",
+			"amount": 4096,
+			"mode": "input"
+		},
+		{
+			"type": "custommachinery:structure",
+			"keys": {
+			  "a": "dustrial_decor:cast_iron_pillar[axis\u003dy]",
+			  "b": "immersiveengineering:heavy_engineering",
+			  "c": "immersiveengineering:radiator",
+			  "d": "engineersdecor:thick_steel_pole_head[facing\u003dup,waterlogged\u003dfalse]",
+			  "e": "kubejs:inconel_block",
+			  "f": "kubejs:inconel_sheetmetal",
+			  "g": "dustrial_decor:chain_link_fence[east\u003dtrue,north\u003dfalse,south\u003dfalse,waterlogged\u003dfalse,west\u003dtrue]",
+			  "h": "dustrial_decor:chain_link_fence[east\u003dfalse,north\u003dtrue,south\u003dtrue,waterlogged\u003dfalse,west\u003dfalse]",
+			  "i": "minecraft:lightning_rod[facing\u003ddown,powered\u003dfalse,waterlogged\u003dfalse]",
+			  "j": "immersiveengineering:slab_steel_scaffolding_grate_top[type\u003dbottom,waterlogged\u003dfalse]",
+			  "k": "immersiveengineering:storage_steel"
+			},
+			"pattern": [
+			  [
+				"abcccba",
+				"deeeeed",
+				"abcccba",
+				"       "
+			  ],
+			  [
+				"afffffa",
+				"f     f",
+				"afffffa",
+				"   m   "
+			  ],
+			  [
+				"aggggga",
+				"h i i h",
+				"aggggga",
+				"       "
+			  ],
+			  [
+				"jjjjjjj",
+				"jkkkkkj",
+				"jjjjjjj",
+				"       "
+			  ]
+			]
+		}
+	]
+}

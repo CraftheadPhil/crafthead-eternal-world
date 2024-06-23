@@ -1,0 +1,1440 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "armory"
+	group: ""
+	icon: {
+		Count: 1b
+		id: "immersive_armors:warrior_helmet"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "2FD85D4735FDEB52"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "52198EB46A464A74"
+			rewards: [
+				{
+					id: "2783BA92895C56D3"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 4
+					id: "26BA7E1A8A7BC734"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:protection"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Better than nothing"
+			tasks: [
+				{
+					id: "2CCB762A2F13213F"
+					item: {
+						Count: 1b
+						id: "pickletweaks:flint_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0BC2DF989E272875"
+					item: {
+						Count: 1b
+						id: "pickletweaks:flint_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "210CE631B4CEF64F"
+					item: {
+						Count: 1b
+						id: "pickletweaks:flint_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "489B0CC69F8EB258"
+					item: {
+						Count: 1b
+						id: "pickletweaks:flint_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["52198EB46A464A74"]
+			id: "078D3D541EDF9EA4"
+			rewards: [
+				{
+					id: "1B02B4752A33B62B"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 4
+					id: "3FC2DB5469998AA4"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:projectile_protection"
+								lvl: 4s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1C4517DAE0889EA3"
+					table_id: 2457031344294738853L
+					type: "choice"
+				}
+			]
+			subtitle: "Good inexpensive armor"
+			tasks: [
+				{
+					id: "51F34B38C2F9760C"
+					item: {
+						Count: 1b
+						id: "immersive_armors:bone_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "79621B0CC44D98C5"
+					item: {
+						Count: 1b
+						id: "immersive_armors:bone_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5D2ECE9F928B615F"
+					item: {
+						Count: 1b
+						id: "immersive_armors:bone_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "752D1FAA31905605"
+					item: {
+						Count: 1b
+						id: "immersive_armors:bone_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Bone Armor"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["078D3D541EDF9EA4"]
+			id: "7ED9D94A6E4B755E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0101B7A58D71204B"
+					table_id: 8315751244172443571L
+					type: "random"
+				}
+				{
+					id: "32F251A8F607316E"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3741054DEBBDF69E"
+					table_id: 1366000479578652553L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "6364C7B8C6265151"
+					item: {
+						Count: 1b
+						id: "immersive_armors:wither_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "543501CFA9784922"
+					item: {
+						Count: 1b
+						id: "immersive_armors:wither_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "65F2CC7E73EF04EA"
+					item: {
+						Count: 1b
+						id: "immersive_armors:wither_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "13808A1AEC4A2D12"
+					item: {
+						Count: 1b
+						id: "immersive_armors:wither_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Wither Armor"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["52198EB46A464A74"]
+			id: "31BFB9CA8751BE1B"
+			rewards: [
+				{
+					id: "6BDAE44D24BF16DE"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 4
+					id: "0A8B0A713D629F8F"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "majruszsenchantments:magic_protection"
+								lvl: 3s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5ADFD16BF4C49991"
+					table_id: 2457031344294738853L
+					type: "choice"
+				}
+			]
+			subtitle: "Fancy"
+			tasks: [
+				{
+					id: "6B21AB70404BDCFB"
+					item: {
+						Count: 1b
+						id: "immersive_armors:robe_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "16F583F24A847E3A"
+					item: {
+						Count: 1b
+						id: "immersive_armors:robe_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "60CA582BA7361DB8"
+					item: {
+						Count: 1b
+						id: "immersive_armors:robe_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "530AA6217D8B3B48"
+					item: {
+						Count: 1b
+						id: "immersive_armors:robe_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Robe Armor"
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["31BFB9CA8751BE1B"]
+			id: "193E179EE1516593"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0BEBD6E0A84E71A1"
+					table_id: 8315751244172443571L
+					type: "random"
+				}
+				{
+					id: "3A6FECF79F6E9C41"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "011AD25AF8C939B4"
+					table_id: 1366000479578652553L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "37727AB624095AF6"
+					item: {
+						Count: 1b
+						id: "immersive_armors:divine_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0B23B65896D12296"
+					item: {
+						Count: 1b
+						id: "immersive_armors:divine_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1020D087B02E8E5B"
+					item: {
+						Count: 1b
+						id: "immersive_armors:divine_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6C420E508AD58B3C"
+					item: {
+						Count: 1b
+						id: "immersive_armors:divine_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Divine Armor"
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["52198EB46A464A74"]
+			id: "0E0BD41492B7A439"
+			rewards: [
+				{
+					id: "1B80B121BA44A014"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 4
+					id: "6AFA548EAA04C98B"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:unbreaking"
+								lvl: 3s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "302F6FD818B65DED"
+					table_id: 2457031344294738853L
+					type: "choice"
+				}
+			]
+			tasks: [
+				{
+					id: "55A03D43D1034398"
+					item: {
+						Count: 1b
+						id: "immersiveengineering:armor_steel_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1BA1855F853123E9"
+					item: {
+						Count: 1b
+						id: "immersiveengineering:armor_steel_chest"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "355B761F886B91EA"
+					item: {
+						Count: 1b
+						id: "immersiveengineering:armor_steel_legs"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1E9C93DCFCE480EF"
+					item: {
+						Count: 1b
+						id: "immersiveengineering:armor_steel_feet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0E0BD41492B7A439"]
+			id: "5364A8C4B23944EE"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6D0E100954771202"
+					table_id: 8315751244172443571L
+					type: "random"
+				}
+				{
+					id: "13D08E1A890C3018"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4700AC0E7FAD3C83"
+					table_id: 1366000479578652553L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "4B38EF90C17197BB"
+					item: {
+						Count: 1b
+						id: "immersive_armors:heavy_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "72CEB8D82A173F71"
+					item: {
+						Count: 1b
+						id: "immersive_armors:heavy_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4D4DC865F3D54C98"
+					item: {
+						Count: 1b
+						id: "immersive_armors:heavy_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0A96C07E6E259A8F"
+					item: {
+						Count: 1b
+						id: "immersive_armors:heavy_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0F84E09DA0AC99EE"]
+			hide: true
+			id: "035B38C4232850FF"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7ADA5659C8471823"
+					table_id: 8315751244172443571L
+					type: "random"
+				}
+				{
+					id: "1DFC2E5F4B029E6D"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "687EDEEB828A7007"
+					table_id: 1366000479578652553L
+					type: "random"
+				}
+				{
+					id: "2845FD7C1AC8B592"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "majruszsenchantments:death_wish"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Higher Damage"
+			tasks: [
+				{
+					id: "0230C80780466CC3"
+					item: {
+						Count: 1b
+						id: "immersive_armors:warrior_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "48B2F749CE4BE1AD"
+					item: {
+						Count: 1b
+						id: "immersive_armors:warrior_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "761AAD692D9F91F5"
+					item: {
+						Count: 1b
+						id: "immersive_armors:warrior_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "54D60AE13BE66D96"
+					item: {
+						Count: 1b
+						id: "immersive_armors:warrior_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Warrior Armor"
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0F84E09DA0AC99EE"]
+			hide: true
+			id: "1E030282FA1ADA0F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "57AF274E18BAB3A8"
+					table_id: 8315751244172443571L
+					type: "random"
+				}
+				{
+					id: "753EB6AB35400A2C"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0BF8CDC3B992EF9B"
+					table_id: 1366000479578652553L
+					type: "random"
+				}
+				{
+					id: "336CBB4A8B5A25D8"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:respiration"
+								lvl: 3s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1629FA0032191929"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:aqua_affinity"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Useful underwater"
+			tasks: [
+				{
+					id: "5C2C27B40A5DF397"
+					item: {
+						Count: 1b
+						id: "immersive_armors:prismarine_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5C1053D70C5275A0"
+					item: {
+						Count: 1b
+						id: "immersive_armors:prismarine_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5C1C6BB46F3E2145"
+					item: {
+						Count: 1b
+						id: "immersive_armors:prismarine_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "306A4F8FF85A885C"
+					item: {
+						Count: 1b
+						id: "immersive_armors:prismarine_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Prismarine Armor"
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			id: "0F84E09DA0AC99EE"
+			rewards: [
+				{
+					id: "30F59ECB6DD45A83"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 4
+					id: "0CB8320139342777"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:projectile_protection"
+								lvl: 2s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Cheap"
+			tasks: [
+				{
+					id: "29DFE6047A5304F4"
+					item: {
+						Count: 1b
+						id: "immersive_armors:wooden_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "67185A9C2DA6698E"
+					item: {
+						Count: 1b
+						id: "immersive_armors:wooden_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "67FBC9494A5D8263"
+					item: {
+						Count: 1b
+						id: "immersive_armors:wooden_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2847FC35B2B028D0"
+					item: {
+						Count: 1b
+						id: "immersive_armors:wooden_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Wooden Armor"
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0F84E09DA0AC99EE"]
+			hide: true
+			id: "2161B7D9C2F20231"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "058BE85E40416AAF"
+					table_id: 8315751244172443571L
+					type: "random"
+				}
+				{
+					id: "467DD596FE5595EF"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "42784A1E3EF335FB"
+					table_id: 1366000479578652553L
+					type: "random"
+				}
+				{
+					id: "2F7A36175609418A"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "majruszsenchantments:sixth_sense"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "27D7780322ECD97A"
+					item: {
+						Count: 1b
+						id: "immersive_armors:steampunk_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2DE6806283BA85CC"
+					item: {
+						Count: 1b
+						id: "immersive_armors:steampunk_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "17F3D400F5D03AB4"
+					item: {
+						Count: 1b
+						id: "immersive_armors:steampunk_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2DBEBC0F621E0F49"
+					item: {
+						Count: 1b
+						id: "immersive_armors:steampunk_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0F84E09DA0AC99EE"]
+			hide: true
+			id: "44EF875B72CA136E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "56A2267F1FDEDB1D"
+					table_id: 8315751244172443571L
+					type: "random"
+				}
+				{
+					id: "51B4941C96BC8AB3"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "69EEF5920836061E"
+					table_id: 1366000479578652553L
+					type: "random"
+				}
+				{
+					id: "19DF98C562F943C0"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "majruszsenchantments:dodge"
+								lvl: 2s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "2AE3A1AF28DC2474"
+					item: {
+						Count: 1b
+						id: "immersive_armors:slime_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4ECB9009670A8BF0"
+					item: {
+						Count: 1b
+						id: "immersive_armors:slime_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "426BAB1D090424AD"
+					item: {
+						Count: 1b
+						id: "immersive_armors:slime_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "388E341A130DA7F0"
+					item: {
+						Count: 1b
+						id: "immersive_armors:slime_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			id: "78BA9B9769260F94"
+			rewards: [
+				{
+					id: "059919D6700F8950"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "20222CBC6B6A2627"
+					table_id: 8315751244172443571L
+					type: "random"
+				}
+				{
+					count: 4
+					id: "70AA9B3DFFB2F2A1"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:protection"
+								lvl: 4s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "180F112BAE88085B"
+					table_id: 1366000479578652553L
+					type: "random"
+				}
+			]
+			subtitle: "Always good"
+			tasks: [
+				{
+					id: "0D439B673FD030EF"
+					item: {
+						Count: 1b
+						id: "minecraft:netherite_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "59D9C7FC807FDE8F"
+					item: {
+						Count: 1b
+						id: "minecraft:netherite_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0C79FE05CE92842E"
+					item: {
+						Count: 1b
+						id: "minecraft:netherite_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5FD7215D2751A34A"
+					item: {
+						Count: 1b
+						id: "minecraft:netherite_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["78BA9B9769260F94"]
+			hide: true
+			id: "33F57F50771C520C"
+			rewards: [
+				{
+					id: "1431A8659E99C92A"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4505474B1ED2DD89"
+					table_id: 8315751244172443571L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "47C98F7AE62651B6"
+					table_id: 1366000479578652553L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "76D95E6715DDA378"
+					item: {
+						Count: 1b
+						id: "exocraft:atlas_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "08548304438D320C"
+					item: {
+						Count: 1b
+						id: "exocraft:atlas_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0D5CDF1A41F2C49A"
+					item: {
+						Count: 1b
+						id: "exocraft:atlas_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "23D4E2F3901E58B3"
+					item: {
+						Count: 1b
+						id: "exocraft:atlas_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Atlas Exosuit"
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["78BA9B9769260F94"]
+			hide: true
+			id: "5E23BBB5C82257AE"
+			rewards: [
+				{
+					id: "5E7450B1C748C1F6"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "712BF421000D2AA6"
+					table_id: 8315751244172443571L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1005CF885E1EEE13"
+					table_id: 1366000479578652553L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "628E23ABCD5DFD12"
+					item: {
+						Count: 1b
+						id: "exocraft:legion_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5D060AD0A7A9ADE2"
+					item: {
+						Count: 1b
+						id: "exocraft:legion_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6C6C062A3BD1C768"
+					item: {
+						Count: 1b
+						id: "exocraft:legion_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2DFEF7E9073048E6"
+					item: {
+						Count: 1b
+						id: "exocraft:legion_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Legion Exosuit"
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["78BA9B9769260F94"]
+			hide: true
+			id: "1C069A3E6703E2D2"
+			rewards: [
+				{
+					id: "3A57213E247B63E0"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "39F754A1F4CBCA94"
+					table_id: 8315751244172443571L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "20CC785938E0AD7E"
+					table_id: 1366000479578652553L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "4C6740707E35D19D"
+					item: {
+						Count: 1b
+						id: "exocraft:stryder_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7F00856C95BD78DB"
+					item: {
+						Count: 1b
+						id: "exocraft:stryder_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "43E9DA6109766A88"
+					item: {
+						Count: 1b
+						id: "exocraft:stryder_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "29029D9E38EE9C83"
+					item: {
+						Count: 1b
+						id: "exocraft:stryder_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Stryder Exosuit"
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["78BA9B9769260F94"]
+			hide: true
+			id: "5885DADFDD2647F5"
+			rewards: [
+				{
+					id: "06412D52739DC19D"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "33FB02AFE1DC4FAB"
+					table_id: 8315751244172443571L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "58FCB879B195E65F"
+					table_id: 1366000479578652553L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "3D93D059E80F475E"
+					item: {
+						Count: 1b
+						id: "exocraft:ion_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "50DCCD629BCB1FF1"
+					item: {
+						Count: 1b
+						id: "exocraft:ion_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0D21FF68E3A8C88A"
+					item: {
+						Count: 1b
+						id: "exocraft:ion_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7A527B082A475BC4"
+					item: {
+						Count: 1b
+						id: "exocraft:ion_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Ion Exosuit"
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["78BA9B9769260F94"]
+			hide: true
+			id: "2E9C16C65D6F1A16"
+			rewards: [
+				{
+					id: "73FE00FAB63A2F0D"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6A290815576F95A2"
+					table_id: 8315751244172443571L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4D5B332EF49E7302"
+					table_id: 1366000479578652553L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "15CA2B391599BC56"
+					item: {
+						Count: 1b
+						id: "exocraft:ogre_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0AAF9A6163239295"
+					item: {
+						Count: 1b
+						id: "exocraft:ogre_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "455EFDE476C77BF3"
+					item: {
+						Count: 1b
+						id: "exocraft:ogre_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4FEBDE522BB6A497"
+					item: {
+						Count: 1b
+						id: "exocraft:ogre_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Ogre Exosuit"
+			x: 3.0d
+			y: 4.0d
+		}
+	]
+	title: "Armory"
+}

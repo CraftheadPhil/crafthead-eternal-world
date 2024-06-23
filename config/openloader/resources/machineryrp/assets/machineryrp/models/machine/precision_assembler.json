@@ -1,0 +1,12 @@
+{
+    "parent": "block/cube",
+    "textures": {
+    	"north": "machineryrp:block/precision_assembler",
+    	"east": "machineryrp:block/machine_plate",
+    	"south": "machineryrp:block/machine_input",
+    	"west": "machineryrp:block/machine_plate",
+    	"up": "machineryrp:block/machine_energy",
+    	"down": "machineryrp:block/machine_plate",
+    	"particle": "machineryrp:block/machine_plate"
+    }
+}

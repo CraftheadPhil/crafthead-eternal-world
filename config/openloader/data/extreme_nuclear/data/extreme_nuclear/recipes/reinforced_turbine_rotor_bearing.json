@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern":
+    [
+        "xex",
+        "eme",
+        "xex"
+    ],
+    "key":
+    {
+        "x": {
+            "item": "bigreactors:cyanite_ingot"
+        },
+        "e": {
+            "item": "kubejs:inconel_plate"
+        },
+        "m": {
+            "item": "immersiveengineering:component_steel"
+        }
+    },
+    "result":
+    {
+        "item": "bigreactors:reinforced_turbinerotorbearing",
+        "count": 1
+    }
+}

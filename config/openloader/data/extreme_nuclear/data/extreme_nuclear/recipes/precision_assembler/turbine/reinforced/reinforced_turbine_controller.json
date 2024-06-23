@@ -1,0 +1,196 @@
+{
+	"type": "custommachinery:custom_craft",
+	"machine": "machinery:precision_assembler",
+    "output": {
+        "id": "bigreactors:reinforced_turbinecontroller",
+        "Count": 1
+    },
+	"requirements": [
+		{
+			"type": "custommachinery:item",
+			"item": "bigreactors:reinforced_turbinecasing",
+			"amount": 1,
+			"mode": "input",
+            "slot": "input1"
+		},
+        {
+			"type": "custommachinery:item",
+			"item": "kubejs:inconel_plate",
+			"amount": 1,
+			"mode": "input",
+            "slot": "input2"
+		},
+        {
+			"type": "custommachinery:item",
+			"item": "kubejs:inconel_plate",
+			"amount": 1,
+			"mode": "input",
+            "slot": "input3"
+		},
+        {
+			"type": "custommachinery:item",
+			"item": "kubejs:inconel_plate",
+			"amount": 1,
+			"mode": "input",
+            "slot": "input4"
+		},
+        {
+			"type": "custommachinery:item",
+			"item": "bigreactors:reinforced_turbinecasing",
+			"amount": 1,
+			"mode": "input",
+            "slot": "input5"
+		},
+        {
+			"type": "custommachinery:item",
+			"item": "kubejs:inconel_plate",
+			"amount": 1,
+			"mode": "input",
+            "slot": "input6"
+		},
+        {
+			"type": "custommachinery:item",
+			"item": "immersiveengineering:heavy_engineering",
+			"amount": 1,
+			"mode": "input",
+            "slot": "input7"
+		},
+        {
+			"type": "custommachinery:item",
+			"item": "immersiveengineering:redstone_breaker",
+			"amount": 1,
+			"mode": "input",
+            "slot": "input8"
+		},
+        {
+			"type": "custommachinery:item",
+			"item": "immersiveengineering:heavy_engineering",
+			"amount": 1,
+			"mode": "input",
+            "slot": "input9"
+		},
+        {
+			"type": "custommachinery:item",
+			"item": "kubejs:inconel_plate",
+			"amount": 1,
+			"mode": "input",
+            "slot": "input10"
+		},
+        {
+			"type": "custommachinery:item",
+			"item": "kubejs:inconel_plate",
+			"amount": 1,
+			"mode": "input",
+            "slot": "input11"
+		},
+        {
+			"type": "custommachinery:item",
+			"item": "kubejs:circuit_board",
+			"amount": 1,
+			"mode": "input",
+            "slot": "input12"
+		},
+        {
+			"type": "custommachinery:item",
+			"item": "betterfurnacesreforged:energy_upgrade",
+			"amount": 1,
+			"mode": "input",
+            "slot": "input13"
+		},
+        {
+			"type": "custommachinery:item",
+			"item": "kubejs:circuit_board",
+			"amount": 1,
+			"mode": "input",
+            "slot": "input14"
+		},
+        {
+			"type": "custommachinery:item",
+			"item": "kubejs:inconel_plate",
+			"amount": 1,
+			"mode": "input",
+            "slot": "input15"
+		},
+        {
+			"type": "custommachinery:item",
+			"item": "kubejs:inconel_plate",
+			"amount": 1,
+			"mode": "input",
+            "slot": "input16"
+		},
+        {
+			"type": "custommachinery:item",
+			"item": "immersiveengineering:heavy_engineering",
+			"amount": 1,
+			"mode": "input",
+            "slot": "input17"
+		},
+        {
+			"type": "custommachinery:item",
+			"item": "bigreactors:cyanite_block",
+			"amount": 1,
+			"mode": "input",
+            "slot": "input18"
+		},
+        {
+			"type": "custommachinery:item",
+			"item": "immersiveengineering:heavy_engineering",
+			"amount": 1,
+			"mode": "input",
+            "slot": "input19"
+		},
+        {
+			"type": "custommachinery:item",
+			"item": "kubejs:inconel_plate",
+			"amount": 1,
+			"mode": "input",
+            "slot": "input20"
+		},
+        {
+			"type": "custommachinery:item",
+			"item": "bigreactors:reinforced_turbinecasing",
+			"amount": 1,
+			"mode": "input",
+            "slot": "input21"
+		},
+        {
+			"type": "custommachinery:item",
+			"item": "kubejs:inconel_plate",
+			"amount": 1,
+			"mode": "input",
+            "slot": "input22"
+		},
+        {
+			"type": "custommachinery:item",
+			"item": "kubejs:inconel_plate",
+			"amount": 1,
+			"mode": "input",
+            "slot": "input23"
+		},
+        {
+			"type": "custommachinery:item",
+			"item": "kubejs:inconel_plate",
+			"amount": 1,
+			"mode": "input",
+            "slot": "input24"
+		},
+        {
+			"type": "custommachinery:item",
+			"item": "bigreactors:reinforced_turbinecasing",
+			"amount": 1,
+			"mode": "input",
+            "slot": "input25"
+		},
+		{
+			"type": "custommachinery:energy",
+			"amount": 250000,
+			"mode": "input"
+		},
+        {
+            "type": "custommachinery:fluid",
+            "fluid": "immersivepetroleum:lubricant",
+            "amount": 1000,
+            "mode": "input"
+        }
+	]
+}

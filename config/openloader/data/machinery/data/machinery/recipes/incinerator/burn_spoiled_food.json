@@ -1,0 +1,55 @@
+{
+	"type": "custommachinery:custom_machine",
+	"machine": "machinery:incinerator",
+	"time": 10,
+	"requirements": [
+		{
+			"type": "custommachinery:item",
+			"item": "kubejs:spoiled_food",
+			"amount": 1,
+			"mode": "input"
+		},
+		{
+			"type": "custommachinery:energy_per_tick",
+			"amount": 256,
+			"mode": "output"
+		},
+        {
+            "type": "custommachinery:structure",
+            "keys": {
+              "a": "immersiveengineering:radiator",
+              "b": "immersiveengineering:heavy_engineering",
+              "c": "kubejs:inconel_block",
+              "d": "immersivepetroleum:flarestack[slave\u003dfalse]",
+              "e": "kubejs:inconel_sheetmetal",
+              "f": "immersiveengineering:slab_storage_steel[type\u003dbottom,waterlogged\u003dfalse]"
+            },
+            "pattern": [
+              [
+                "aba",
+                "bcb",
+                "aba",
+                " m "
+              ],
+              [
+                "ded",
+                "e e",
+                "ded",
+                "   "
+              ],
+              [
+                " e ",
+                "e e",
+                " e ",
+                "   "
+              ],
+              [
+                "   ",
+                " f ",
+                "   ",
+                "   "
+              ]
+            ]
+          }
+	]
+}
